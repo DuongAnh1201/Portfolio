@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Open Source Contributor",
+    "organization": "PyTorch",
+    "start": "2023-03",
+    "end": "",
+    "description": "Contributing to core library and documentation. Fixed several performance issues in autograd.",
+    "tags": ["Open Source", "PyTorch"]
+  },
+  {
+    "title": "Teaching Assistant — Deep Learning",
+    "organization": "University of Technology",
+    "start": "2021-09",
+    "end": "2022-06",
+    "description": "Led weekly recitations and office hours. Designed homework assignments on CNNs and transformers.",
+    "tags": ["Teaching", "Deep Learning"]
+  },
+  {
+    "title": "Hackathon Winner — Best AI Project",
+    "organization": "HackTech 2021",
+    "start": "2021-03",
+    "end": "2021-03",
+    "description": "Built a real-time sign language translator using computer vision in 48 hours.",
+    "tags": ["Hackathon", "Computer Vision"]
+  }
+]

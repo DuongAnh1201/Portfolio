@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Senior Software Engineer",
+    "organization": "TechCorp AI",
+    "start": "2024-06",
+    "end": "",
+    "description": "Leading development of LLM infrastructure and training pipelines. Building internal tools for model evaluation and deployment.",
+    "tags": ["Python", "PyTorch", "Kubernetes"]
+  },
+  {
+    "title": "Software Engineer",
+    "organization": "StartupXYZ",
+    "start": "2022-01",
+    "end": "2024-05",
+    "description": "Full-stack development on the core product. Built real-time data processing pipeline handling 10M+ events/day.",
+    "tags": ["TypeScript", "Go", "AWS"]
+  },
+  {
+    "title": "ML Engineering Intern",
+    "organization": "Research Lab Inc.",
+    "start": "2021-06",
+    "end": "2021-12",
+    "description": "Worked on NLP models for document classification. Published results at a workshop.",
+    "tags": ["NLP", "Python", "Transformers"]
+  }
+]

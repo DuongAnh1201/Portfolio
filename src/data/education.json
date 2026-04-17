@@ -1,0 +1,18 @@
+[
+  {
+    "title": "M.S. Computer Science",
+    "organization": "University of Technology",
+    "start": "2020-09",
+    "end": "2022-06",
+    "description": "Focus on machine learning and natural language processing. Thesis on efficient attention mechanisms.",
+    "tags": ["Machine Learning", "NLP", "Research"]
+  },
+  {
+    "title": "B.S. Computer Science",
+    "organization": "State University",
+    "start": "2016-09",
+    "end": "2020-06",
+    "description": "Foundations in algorithms, systems, and mathematics. Dean's list, teaching assistant for Data Structures.",
+    "tags": ["Algorithms", "Systems", "Mathematics"]
+  }
+]

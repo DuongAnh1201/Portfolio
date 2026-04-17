@@ -1,12 +1,16 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Section from "@/components/Section";
+import Timeline from "@/components/Timeline";
 import ProjectList from "@/components/ProjectList";
 import WritingList from "@/components/WritingList";
 import ReadingList from "@/components/ReadingList";
 import UpdatesList from "@/components/UpdatesList";
 import Contact from "@/components/Contact";
 import about from "@/data/about.json";
+import experience from "@/data/experience.json";
+import education from "@/data/education.json";
+import other from "@/data/other.json";
 
 export default function Home() {
   return (
@@ -56,6 +60,16 @@ export default function Home() {
           </div>
         </Section>
 
+        {/* Experience */}
+        <Section id="experience" title="Experience">
+          <Timeline entries={experience} />
+        </Section>
+
+        {/* Education */}
+        <Section id="education" title="Education">
+          <Timeline entries={education} />
+        </Section>
+
         {/* Projects */}
         <Section id="projects" title="Projects">
           <ProjectList />
@@ -69,6 +83,11 @@ export default function Home() {
         {/* Reading */}
         <Section id="reading" title="Reading">
           <ReadingList />
+        </Section>
+
+        {/* Other */}
+        <Section id="other" title="Other">
+          <Timeline entries={other} />
         </Section>
 
         {/* Updates / Now */}
