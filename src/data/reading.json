@@ -1,0 +1,51 @@
+[
+  {
+    "title": "Attention Is All You Need",
+    "author": "Vaswani et al.",
+    "status": "completed",
+    "notes": "The foundational transformer paper. Key insight: self-attention can replace recurrence entirely.",
+    "link": "https://arxiv.org/abs/1706.03762"
+  },
+  {
+    "title": "Scaling Laws for Neural Language Models",
+    "author": "Kaplan et al.",
+    "status": "completed",
+    "notes": "Power-law relationships between model size, data, compute, and performance.",
+    "link": "https://arxiv.org/abs/2001.08361"
+  },
+  {
+    "title": "The Bitter Lesson",
+    "author": "Rich Sutton",
+    "status": "completed",
+    "notes": "General methods that leverage computation are ultimately the most effective.",
+    "link": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html"
+  },
+  {
+    "title": "Designing Data-Intensive Applications",
+    "author": "Martin Kleppmann",
+    "status": "reading",
+    "notes": "Currently on distributed systems chapters. Excellent reference for system design.",
+    "link": "https://dataintensive.net/"
+  },
+  {
+    "title": "A Philosophy of Software Design",
+    "author": "John Ousterhout",
+    "status": "to-read",
+    "notes": "",
+    "link": ""
+  },
+  {
+    "title": "Deep Learning",
+    "author": "Goodfellow, Bengio, Courville",
+    "status": "completed",
+    "notes": "The standard textbook. Dense but comprehensive on foundations.",
+    "link": "https://www.deeplearningbook.org/"
+  },
+  {
+    "title": "The Art of Doing Science and Engineering",
+    "author": "Richard Hamming",
+    "status": "to-read",
+    "notes": "",
+    "link": ""
+  }
+]

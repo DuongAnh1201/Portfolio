@@ -1,0 +1,15 @@
+{
+  "name": "Your Name",
+  "avatar": "",
+  "tagline": "Researcher, builder, learner.",
+  "bio": [
+    "I'm a software engineer and researcher interested in deep learning, language models, and building things from scratch.",
+    "Previously at [Company]. Currently exploring LLM systems and open-source tooling.",
+    "I believe in learning by doing, writing to think, and sharing knowledge openly."
+  ],
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/yourusername" },
+    { "label": "Twitter", "url": "https://twitter.com/yourusername" },
+    { "label": "Email", "url": "mailto:you@example.com" }
+  ]
+}

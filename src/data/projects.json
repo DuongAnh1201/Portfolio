@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Mini GPT",
+    "description": "A from-scratch reimplementation of GPT, including training loop, tokenizer, and generation.",
+    "link": "https://github.com/yourusername/mini-gpt",
+    "image": "",
+    "tags": ["LLM", "PyTorch", "Transformers"],
+    "featured": true
+  },
+  {
+    "title": "Neural Style Transfer",
+    "description": "Real-time style transfer using convolutional neural networks.",
+    "link": "https://github.com/yourusername/neural-style",
+    "image": "",
+    "tags": ["Computer Vision", "PyTorch"],
+    "featured": true
+  },
+  {
+    "title": "Tiny Tokenizer",
+    "description": "Minimal BPE tokenizer implementation for educational purposes.",
+    "link": "https://github.com/yourusername/tiny-tokenizer",
+    "image": "",
+    "tags": ["NLP", "Python"],
+    "featured": false
+  },
+  {
+    "title": "Personal Knowledge Base",
+    "description": "A CLI tool for managing notes, reading lists, and learning logs.",
+    "link": "https://github.com/yourusername/pkb",
+    "image": "",
+    "tags": ["CLI", "Productivity"],
+    "featured": false
+  }
+]

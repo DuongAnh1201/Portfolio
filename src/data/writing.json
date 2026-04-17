@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Understanding Transformers from First Principles",
+    "date": "2026-03-15",
+    "link": "/writing/transformers",
+    "image": "",
+    "summary": "A detailed breakdown of the attention mechanism, positional encoding, and why transformers replaced RNNs."
+  },
+  {
+    "title": "Building a Tokenizer from Scratch",
+    "date": "2026-02-01",
+    "link": "/writing/tokenizer",
+    "image": "",
+    "summary": "Step-by-step guide to implementing byte-pair encoding and understanding subword tokenization."
+  },
+  {
+    "title": "Notes on Backpropagation",
+    "date": "2026-01-10",
+    "link": "/writing/backprop",
+    "image": "",
+    "summary": "Deriving backprop by hand for simple networks and building intuition for gradient flow."
+  }
+]
