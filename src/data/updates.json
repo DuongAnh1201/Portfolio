@@ -1,18 +1,22 @@
 [
   {
     "date": "2026-04-01",
-    "content": "Currently diving deep into LLM systems — training infrastructure, RLHF, and inference optimization."
+    "content": "Currently diving deep into LLM systems — training infrastructure, RLHF, and inference optimization.",
+    "linkedinPost": ""
   },
   {
     "date": "2026-03-15",
-    "content": "Published a new post on understanding transformers from first principles."
+    "content": "Published a new post on understanding transformers from first principles.",
+    "linkedinPost": ""
   },
   {
     "date": "2026-02-20",
-    "content": "Released Mini GPT — a from-scratch GPT implementation for learning purposes."
+    "content": "Released Mini GPT — a from-scratch GPT implementation for learning purposes.",
+    "linkedinPost": ""
   },
   {
     "date": "2026-01-10",
-    "content": "Started this site. Goal: a simple place to share what I'm working on and learning."
+    "content": "Started this site. Goal: a simple place to share what I'm working on and learning.",
+    "linkedinPost": ""
   }
 ]

@@ -1,9 +1,9 @@
 {
   "intro": "Feel free to reach out. I'm always happy to chat about deep learning, open source, or interesting problems.",
-  "email": "you@example.com",
+  "linkedinPost": "",
+  "email": "tomnguyen6766@gmail.com",
   "links": [
-    { "label": "GitHub", "url": "https://github.com/yourusername" },
-    { "label": "Twitter", "url": "https://twitter.com/yourusername" },
-    { "label": "LinkedIn", "url": "https://linkedin.com/in/yourusername" }
+    { "label": "GitHub", "url": "https://github.com/DuongAnh1201" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/anh-nguyen-203105339/" }
   ]
 }

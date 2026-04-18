@@ -1,16 +1,26 @@
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Section from "@/components/Section";
+import SocialIcon from "@/components/SocialIcon";
 import Timeline from "@/components/Timeline";
 import ProjectList from "@/components/ProjectList";
 import WritingList from "@/components/WritingList";
 import ReadingList from "@/components/ReadingList";
 import UpdatesList from "@/components/UpdatesList";
 import Contact from "@/components/Contact";
+import LinkedInPostLink from "@/components/LinkedInPostLink";
 import about from "@/data/about.json";
 import experience from "@/data/experience.json";
 import education from "@/data/education.json";
 import other from "@/data/other.json";
+
+function aboutSocialHref(url: string, label: string): string {
+  if (url.startsWith("http") || url.startsWith("mailto:")) return url;
+  if (label === "Email" || /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(url)) {
+    return `mailto:${url}`;
+  }
+  return url;
+}
 
 export default function Home() {
   return (
@@ -45,19 +55,26 @@ export default function Home() {
               <p key={i}>{paragraph}</p>
             ))}
           </div>
-          <div className="flex gap-4 mt-4 text-sm">
-            {about.links.map((l) => (
-              <a
-                key={l.label}
-                href={l.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-accent hover:underline"
-              >
-                {l.label}
-              </a>
-            ))}
+          <div className="flex gap-3 mt-4">
+            {about.links.map((l) => {
+              const href = aboutSocialHref(l.url, l.label);
+              const openInNewTab = href.startsWith("http");
+              return (
+                <a
+                  key={l.label}
+                  href={href}
+                  {...(openInNewTab
+                    ? { target: "_blank" as const, rel: "noopener noreferrer" }
+                    : {})}
+                  className="text-muted hover:text-foreground transition-colors duration-150"
+                  aria-label={l.label}
+                >
+                  <SocialIcon label={l.label} />
+                </a>
+              );
+            })}
           </div>
+          <LinkedInPostLink href={about.linkedinPost} />
         </Section>
 
         {/* Experience */}

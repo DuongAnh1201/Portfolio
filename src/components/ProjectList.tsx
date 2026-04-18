@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ExpandableList from "@/components/ExpandableList";
+import LinkedInPostLink from "@/components/LinkedInPostLink";
 import projects from "@/data/projects.json";
 
 interface Project {
@@ -9,6 +10,7 @@ interface Project {
   image?: string;
   tags: string[];
   featured: boolean;
+  linkedinPost?: string;
 }
 
 function ProjectItem({ p }: { p: Project }) {
@@ -44,6 +46,7 @@ function ProjectItem({ p }: { p: Project }) {
           {p.tags.join(" · ")}
         </p>
       )}
+      <LinkedInPostLink href={p.linkedinPost} />
     </>
   );
 }

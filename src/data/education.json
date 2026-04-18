@@ -1,18 +1,24 @@
 [
   {
-    "title": "M.S. Computer Science",
-    "organization": "University of Technology",
-    "start": "2020-09",
-    "end": "2022-06",
-    "description": "Focus on machine learning and natural language processing. Thesis on efficient attention mechanisms.",
-    "tags": ["Machine Learning", "NLP", "Research"]
+    "title": "B.S. Computer Science",
+    "organization": "San Francisco Bay University",
+    "start": "2024-09",
+    "end": "2027-12 - Estimated",
+    "description": "Foundations in algorithms, systems, and mathematics. Dean's list",
+    "tags": ["Algorithms", "Systems", "Mathematics", "ICPC", "Robotics", "Machine Learning", "Deep Learning", "AI", "Computer Vision", "Natural Language Processing", "Robotics", "Computer Science"],
+    "logo": "/images/education/san_francisco_bay_university_logo.jpeg",
+    "images": [],
+    "linkedinPost": ""
   },
   {
-    "title": "B.S. Computer Science",
-    "organization": "State University",
-    "start": "2016-09",
-    "end": "2020-06",
-    "description": "Foundations in algorithms, systems, and mathematics. Dean's list, teaching assistant for Data Structures.",
-    "tags": ["Algorithms", "Systems", "Mathematics"]
+    "title": "High School",
+    "organization": "Le Hong Phong High School for the Gifted - Nam Dinh Province",
+    "start": "2021-09",
+    "end": "2024-06",
+    "description": "Class of 2024 - Major in Chemistry",
+    "tags": ["Chemistry", "Chemistry Competition", "Chemistry Education", "Chemistry Experiment", "Chemistry Presentation", "Chemistry Report"],
+    "logo": "/images/education/High_school.jpg",
+    "images": [],
+    "linkedinPost": ""
   }
 ]

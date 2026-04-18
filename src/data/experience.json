@@ -1,26 +1,35 @@
 [
   {
-    "title": "Senior Software Engineer",
-    "organization": "TechCorp AI",
-    "start": "2024-06",
+    "title": "Founding Member & AI Engineer - AI DevOps & ML",
+    "organization": "Quiche, Inc. (ADU Marketplace)",
+    "start": "2025-11",
     "end": "",
-    "description": "Leading development of LLM infrastructure and training pipelines. Building internal tools for model evaluation and deployment.",
-    "tags": ["Python", "PyTorch", "Kubernetes"]
+    "description": "Built an MCP (Model Context Protocol) server so product features can pull the right context on demand. Designed a multi-agent stack for a smart assistant—roles, orchestration, and retrieval—and stood up Google Cloud (Compute Engine, Cloud Run, Cloud SQL) for deployments that can scale in production.",
+    "tags": ["MCP", "Python", "Multi-agent AI", "Google Cloud", "Cloud Run", "Cloud SQL"],
+    "logo": "/images/experience/quiche_logo.jpeg",
+    "images": [],
+    "linkedinPost": ""
   },
   {
-    "title": "Software Engineer",
-    "organization": "StartupXYZ",
-    "start": "2022-01",
-    "end": "2024-05",
-    "description": "Full-stack development on the core product. Built real-time data processing pipeline handling 10M+ events/day.",
-    "tags": ["TypeScript", "Go", "AWS"]
+    "title": "Student Assistant, IT Department",
+    "organization": "San Francisco Bay University",
+    "start": "2025-09",
+    "end": "",
+    "description": "First-line support for hardware, software, and network issues—triage tickets and fix what we can on the spot so classes and staff stay online. Helped track IT assets across campus so deployments, swaps, and maintenance stay visible.",
+    "tags": ["IT support", "Networking", "Hardware", "Asset management", "Help desk"],
+    "logo": "/images/experience/san_francisco_bay_university_logo.jpeg",
+    "images": [],
+    "linkedinPost": ""
   },
   {
-    "title": "ML Engineering Intern",
-    "organization": "Research Lab Inc.",
-    "start": "2021-06",
-    "end": "2021-12",
-    "description": "Worked on NLP models for document classification. Published results at a workshop.",
-    "tags": ["NLP", "Python", "Transformers"]
+    "title": "LLM Intern — Implementation",
+    "organization": "Sofeast Ltd.",
+    "start": "2022-05",
+    "end": "2025-08",
+    "description": "Interned on internal RAG and LLM systems: retrieval, prompting, and wiring models into real workflows. Shipped tooling around evaluation and deployment so teams could iterate without losing track of quality.",
+    "tags": ["RAG", "LLM", "Python", "FAISS", "OpenAI API", "LLaMA", "Qwen", "Gemma", "DeepSeek", "GPT-4"],
+    "logo": "/images/experience/sofeast_logo.jpeg",
+    "images": [],
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_ai-llm-internshipexperience-share-7359236850932142082-pJ44?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
   }
 ]

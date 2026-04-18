@@ -17,12 +17,13 @@ All content lives in `src/data/` as JSON files. Edit these to update the site â€
 
 | File | What it controls |
 |---|---|
-| `about.json` | Name, avatar, tagline, bio, social links |
-| `projects.json` | Project list with titles, descriptions, links, images, tags, featured flag |
-| `writing.json` | Articles/posts with dates, summaries, links, cover images |
-| `reading.json` | Reading list with status (reading/completed/to-read) and notes |
-| `updates.json` | "Now" section â€” what you're currently doing |
-| `contact.json` | Contact info and social links |
+| `about.json` | Name, avatar, tagline, bio, social links; optional `linkedinPost` (About-related LinkedIn URL) |
+| `projects.json` | Projects: titles, links, images, tags, featured; optional `linkedinPost` per project |
+| `writing.json` | Posts: dates, summaries, links, images; optional `linkedinPost` per post |
+| `reading.json` | Reading list; optional `linkedinPost` per book/paper |
+| `updates.json` | "Now" updates; optional `linkedinPost` per update |
+| `contact.json` | Email, links; optional `linkedinPost` |
+| `education.json`, `experience.json`, `other.json` | Timeline: optional `logo`, `images`, and `linkedinPost` per entry (`public/images/education|experience|other/`) |
 
 ## Adding a New Project
 
@@ -35,7 +36,8 @@ Open `src/data/projects.json` and add an entry:
   "link": "https://github.com/...",
   "image": "/images/my-project.png",
   "tags": ["tag1", "tag2"],
-  "featured": false
+  "featured": false,
+  "linkedinPost": "https://www.linkedin.com/feed/update/..."
 }
 ```
 

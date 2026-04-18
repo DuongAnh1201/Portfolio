@@ -1,4 +1,5 @@
 import ExpandableList from "@/components/ExpandableList";
+import LinkedInPostLink from "@/components/LinkedInPostLink";
 import reading from "@/data/reading.json";
 
 interface Book {
@@ -7,6 +8,7 @@ interface Book {
   status: "reading" | "completed" | "to-read";
   notes: string;
   link: string;
+  linkedinPost?: string;
 }
 
 const statusLabel: Record<string, string> = {
@@ -41,6 +43,7 @@ function ReadingItem({ b }: { b: Book }) {
       {b.notes && (
         <p className="text-muted text-xs mt-0.5">{b.notes}</p>
       )}
+      <LinkedInPostLink href={b.linkedinPost} />
     </div>
   );
 }

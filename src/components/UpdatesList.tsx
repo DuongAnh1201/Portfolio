@@ -1,9 +1,11 @@
 import ExpandableList from "@/components/ExpandableList";
+import LinkedInPostLink from "@/components/LinkedInPostLink";
 import updates from "@/data/updates.json";
 
 interface Update {
   date: string;
   content: string;
+  linkedinPost?: string;
 }
 
 function UpdateItem({ u }: { u: Update }) {
@@ -11,6 +13,7 @@ function UpdateItem({ u }: { u: Update }) {
     <div className="text-sm">
       <time className="text-xs text-muted">{u.date}</time>
       <p className="text-foreground mt-0.5">{u.content}</p>
+      <LinkedInPostLink href={u.linkedinPost} />
     </div>
   );
 }

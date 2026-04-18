@@ -1,5 +1,6 @@
 import Image from "next/image";
 import ExpandableList from "@/components/ExpandableList";
+import LinkedInPostLink from "@/components/LinkedInPostLink";
 import writing from "@/data/writing.json";
 
 interface Article {
@@ -8,6 +9,7 @@ interface Article {
   link: string;
   image?: string;
   summary: string;
+  linkedinPost?: string;
 }
 
 function WritingItem({ w }: { w: Article }) {
@@ -34,6 +36,7 @@ function WritingItem({ w }: { w: Article }) {
         <time className="text-xs text-muted shrink-0">{w.date}</time>
       </div>
       <p className="text-sm text-muted mt-0.5">{w.summary}</p>
+      <LinkedInPostLink href={w.linkedinPost} />
     </>
   );
 }

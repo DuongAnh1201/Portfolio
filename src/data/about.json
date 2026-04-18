@@ -1,15 +1,23 @@
 {
-  "name": "Your Name",
-  "avatar": "",
-  "tagline": "Researcher, builder, learner.",
+  "name": "Duong Anh (Tom) Nguyen",
+  "avatar": "/images/IMG_4842.JPG",
+  "tagline": "CS student · robotics · ML · building things from first principles",
   "bio": [
-    "I'm a software engineer and researcher interested in deep learning, language models, and building things from scratch.",
-    "Previously at [Company]. Currently exploring LLM systems and open-source tooling.",
-    "I believe in learning by doing, writing to think, and sharing knowledge openly."
+    "I'm Duong Anh (Tom) Nguyen, a computer science student at San Francisco Bay University. I care about robotics, machine learning, and how AI is built and deployed in the real world.",
+    "Right now I'm an AI engineer and founding member at Quiche (ADU Marketplace), a student assistant in the university IT department, and president of the Robotics Club (2026).",
+    "Previously I interned on RAG and LLM projects—shipping internal AI systems end to end for a business setting.",
+    "I'm writing a paper on the ethics of using AI to restore or alter historical war imagery: what we gain, what we risk, and who decides.",
+    "On the side I'm building TTorch, a small PyTorch-style deep learning framework in C++ from scratch, to understand training and autograd at the metal level—not just the API.",
+    "Long term I want to work where robotics, ML, and responsible AI overlap. I'm especially interested in AI ethics from an engineer's perspective: clear tradeoffs, not slogans.",
+    "I attended ICPC Pacific Northwest Regional Contest 2025 Division 2",
+    "I learn by building, think by writing, and try to share what I figure out along the way.",
+    "Stay foolish, stay hungry - Steve Jobs",
+    "The difficulty exists because you have the capability to solve it"
   ],
+  "linkedinPost": "",
   "links": [
-    { "label": "GitHub", "url": "https://github.com/yourusername" },
-    { "label": "Twitter", "url": "https://twitter.com/yourusername" },
-    { "label": "Email", "url": "mailto:you@example.com" }
+    { "label": "GitHub", "url": "https://github.com/DuongAnh1201" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/anh-nguyen-203105339/" },
+    { "label": "Email", "url": "mailto:tomnguyen6766@gmail.com" }
   ]
 }

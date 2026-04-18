@@ -4,48 +4,55 @@
     "author": "Vaswani et al.",
     "status": "completed",
     "notes": "The foundational transformer paper. Key insight: self-attention can replace recurrence entirely.",
-    "link": "https://arxiv.org/abs/1706.03762"
+    "link": "https://arxiv.org/abs/1706.03762",
+    "linkedinPost": ""
   },
   {
     "title": "Scaling Laws for Neural Language Models",
     "author": "Kaplan et al.",
     "status": "completed",
     "notes": "Power-law relationships between model size, data, compute, and performance.",
-    "link": "https://arxiv.org/abs/2001.08361"
+    "link": "https://arxiv.org/abs/2001.08361",
+    "linkedinPost": ""
   },
   {
     "title": "The Bitter Lesson",
     "author": "Rich Sutton",
     "status": "completed",
     "notes": "General methods that leverage computation are ultimately the most effective.",
-    "link": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html"
+    "link": "http://www.incompleteideas.net/IncIdeas/BitterLesson.html",
+    "linkedinPost": ""
   },
   {
     "title": "Designing Data-Intensive Applications",
     "author": "Martin Kleppmann",
     "status": "reading",
     "notes": "Currently on distributed systems chapters. Excellent reference for system design.",
-    "link": "https://dataintensive.net/"
+    "link": "https://dataintensive.net/",
+    "linkedinPost": ""
   },
   {
     "title": "A Philosophy of Software Design",
     "author": "John Ousterhout",
     "status": "to-read",
     "notes": "",
-    "link": ""
+    "link": "",
+    "linkedinPost": ""
   },
   {
     "title": "Deep Learning",
     "author": "Goodfellow, Bengio, Courville",
     "status": "completed",
     "notes": "The standard textbook. Dense but comprehensive on foundations.",
-    "link": "https://www.deeplearningbook.org/"
+    "link": "https://www.deeplearningbook.org/",
+    "linkedinPost": ""
   },
   {
     "title": "The Art of Doing Science and Engineering",
     "author": "Richard Hamming",
     "status": "to-read",
     "notes": "",
-    "link": ""
+    "link": "",
+    "linkedinPost": ""
   }
 ]

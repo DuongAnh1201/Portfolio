@@ -1,26 +1,64 @@
 [
   {
-    "title": "Open Source Contributor",
-    "organization": "PyTorch",
-    "start": "2023-03",
-    "end": "",
-    "description": "Contributing to core library and documentation. Fixed several performance issues in autograd.",
-    "tags": ["Open Source", "PyTorch"]
+    "title": "3rd Place — Wildfire detection & response",
+    "organization": "Innovate Bay (BayHawk 2.0)",
+    "start": "2026-04",
+    "end": "2026-04",
+    "description": "Weekend build: combine live camera fire detection (YOLOv8), NASA FIRMS thermal hotspots, and weather context so the system can corroborate or dismiss alerts, reason with an LLM, label severity from low to critical, and suggest response steps. Implemented with PydanticAI + GPT-4o, async orchestration, and a FastAPI service tying sensing → analysis → action.",
+    "tags": ["Hackathon", "Multi-agent AI", "YOLOv8", "NASA FIRMS", "FastAPI", "PydanticAI", "GPT-4o", "Innovate Bay", "BayHawk 2.0", "Verizon Innovation Lab", "FastAPI", "Python", "Vite", "Tailwind CSS", "PostgreSQL", "Docker", "GitHub", "GitLab", "Git", "GitHub CI/CD", "Vercel"],
+    "logo": "",
+    "images": [
+      "/images/other/BayHawk2.0/IMG_8636.jpg",
+      "/images/other/BayHawk2.0/WhatsApp Image 2026-04-16 at 20.48.25.jpeg",
+      "/images/other/BayHawk2.0/WhatsApp Image 2026-04-16 at 20.48.31.jpeg"
+    ],
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_hackathon-innovation-ai-ugcPost-7451327678105960448-i3nS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
   },
   {
-    "title": "Teaching Assistant — Deep Learning",
-    "organization": "University of Technology",
-    "start": "2021-09",
-    "end": "2022-06",
-    "description": "Led weekly recitations and office hours. Designed homework assignments on CNNs and transformers.",
-    "tags": ["Teaching", "Deep Learning"]
+    "title": "Hackathon — KryptosProof",
+    "organization": "HackHayward (Cal State East Bay)",
+    "start": "2026-03",
+    "end": "2026-03",
+    "description": "24-hour build for the “vibe coding” era: an AI red-team that hits your app with real tools (e.g. sqlmap, Nuclei, FFUF), keeps only reproducible findings, drafts and checks fixes, and ships a SHA-256–signed report. Multi-agent design, Docker sandbox, live dashboard, and attestation story—security without hand-wavy noise.",
+    "tags": ["Hackathon", "Security", "Docker", "Nuclei", "Multi-agent", "HackHayward", "KryptosProof"],
+    "logo": "/images/other/HackHayward2026/UI.jpeg",
+    "images": [
+      "/images/other/HackHayward2026/UI.jpeg",
+      "/images/other/HackHayward2026/TeamImage.jpeg"
+    ],
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_hackathon-hackhayward-multiagents-ugcPost-7442192567087280128-sqNu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
   },
   {
-    "title": "Hackathon Winner — Best AI Project",
-    "organization": "HackTech 2021",
-    "start": "2021-03",
-    "end": "2021-03",
-    "description": "Built a real-time sign language translator using computer vision in 48 hours.",
-    "tags": ["Hackathon", "Computer Vision"]
+    "title": "Winner — Uniflow (AI career path for SFBU)",
+    "organization": "ThinkNext 2026",
+    "start": "2026-03",
+    "end": "2026-03",
+    "description": "Multi-agent career copilot for San Francisco Bay University students: orchestration in PydanticAI with specialized agents for goal intake and resume critique, RAG over courses and events with embeddings + vector search, and a mock interview agent with voice/text (TTS/STT) and STAR-style feedback.",
+    "tags": ["Hackathon", "PydanticAI", "RAG", "OpenAI", "TTS", "STT", "Streamlit", "SFBU", "Career"],
+    "logo": "/images/other/san_francisco_bay_university_logo.jpeg",
+    "images": ["/images/other/ThinkNext2026/ThinkNext2026.jpg"],
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_thinknext2026-hackathon-winner-activity-7458211692199403520-XDx1?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+    "title": "2nd Place — Bit for Bit (receipts → inventory)",
+    "organization": "Innovate Bay (BayHawk 1.0)",
+    "start": "2025-10",
+    "end": "2025-10",
+    "description": "BayHack 2025 (business-action track): capture receipts from a phone camera, extract structured fields into MongoDB, and layer an assistant so small teams can reconcile stock without spreadsheet chaos. Pitched the solution live with teammates. Stack: OpenAI API, MongoDB, Python, Node.js, FastAPI.",
+    "tags": ["Hackathon", "BayHack", "OpenAI API", "MongoDB", "FastAPI", "Node.js", "Python", "OCR", "Inventory"],
+    "logo": "",
+    "images": [],
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_bayhack-hackathon-ai-activity-7390803100921487360-xhSj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
+  },
+  {
+    "title": "Top 3 — BleuLaMuse (career chatbot)",
+    "organization": "SFBU IEEE — Mind Sparks",
+    "start": "2025-02",
+    "end": "2025-02",
+    "description": "IEEE campus competition: conversational career guidance on top of structured student data, with FAISS-backed retrieval for course and pathway suggestions, Streamlit for the interface, and prompt tuning on domain-specific material. Designed to stay modular before a wider cloud rollout.",
+    "tags": ["IEEE", "GPT", "FAISS", "Streamlit", "Python", "SFBU", "Career", "Chatbot"],
+    "logo": "",
+    "images": [],
+    "linkedinPost": ""
   }
 ]

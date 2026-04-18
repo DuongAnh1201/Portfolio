@@ -5,7 +5,8 @@
     "link": "https://github.com/yourusername/mini-gpt",
     "image": "",
     "tags": ["LLM", "PyTorch", "Transformers"],
-    "featured": true
+    "featured": true,
+    "linkedinPost": ""
   },
   {
     "title": "Neural Style Transfer",
@@ -13,7 +14,8 @@
     "link": "https://github.com/yourusername/neural-style",
     "image": "",
     "tags": ["Computer Vision", "PyTorch"],
-    "featured": true
+    "featured": true,
+    "linkedinPost": ""
   },
   {
     "title": "Tiny Tokenizer",
@@ -21,7 +23,8 @@
     "link": "https://github.com/yourusername/tiny-tokenizer",
     "image": "",
     "tags": ["NLP", "Python"],
-    "featured": false
+    "featured": false,
+    "linkedinPost": ""
   },
   {
     "title": "Personal Knowledge Base",
@@ -29,6 +32,7 @@
     "link": "https://github.com/yourusername/pkb",
     "image": "",
     "tags": ["CLI", "Productivity"],
-    "featured": false
+    "featured": false,
+    "linkedinPost": ""
   }
 ]

@@ -1,3 +1,4 @@
+import LinkedInPostLink from "@/components/LinkedInPostLink";
 import contact from "@/data/contact.json";
 
 export default function Contact() {
@@ -10,18 +11,23 @@ export default function Contact() {
         </a>
       </p>
       <div className="flex gap-4 mt-3 text-sm">
-        {contact.links.map((l) => (
-          <a
-            key={l.label}
-            href={l.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-accent hover:underline"
-          >
-            {l.label}
-          </a>
-        ))}
+        {contact.links.map((l) => {
+          const openInNewTab = l.url.startsWith("http");
+          return (
+            <a
+              key={l.label}
+              href={l.url}
+              {...(openInNewTab
+                ? { target: "_blank" as const, rel: "noopener noreferrer" }
+                : {})}
+              className="text-accent hover:underline"
+            >
+              {l.label}
+            </a>
+          );
+        })}
       </div>
+      <LinkedInPostLink href={contact.linkedinPost} />
     </div>
   );
 }
