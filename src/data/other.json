@@ -5,7 +5,7 @@
     "start": "2026-04",
     "end": "2026-04",
     "description": "Weekend build: combine live camera fire detection (YOLOv8), NASA FIRMS thermal hotspots, and weather context so the system can corroborate or dismiss alerts, reason with an LLM, label severity from low to critical, and suggest response steps. Implemented with PydanticAI + GPT-4o, async orchestration, and a FastAPI service tying sensing → analysis → action.",
-    "tags": ["Hackathon", "Multi-agent AI", "YOLOv8", "NASA FIRMS", "FastAPI", "PydanticAI", "GPT-4o", "Innovate Bay", "BayHawk 2.0", "Verizon Innovation Lab", "FastAPI", "Python", "Vite", "Tailwind CSS", "PostgreSQL", "Docker", "GitHub", "GitLab", "Git", "GitHub CI/CD", "Vercel"],
+    "tags": ["Hackathon", "Multi-agent AI", "YOLOv8", "NASA FIRMS", "FastAPI", "PydanticAI", "GPT-4o", "Innovate Bay", "BayHawk 2.0", "Verizon Innovation Lab", "FastAPI", "Python", "Vite", "Tailwind CSS", "PostgreSQL", "Docker", "GitHub", "Git", "GitHub CI/CD", "Vercel"],
     "logo": "",
     "images": [
       "/images/other/BayHawk2.0/IMG_8636.jpg",
