@@ -1,26 +1,18 @@
 [
   {
-    "title": "Understanding Transformers from First Principles",
-    "date": "2026-03-15",
-    "link": "/writing/transformers",
+    "title": "Restoring war photographs with AI: technical approaches and societal implications",
+    "date": "2026-04-19",
+    "link": "",
     "image": "",
-    "summary": "A detailed breakdown of the attention mechanism, positional encoding, and why transformers replaced RNNs.",
+    "summary": "Draft / ongoing. Compares fully automated, hybrid (AI plus human review), and non-AI restoration for damaged or souvenir war images. We connect capability to authenticity, trust, and collective memory; surface risks such as biased training data and invented detail; and argue—treating photos as historical evidence—that ethical practice needs transparency, oversight, and institutional guardrails. Includes a checklist for spotting historical hallucination in outputs and early results from a 50-person vignette study on trust and acceptability among archivists, families, and online audiences.",
     "linkedinPost": ""
   },
   {
-    "title": "Building a Tokenizer from Scratch",
-    "date": "2026-02-01",
-    "link": "/writing/tokenizer",
+    "title": "RRT for maze solving with a vector-based formulation",
+    "date": "2026-04-19",
+    "link": "",
     "image": "",
-    "summary": "Step-by-step guide to implementing byte-pair encoding and understanding subword tokenization.",
-    "linkedinPost": ""
-  },
-  {
-    "title": "Notes on Backpropagation",
-    "date": "2026-01-10",
-    "link": "/writing/backprop",
-    "image": "",
-    "summary": "Deriving backprop by hand for simple networks and building intuition for gradient flow.",
+    "summary": "Draft / ongoing. Explores Rapidly-Exploring Random Trees (RRT) for maze navigation when state and controls are represented in a vector form suited to continuous spaces and simple collision checks. Motivation, algorithm sketch, and how the vectorized setup affects sampling, expansion, and path quality compared to a grid-first mindset.",
     "linkedinPost": ""
   }
 ]

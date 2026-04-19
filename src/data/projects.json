@@ -1,38 +1,40 @@
 [
+  
+    {
+      "title": "TTorch",
+      "description": "A lightweight tensor and automatic differentiation library written in C++ with Python bindings. It explores the internal architecture of modern deep learning frameworks by implementing tensor operations, an autograd engine, and modular compute kernels, with the goal of building a minimal educational backend similar to PyTorch.",
+      "link": "https://github.com/DuongAnh1201/TTorch",
+      "image": "",
+      "tags": ["C++", "Python", "Autograd", "Deep Learning", "Systems", "PyTorch", "Vectorized Autograd"],
+      "featured": true,
+      "linkedinPost": ""
+    },
+
+    {
+        "title": "Desir — LLM-Powered Virtual Assistant",
+        "description": "An agentic virtual assistant that uses LLMs as a core reasoning engine combined with Siri-like permission-based action execution. Built on a delegation architecture with an orchestrator agent routing tasks to specialized sub-agents, the system emphasizes security, ethical execution, and real-world action capabilities beyond traditional chatbots.",
+        "link": "https://github.com/DuongAnh1201/desir",
+        "image": "",
+        "tags": ["LLM", "Agents", "AI Assistant", "Pydantic", "Voice Interface", "Python", "FastAPI", "Docker", "PostgreSQL", "GitHub", "Git", "GitHub CI/CD", "Delegation Architecture", "Orchestrator Agent", "Sub-agents", "Ethical Execution", "Real-world Action Capabilities", "OpenAI API", "LLM", "Agents", "AI Assistant", "Pydantic", "Voice Interface", "Python", "FastAPI", "Docker", "PostgreSQL", "GitHub", "Git", "GitHub CI/CD", "Delegation Architecture", "Orchestrator Agent", "Sub-agents", "Ethical Execution", "Real-world Action Capabilities"],
+        "featured": true,
+        "linkedinPost": ""
+    },
+    {
+        "title": "Real-Time Human Emotion Detection Pipeline",
+        "description": "A two-stage real-time emotion recognition system that detects faces from a live webcam feed using YOLOv11n and classifies one of seven emotions with a custom-trained logistic regression model. The pipeline uses ViT-B/16 for 768-dimensional feature extraction and a from-scratch PyTorch classifier trained with L-BFGS, with manual evaluation metrics and a fully modular training and deployment workflow.",
+        "link": "https://github.com/DuongAnh1201/Emotional-Detection-Model",
+        "image": "",
+        "tags": ["Computer Vision", "PyTorch", "YOLO", "ViT", "Logistic Regression", "Real-time Emotion Detection", "Webcam Feed", "Face Detection", "Emotion Classification", "Custom-trained Model", "L-BFGS", "Manual Evaluation Metrics", "Modular Training and Deployment Workflow", "Transfer Learning"],
+        "featured": true,
+        "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_machinelearning-computervision-pytorch-ugcPost-7447686403943165952-2yFQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
+    },
   {
-    "title": "Mini GPT",
-    "description": "A from-scratch reimplementation of GPT, including training loop, tokenizer, and generation.",
-    "link": "https://github.com/yourusername/mini-gpt",
-    "image": "",
-    "tags": ["LLM", "PyTorch", "Transformers"],
-    "featured": true,
-    "linkedinPost": ""
-  },
-  {
-    "title": "Neural Style Transfer",
-    "description": "Real-time style transfer using convolutional neural networks.",
-    "link": "https://github.com/yourusername/neural-style",
-    "image": "",
-    "tags": ["Computer Vision", "PyTorch"],
-    "featured": true,
-    "linkedinPost": ""
-  },
-  {
-    "title": "Tiny Tokenizer",
-    "description": "Minimal BPE tokenizer implementation for educational purposes.",
-    "link": "https://github.com/yourusername/tiny-tokenizer",
-    "image": "",
-    "tags": ["NLP", "Python"],
-    "featured": false,
-    "linkedinPost": ""
-  },
-  {
-    "title": "Personal Knowledge Base",
-    "description": "A CLI tool for managing notes, reading lists, and learning logs.",
-    "link": "https://github.com/yourusername/pkb",
-    "image": "",
-    "tags": ["CLI", "Productivity"],
-    "featured": false,
-    "linkedinPost": ""
+      "title": "Maze-Solving Algorithms Visualizer",
+      "description": "An interactive maze-solving visualization tool that demonstrates and compares pathfinding algorithms in real time. Users can choose from multiple maze layouts and watch BFS, Flood Fill, and a randomized search algorithm explore and solve them step by step, making it easy to compare performance, efficiency, and solution paths.",
+      "link": "https://github.com/DuongAnh1201/CS455_Project",
+      "image": "",
+      "tags": ["Algorithms", "Python", "React", "JavaScript", "Visualization"],
+      "featured": true,
+      "linkedinPost": ""
   }
 ]

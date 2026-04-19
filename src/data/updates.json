@@ -1,22 +1,52 @@
 [
   {
+    "date": "2026-04-19",
+    "content": "Drafting two papers: AI restoration of war photographs (ethics + vignette study) and RRT with a vector maze formulation. Public repos in motion: TTorch (C++/Python autograd), Desir (agentic assistant), a real-time emotion CV stack, and a maze-solving visualizer. Tightening this minimal site to match reality.",
+    "linkedinPost": ""
+  },
+  {
     "date": "2026-04-01",
-    "content": "Currently diving deep into LLM systems — training infrastructure, RLHF, and inference optimization.",
+    "content": "Third place at Innovate Bay (BayHawk 2.0) for a wildfire stack: YOLOv8 + NASA FIRMS + weather context, fused with a multi-agent LLM pipeline (PydanticAI, GPT-4o, FastAPI) for severity and response planning.",
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_hackathon-innovation-ai-ugcPost-7451327678105960448-i3nS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
+  },
+  {
+    "date": "2026-02",
+    "content": "Won ThinkNext 2026 with Uniflow — a PydanticAI-orchestrated career copilot for SFBU: goal + résumé agents, RAG over courses/events, and a voice/text mock interview path with STAR-style feedback (Streamlit demo).",
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_thinknext2026-hackathon-winner-activity-7458211692199403520-XDx1?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+    "date": "2026-03-23",
+    "content": "HackHayward weekend: shipped KryptosProof — multi-agent, tool-using red team (sqlmap / Nuclei / FFUF), Docker sandbox, live dashboard, and signed reports for the vibe-coding security angle.",
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_hackathon-hackhayward-multiagents-ugcPost-7442192567087280128-sqNu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
+  },
+  {
+    "date": "2025-11",
+    "content": "Competed at ICPC Pacific Northwest Regional 2025 (Division 2). Serving as Robotics Club president this year while keeping coursework and build projects moving.",
     "linkedinPost": ""
   },
   {
-    "date": "2026-03-15",
-    "content": "Published a new post on understanding transformers from first principles.",
+    "date": "2025-11-18",
+    "content": "Joined Quiche (ADU marketplace) as a founding member — AI / DevOps focus: MCP server for contextual retrieval, multi-agent assistant design, and GCP (Compute Engine, Cloud Run, Cloud SQL) for production-shaped deploys.",
     "linkedinPost": ""
   },
   {
-    "date": "2026-02-20",
-    "content": "Released Mini GPT — a from-scratch GPT implementation for learning purposes.",
+    "date": "2025-10-28",
+    "content": "Second place at BayHack / Innovate Bay (BayHawk 1.0) with Bit for Bit: phone receipt capture → structured MongoDB + assistant layer for small-team inventory (OpenAI API, FastAPI, Node, Python).",
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_bayhack-hackathon-ai-activity-7390803100921487360-xhSj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
+  },
+  {
+    "date": "2025-09-12",
+    "content": "Started as a student assistant in the SFBU IT department — Tier-1 triage for hardware/software/network tickets plus asset tracking across campus.",
     "linkedinPost": ""
   },
   {
-    "date": "2026-01-10",
-    "content": "Started this site. Goal: a simple place to share what I'm working on and learning.",
+    "date": "2025-08-19",
+    "content": "Finished the Sofeast LLM internship (May 2022–Aug 2025): internal RAG/LLM systems, evaluation and deployment tooling, and shipping models into real business workflows.",
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_ai-llm-internshipexperience-share-7359236850932142082-pJ44?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
+  },
+  {
+    "date": "2025-02-16",
+    "content": "Top 3 at SFBU IEEE Mind Sparks with BleuLaMuse — GPT + FAISS + Streamlit career chatbot with modular backend for later cloud expansion.",
     "linkedinPost": ""
   }
 ]
