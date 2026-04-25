@@ -1,7 +1,9 @@
 import Image from "next/image";
 import ExpandableList from "@/components/ExpandableList";
 import LinkedInPostLink from "@/components/LinkedInPostLink";
-import projects from "@/data/projects.json";
+import { getMessages } from "@/lib/messages";
+import { getProjects } from "@/lib/content";
+import type { Locale } from "@/lib/locale";
 
 interface Project {
   title: string;
@@ -13,7 +15,13 @@ interface Project {
   linkedinPost?: string;
 }
 
-function ProjectItem({ p }: { p: Project }) {
+function ProjectItem({
+  p,
+  linkText,
+}: {
+  p: Project;
+  linkText: string;
+}) {
   return (
     <>
       {p.image && (
@@ -46,21 +54,28 @@ function ProjectItem({ p }: { p: Project }) {
           {p.tags.join(" · ")}
         </p>
       )}
-      <LinkedInPostLink href={p.linkedinPost} />
+      <LinkedInPostLink href={p.linkedinPost} linkText={linkText} />
     </>
   );
 }
 
-export default function ProjectList() {
-  const sorted = [...(projects as Project[])].sort(
+export default function ProjectList({ locale }: { locale: Locale }) {
+  const projects = getProjects(locale) as Project[];
+  const messages = getMessages(locale);
+  const linkText = messages.linkedinPost;
+  const expand = messages.expandable;
+
+  const sorted = [...projects].sort(
     (a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0)
   );
 
   return (
     <ExpandableList
       className="space-y-5"
+      showLess={expand.showLess}
+      seeMoreTemplate={expand.seeMore}
       items={sorted.map((p) => (
-        <ProjectItem key={p.title} p={p} />
+        <ProjectItem key={p.title} p={p} linkText={linkText} />
       ))}
     />
   );

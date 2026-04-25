@@ -9,11 +9,11 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+The site redirects `/` to `/en`. Vietnamese is at `/vi`. Use the **English** / **Tiếng Việt** links in the header to switch.
 
 ## Editing Content
 
-All content lives in `src/data/` as JSON files. Edit these to update the site — no UI code changes needed.
+Content lives in `src/data/en/` and `src/data/vi/` (same file names in each folder). **Edit both** when you add or change user-facing text. UI labels (nav, footer, button text) are in `src/messages/en.json` and `src/messages/vi.json`.
 
 | File | What it controls |
 |---|---|
@@ -27,7 +27,7 @@ All content lives in `src/data/` as JSON files. Edit these to update the site �
 
 ## Adding a New Project
 
-Open `src/data/projects.json` and add an entry:
+Open `src/data/en/projects.json` and `src/data/vi/projects.json` and add an entry in each (same structure, translated as needed):
 
 ```json
 {

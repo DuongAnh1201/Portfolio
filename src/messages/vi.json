@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "about": "Giới thiệu",
+    "experience": "Kinh nghiệm",
+    "education": "Học vấn",
+    "projects": "Dự án",
+    "writing": "Bài viết",
+    "reading": "Đang đọc",
+    "other": "Khác",
+    "updates": "Hiện tại",
+    "contact": "Liên hệ"
+  },
+  "footer": "Xây dựng theo hướng tối giản.",
+  "langSwitcher": { "en": "English", "vi": "Tiếng Việt", "label": "Ngôn ngữ" },
+  "linkedinPost": "Bài trên LinkedIn",
+  "expandable": { "showLess": "thu gọn", "seeMore": "xem thêm... (còn {n} mục)" },
+  "readingStatus": { "reading": "Đang đọc", "completed": "Đã xong", "to-read": "Dự định" },
+  "timeline": { "present": "Hiện tại" }
+}

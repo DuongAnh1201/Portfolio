@@ -1,0 +1,23 @@
+{
+  "name": "Dương Anh (Tom) Nguyễn",
+  "avatar": "/images/IMG_4842.JPG",
+  "tagline": "Sinh viên CNTT · robot · ML · xây dựng từ nguyên lý cơ bản",
+  "bio": [
+    "Mình là Dương Anh (Tom) Nguyễn, sinh viên khoa khoa học máy tính tại San Francisco Bay University. Mình quan tâm tới robot, machine learning, và cách xây dựng cũng như triển khai AI trong thực tế.",
+    "Hiện mình là kỹ sư AI và thành viên sáng lập tại Quiche (ADU Marketplace), trợ lý cho phòng CNTT của trường, và chủ nhiệm Câu lạc bộ Robot (2026).",
+    "Trước đây mình thực tập các dự án RAG và LLM—triển khai hệ thống AI nội bộ trọn vẹn cho môi trường doanh nghiệp.",
+    "Mình đang viết một bài nghiên cứu về đạo đức khi dùng AI để phục chế hoặc thay đổi hình ảnh chiến tranh lịch sử: ta được gì, rủi ro gì, và ai quyết định.",
+    "Ngoài giờ mình đang xây TTorch, một framework deep learning phong cách PyTorch bằng C++ từ đầu, để hiểu training và autograd ở tầng thấp—không chỉ gọi API.",
+    "Dài hạn mình muốn làm việc ở giao điểm robot, ML và AI có trách nhiệm. Mình đặc biệt quan tâm đạo đức AI theo góc nhìn kỹ sư: đánh đổi rõ ràng, không chỉ khẩu hiệu.",
+    "Mình đã thi ICPC Pacific Northwest Regional 2025 Division 2",
+    "Mình học bằng cách làm, suy nghĩ bằng cách viết, và cố gắng chia sẻ những gì mình tìm ra dọc đường.",
+    "Stay foolish, stay hungry - Steve Jobs",
+    "Khó khăn tồn tại vì bạn có khả năng vượt qua nó"
+  ],
+  "linkedinPost": "",
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/DuongAnh1201" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/anh-nguyen-203105339/" },
+    { "label": "Email", "url": "mailto:tomnguyen6766@gmail.com" }
+  ]
+}

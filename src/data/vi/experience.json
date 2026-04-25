@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Thành viên sáng lập & Kỹ sư AI — AI DevOps & ML",
+    "organization": "Quiche, Inc. (ADU Marketplace)",
+    "start": "2025-11",
+    "end": "",
+    "description": "Xây MCP server (Model Context Protocol) để tính năng sản phẩm lấy đúng ngữ cảnh khi cần. Thiết kế stack đa tác tử cho trợ lý thông minh—vai trò, điều phối, truy hồi—và dựng Google Cloud (Compute Engine, Cloud Run, Cloud SQL) cho bản triển khai có thể mở rộng thực tế.",
+    "tags": ["MCP", "Python", "Multi-agent AI", "Google Cloud", "Cloud Run", "Cloud SQL"],
+    "logo": "/images/experience/quiche_logo.jpeg",
+    "images": [],
+    "linkedinPost": ""
+  },
+  {
+    "title": "Trợ lý sinh viên, Phòng CNTT",
+    "organization": "San Francisco Bay University",
+    "start": "2025-09",
+    "end": "",
+    "description": "Hỗ trợ tuyến đầu về phần cứng, phần mềm và mạng—tiếp nhận ticket và xử lý tại chỗ để lớp học và nhân viên luôn kết nối. Hỗ trợ theo dõi tài sản CNTT toàn trường để lắp đặt, thay thế và bảo trì minh bạch.",
+    "tags": ["IT support", "Networking", "Hardware", "Asset management", "Help desk"],
+    "logo": "/images/experience/san_francisco_bay_university_logo.jpeg",
+    "images": [],
+    "linkedinPost": ""
+  },
+  {
+    "title": "Thực tập LLM — Triển khai",
+    "organization": "Sofeast Ltd.",
+    "start": "2022-05",
+    "end": "2025-08",
+    "description": "Thực tập với hệ thống RAG và LLM nội bộ: truy hồi, prompt, và tích hợp mô hình vào quy trình thật. Bàn giao công cụ đánh giá và triển khai để đội có thể lặp mà vẫn giữ chất lượng.",
+    "tags": ["RAG", "LLM", "Python", "FAISS", "OpenAI API", "LLaMA", "Qwen", "Gemma", "DeepSeek", "GPT-4"],
+    "logo": "/images/experience/sofeast_logo.jpeg",
+    "images": [],
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_ai-llm-internshipexperience-share-7359236850932142082-pJ44?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
+  }
+]

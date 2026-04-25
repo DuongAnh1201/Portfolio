@@ -1,7 +1,14 @@
 import LinkedInPostLink from "@/components/LinkedInPostLink";
-import contact from "@/data/contact.json";
+import type { ContactData } from "@/lib/content";
+import type { Messages } from "@/lib/messages";
 
-export default function Contact() {
+export default function Contact({
+  contact,
+  messages,
+}: {
+  contact: ContactData;
+  messages: Messages;
+}) {
   return (
     <div>
       <p className="text-sm text-muted mb-3">{contact.intro}</p>
@@ -27,7 +34,10 @@ export default function Contact() {
           );
         })}
       </div>
-      <LinkedInPostLink href={contact.linkedinPost} />
+      <LinkedInPostLink
+        href={contact.linkedinPost}
+        linkText={messages.linkedinPost}
+      />
     </div>
   );
 }

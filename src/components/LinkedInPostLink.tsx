@@ -1,9 +1,13 @@
 interface LinkedInPostLinkProps {
   href?: string;
+  linkText?: string;
 }
 
 /** Optional link to a LinkedIn post or article; hidden when `href` is empty. */
-export default function LinkedInPostLink({ href }: LinkedInPostLinkProps) {
+export default function LinkedInPostLink({
+  href,
+  linkText = "LinkedIn post",
+}: LinkedInPostLinkProps) {
   const url = href?.trim();
   if (!url) return null;
   return (
@@ -14,7 +18,7 @@ export default function LinkedInPostLink({ href }: LinkedInPostLinkProps) {
         rel="noopener noreferrer"
         className="text-xs text-accent hover:underline"
       >
-        LinkedIn post
+        {linkText}
       </a>
     </p>
   );

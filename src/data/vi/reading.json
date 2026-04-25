@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Attention Is All You Need",
+    "author": "Vaswani et al.",
+    "status": "completed",
+    "notes": "Bài nền tảng về transformer. Ý chính: self-attention có thể thay toàn bộ tầng lặp.",
+    "link": "https://arxiv.org/abs/1706.03762",
+    "linkedinPost": ""
+  },
+  {
+    "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+    "author": "Devlin et al.",
+    "status": "reading",
+    "notes": "Bài BERT. Ý chính: pre-training trên corpus lớn rồi fine-tune tác vụ.",
+    "link": "https://arxiv.org/abs/1810.04805",
+    "linkedinPost": ""
+  },
+  {
+    "title": "GRE Pre Plus 2024",
+    "author": "ETS",
+    "status": "reading",
+    "notes": "Đang dùng GRE Pre Plus 2024. Tài liệu tham khảo tốt cho luyện GRE.",
+    "link": "",
+    "linkedinPost": ""
+  }
+]

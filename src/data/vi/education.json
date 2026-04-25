@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Cử nhân Khoa học Máy tính (B.S. CS)",
+    "organization": "San Francisco Bay University",
+    "start": "2024-09",
+    "end": "2027-12 — Dự kiến",
+    "description": "Nền tảng thuật toán, hệ thống và toán. Danh sách Dean's list",
+    "tags": ["Algorithms", "Systems", "Mathematics", "ICPC", "Robotics", "Machine Learning", "Deep Learning", "AI", "Computer Vision", "Natural Language Processing", "Robotics", "Computer Science"],
+    "logo": "/images/education/san_francisco_bay_university_logo.jpeg",
+    "images": [],
+    "linkedinPost": ""
+  },
+  {
+    "title": "Trung học phổ thông",
+    "organization": "Trường THPT chuyên Lê Hồng Phong — Nam Định",
+    "start": "2021-09",
+    "end": "2024-06",
+    "description": "Khóa 2024 — Chuyên Hóa",
+    "tags": ["Chemistry", "Chemistry Competition", "Chemistry Education", "Chemistry Experiment", "Chemistry Presentation", "Chemistry Report"],
+    "logo": "/images/education/High_school.jpg",
+    "images": [],
+    "linkedinPost": ""
+  }
+]

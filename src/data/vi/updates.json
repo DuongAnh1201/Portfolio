@@ -1,0 +1,52 @@
+[
+  {
+    "date": "2026-04-19",
+    "content": "Đang viết hai bài: phục chế ảnh chiến tranh bằng AI (đạo đức + nghiên cứu vignette) và RRT với công thức mê cung dạng vector. Repo công khai: TTorch (autograd C++/Python), Desir (trợ lý đa tác tử), stack cảm xúc thời gian thực, trực quan mê cung. Siết lại trang tối giản cho khớp thực tế.",
+    "linkedinPost": ""
+  },
+  {
+    "date": "2026-04-01",
+    "content": "Hạng ba Innovate Bay (BayHawk 2.0) với stack cháy rừng: YOLOv8 + NASA FIRMS + ngữ cảnh thời tiết, kết hợp pipeline LLM đa tác tử (PydanticAI, GPT-4o, FastAPI) cho mức độ nghiêm trọng và kế hoạch ứng phó.",
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_hackathon-innovation-ai-ugcPost-7451327678105960448-i3nS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
+  },
+  {
+    "date": "2026-02",
+    "content": "Thắng ThinkNext 2026 với Uniflow—đồng phi hành sự nghiệp PydanticAI cho SFBU: agent mục tiêu + CV, RAG môn/sự kiện, và phỏng vấn giả lập thoại/giọng với phản hồi kiểu STAR (demo Streamlit).",
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_thinknext2026-hackathon-winner-activity-7458211692199403520-XDx1?utm_source=share&utm_medium=member_desktop"
+  },
+  {
+    "date": "2026-03-23",
+    "content": "Cuối tuần HackHayward: KryptosProof—đa tác tử dùng công cụ tấn công thật (sqlmap/Nuclei/FFUF), sandbox Docker, bảng điều khiển trực tiếp, báo cáo có chữ ký cho góc bảo mật vibe-coding.",
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_hackathon-hackhayward-multiagents-ugcPost-7442192567087280128-sqNu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
+  },
+  {
+    "date": "2025-11",
+    "content": "Thi ICPC Pacific Northwest 2025 (Division 2). Làm chủ nhiệm Câu lạc bộ Robot năm nay, vừa giữ môn và dự án build.",
+    "linkedinPost": ""
+  },
+  {
+    "date": "2025-11-18",
+    "content": "Gia nhập Quiche (sàn ADU) với tư cách sáng lập—tập trung AI/DevOps: MCP server truy hồi ngữ cảnh, thiết kế trợ lý đa tác tử, và GCP (Compute Engine, Cloud Run, Cloud SQL) cho triển khai sát sản xuất.",
+    "linkedinPost": ""
+  },
+  {
+    "date": "2025-10-28",
+    "content": "Hạng hai BayHack / Innovate Bay (BayHawk 1.0) với Bit for Bit: chụp biên lai điện thoại → MongoDB có cấu trúc + lớp trợ lý tồn kho cho nhóm nhỏ (OpenAI API, FastAPI, Node, Python).",
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_bayhack-hackathon-ai-activity-7390803100921487360-xhSj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
+  },
+  {
+    "date": "2025-09-12",
+    "content": "Bắt đầu trợ lý sinh viên phòng CNTT SFBU—hỗ trợ tuyến đầu cho ticket phần cứng/phần mềm/mạng và theo dõi tài sản toàn trường.",
+    "linkedinPost": ""
+  },
+  {
+    "date": "2025-08-19",
+    "content": "Kết thúc thực tập LLM ở Sofeast (5/2022–8/2025): hệ RAG/LLM nội bộ, công cụ đánh giá & triển khai, đưa mô hình vào quy trình kinh doanh thật.",
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_ai-llm-internshipexperience-share-7359236850932142082-pJ44?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
+  },
+  {
+    "date": "2025-02-16",
+    "content": "Top 3 SFBU IEEE Mind Sparks với BleuLaMuse—chatbot tuyển dụng GPT + FAISS + Streamlit, backend module để mở rộng lên cloud sau.",
+    "linkedinPost": ""
+  }
+]

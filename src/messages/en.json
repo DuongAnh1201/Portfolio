@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "projects": "Projects",
+    "writing": "Writing",
+    "reading": "Reading",
+    "other": "Other",
+    "updates": "Now",
+    "contact": "Contact"
+  },
+  "footer": "Built with simplicity in mind.",
+  "langSwitcher": { "en": "English", "vi": "Tiếng Việt", "label": "Language" },
+  "linkedinPost": "LinkedIn post",
+  "expandable": { "showLess": "show less", "seeMore": "see more... ({n} more)" },
+  "readingStatus": { "reading": "Reading", "completed": "Done", "to-read": "To Read" },
+  "timeline": { "present": "Present" }
+}
