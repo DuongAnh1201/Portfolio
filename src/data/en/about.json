@@ -5,6 +5,7 @@
   "bio": [
     "I'm Duong Anh (Tom) Nguyen, a computer science student at San Francisco Bay University. I care about robotics, machine learning, and how AI is built and deployed in the real world.",
     "Right now I'm an AI engineer and founding member at Quiche (ADU Marketplace), a student assistant in the university IT department, and president of the Robotics Club (2026).",
+    "I just be certified as a Professional in Agentic AI by NVIDIA",
     "Previously I interned on RAG and LLM projects—shipping internal AI systems end to end for a business setting.",
     "I'm writing a paper on the ethics of using AI to restore or alter historical war imagery: what we gain, what we risk, and who decides.",
     "On the side I'm building TTorch, a small PyTorch-style deep learning framework in C++ from scratch, to understand training and autograd at the metal level—not just the API.",

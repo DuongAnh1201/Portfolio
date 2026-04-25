@@ -1,5 +1,16 @@
 [
   {
+    "title": "NVIDIA Certified Professional: Agentic AI",
+    "organization": "NVIDIA",
+    "start": "2026-04",
+    "end": "2028-03",
+    "description": "Đã được cấp chứng chỉ Professional in Agentic AI bởi NVIDIA",
+    "tags": ["NVIDIA", "Agentic AI", "Professional", "Certification", "NVIDIA Certified Professional: Agentic AI"],
+    "logo": "/images/experience/nvidia_logo.png",
+    "images": [],
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_nvidiagtc-agenticai-ieee-ugcPost-7440567765272416256-TrGl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
+  },
+  {
     "title": "Hạng 3 — Phát hiện & ứng phó cháy rừng",
     "organization": "Innovate Bay (BayHawk 2.0)",
     "start": "2026-04",
@@ -29,12 +40,12 @@
     "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_hackathon-hackhayward-multiagents-ugcPost-7442192567087280128-sqNu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
   },
   {
-    "title": "Thắng — Uniflow (lộ trình sự nghiệp AI cho SFBU)",
+    "title": "Winner — Uniflow (lộ trình sự nghiệp AI cho SFBU)",
     "organization": "ThinkNext 2026",
     "start": "2026-03",
     "end": "2026-03",
-    "description": "Đồng phi hành sự nghiệp cho sinh viên SFBU: điều phối PydanticAI với agent mục tiêu và góp ý CV, RAG môn/sự kiện với embedding + vector search, agent phỏng vấn ảo thoại/giọng (TTS/STT) phản hồi theo kiểu STAR.",
-    "tags": ["Hackathon", "PydanticAI", "RAG", "OpenAI", "TTS", "STT", "Streamlit", "SFBU", "Career"],
+    "description": "Đồng hành sự nghiệp cho sinh viên SFBU: xây dựng một điều phối viên bằng PydanticAI với agent mục tiêu và góp ý CV, RAG môn học/sự kiện với embedding + vector search, agent phỏng vấn ảo thoại/giọng (TTS/STT) phản hồi theo kiểu STAR.",
+    "tags": ["Hackathon", "PydanticAI", "RAG", "OpenAI", "TTS", "STT", "Streamlit", "SFBU", "Career", "ThinkNext 2026", "Winner"],
     "logo": "/images/other/san_francisco_bay_university_logo.jpeg",
     "images": ["/images/other/ThinkNext2026/ThinkNext2026.jpg"],
     "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_thinknext2026-hackathon-winner-activity-7458211692199403520-XDx1?utm_source=share&utm_medium=member_desktop"
