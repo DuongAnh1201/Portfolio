@@ -1,19 +1,17 @@
 {
   "name": "Duong Anh (Tom) Nguyen",
   "avatar": "/images/IMG_4842.JPG",
-  "tagline": "CS student · robotics · ML · building things from first principles",
+  "tagline": "CS student · LLMs · agents · Robotics · shipping AI systems end to end",
   "bio": [
-    "I'm Duong Anh (Tom) Nguyen, a computer science student at San Francisco Bay University. I care about robotics, machine learning, and how AI is built and deployed in the real world.",
-    "Right now I'm an AI engineer and founding member at Quiche (ADU Marketplace), a student assistant in the university IT department, and president of the Robotics Club (2026).",
-    "I just be certified as a Professional in Agentic AI by NVIDIA",
-    "Previously I interned on RAG and LLM projects—shipping internal AI systems end to end for a business setting.",
-    "I'm writing a paper on the ethics of using AI to restore or alter historical war imagery: what we gain, what we risk, and who decides.",
-    "On the side I'm building TTorch, a small PyTorch-style deep learning framework in C++ from scratch, to understand training and autograd at the metal level—not just the API.",
-    "Long term I want to work where robotics, ML, and responsible AI overlap. I'm especially interested in AI ethics from an engineer's perspective: clear tradeoffs, not slogans.",
-    "I attended ICPC Pacific Northwest Regional Contest 2025 Division 2",
-    "I learn by building, think by writing, and try to share what I figure out along the way.",
-    "Stay foolish, stay hungry - Steve Jobs",
-    "The difficulty exists because you have the capability to solve it"
+    "I'm Duong Anh (Tom) Nguyen, a B.S. Computer Science student at San Francisco Bay University (GPA 3.85). I focus on LLMs, retrieval, multi-agent systems, and production deployments—not just demos.",
+    "Day to day I work in Python with LangChain-style patterns, vector indexes (e.g. FAISS), GCP managed services, FastAPI-style APIs, and observability so failures are visible—not silent.",
+    "I'm a founding member and AI engineer at Quiche, Inc.: MCP servers so features pull the right context on demand, multi-agent routing for our assistant (roles, orchestration, retrieval), and GCP on Compute Engine, Cloud Run, and Cloud SQL so workloads can scale beyond my laptop.",
+    "I'm IT student staff at SFBU: Tier-1 diagnostics for hardware, software, and classroom-network issues—ticket triage, quick fixes, escalations when needed—and a digital inventory of IT assets so swaps, repairs, and deployments stay traceable.",
+    "At Sofeast Ltd. (LLM Research & Implementation, Feb–Apr 2025) I shipped a LangChain + FAISS RAG pipeline for document Q&A, benchmarked open-source vs. proprietary LLMs on latency and cost, and tightened prompts and retrieval settings to cut hallucinations before outputs reached users.",
+    "Outside class I'm building Desir (voice-first assistant on OpenAI Realtime API, orchestrator plus specialist agents, React/Vite + Python WebSockets + Pydantic AI) and TTorch (C++/pybind11 tensor + autograd core with a pip-installable Python surface).",
+    "I'm NVIDIA Certified Professional — Agentic AI. Recent placings include Top 3 at the SFBU IEEE NVIDIA GTC Hackathon 2025 (BleuLaMuse) and 1st place at ThinkNext 2026 (Uniflow), plus other hackathon builds in security and disaster-response ML.",
+    "I learn by building, write to think clearly, and share what I figure out along the way.",
+    "Stay hungry, stay foolish — Steve Jobs"
   ],
   "linkedinPost": "",
   "links": [

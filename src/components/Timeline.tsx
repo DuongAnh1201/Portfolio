@@ -9,7 +9,8 @@ export interface TimelineEntry {
   organization: string;
   start: string;
   end: string;
-  description: string;
+  /** Plain paragraph (e.g. education). Use string[] for resume-style bullets (experience, other). */
+  description: string | string[];
   tags: string[];
   /** School/org mark — shown left of the organization name (e.g. `/images/education/sfbu-logo.png`) */
   logo?: string;
@@ -91,8 +92,20 @@ function TimelineItem({
         <p className="text-sm text-muted">{entry.organization}</p>
       </div>
 
-      {entry.description && (
-        <p className="text-xs text-muted/80 mt-1 leading-relaxed">{entry.description}</p>
+      {typeof entry.description === "string" ? (
+        entry.description ? (
+          <p className="text-xs text-muted/80 mt-1 leading-relaxed">{entry.description}</p>
+        ) : null
+      ) : (
+        entry.description.length > 0 && (
+          <ul className="mt-1.5 list-disc list-outside pl-5 space-y-1 text-xs text-muted/80 leading-relaxed marker:text-muted">
+            {entry.description.map((line, i) => (
+              <li key={i} className="pl-0.5">
+                {line}
+              </li>
+            ))}
+          </ul>
+        )
       )}
       {entry.tags.length > 0 && (
         <p className="text-xs text-muted/60 mt-1">{entry.tags.join(" · ")}</p>

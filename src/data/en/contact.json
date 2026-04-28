@@ -3,6 +3,7 @@
   "linkedinPost": "",
   "email": "tomnguyen6766@gmail.com",
   "links": [
+    { "label": "Website", "url": "https://tomnguyen.work" },
     { "label": "GitHub", "url": "https://github.com/DuongAnh1201" },
     { "label": "LinkedIn", "url": "https://www.linkedin.com/in/anh-nguyen-203105339/" }
   ]

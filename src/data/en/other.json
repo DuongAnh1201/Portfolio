@@ -4,9 +4,13 @@
     "organization": "NVIDIA",
     "start": "2026-04",
     "end": "2028-03",
-    "description": "I just be certified as a Professional in Agentic AI by NVIDIA",
+    "description": [
+      "Earned NVIDIA Certified Professional — Agentic AI: multi-agent design patterns, tool use, orchestration, evaluation, and responsible deployment concepts aligned with NVIDIA’s agentic AI curriculum.",
+      "Completed hands-on assessments covering agent lifecycle design, retrieval-augmented behaviors, and operational monitoring considerations.",
+      "Credential valid through Mar 2028; complements hands-on work shipping MCP and multi-agent stacks in production."
+    ],
     "tags": ["NVIDIA", "Agentic AI", "Professional", "Certification"],
-    "logo": "images/other/NVIDIACert/nvidia_logo.jpeg",
+    "logo": "/images/other/NVIDIACert/nvidia_logo.jpeg",
     "images": [],
     "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_nvidiagtc-agenticai-ieee-ugcPost-7440567765272416256-TrGl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
   },
@@ -15,7 +19,13 @@
     "organization": "Innovate Bay (BayHawk 2.0)",
     "start": "2026-04",
     "end": "2026-04",
-    "description": "Weekend build: combine live camera fire detection (YOLOv8), NASA FIRMS thermal hotspots, and weather context so the system can corroborate or dismiss alerts, reason with an LLM, label severity from low to critical, and suggest response steps. Implemented with PydanticAI + GPT-4o, async orchestration, and a FastAPI service tying sensing → analysis → action.",
+    "description": [
+      "Weekend build at Verizon Innovation Lab context: fused live camera smoke/flame detection (YOLOv8) with NASA FIRMS thermal hotspots and local weather feeds so alerts could be corroborated or dismissed.",
+      "Added LLM reasoning layers to summarize evidence, assign severity (low → critical), and propose concrete response steps instead of raw scores only.",
+      "Backend built with FastAPI, async task orchestration, and PydanticAI agents coordinating specialized prompts.",
+      "Frontend stack: Vite + Tailwind for rapid UI iteration; PostgreSQL for incident logs; Dockerized services for reproducible deploys; CI/CD toward Vercel-hosted assets.",
+      "Demonstrated end-to-end flow from sensor ingestion to operator-facing dashboard within hackathon time constraints."
+    ],
     "tags": ["Hackathon", "Multi-agent AI", "YOLOv8", "NASA FIRMS", "FastAPI", "PydanticAI", "GPT-4o", "Innovate Bay", "BayHawk 2.0", "Verizon Innovation Lab", "FastAPI", "Python", "Vite", "Tailwind CSS", "PostgreSQL", "Docker", "GitHub", "Git", "GitHub CI/CD", "Vercel"],
     "logo": "",
     "images": [
@@ -30,7 +40,12 @@
     "organization": "HackHayward (Cal State East Bay)",
     "start": "2026-03",
     "end": "2026-03",
-    "description": "24-hour build for the “vibe coding” era: an AI red-team that hits your app with real tools (e.g. sqlmap, Nuclei, FFUF), keeps only reproducible findings, drafts and checks fixes, and ships a SHA-256–signed report. Multi-agent design, Docker sandbox, live dashboard, and attestation story—security without hand-wavy noise.",
+    "description": [
+      "24-hour security sprint: multi-agent “red team” that launches real scanners (sqlmap, Nuclei, FFUF), deduplicates noisy output, and focuses on reproducible vulns only.",
+      "Automatic remediation drafts plus verifier passes before writing findings into a SHA-256–signed PDF-style report for authenticity.",
+      "Docker sandbox isolated risky tooling from host machines; live dashboard streamed job progress for judges.",
+      "Lean narrative: fewer buzzwords, more evidence chains suitable for demo to engineers—not slide-only fluff."
+    ],
     "tags": ["Hackathon", "Security", "Docker", "Nuclei", "Multi-agent", "HackHayward", "KryptosProof"],
     "logo": "/images/other/HackHayward2026/UI.jpeg",
     "images": [
@@ -40,11 +55,17 @@
     "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_hackathon-hackhayward-multiagents-ugcPost-7442192567087280128-sqNu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
   },
   {
-    "title": "Winner — Uniflow (AI career path for SFBU)",
+    "title": "1st Place — Uniflow (ThinkNext 2026 · SFBU IEEE)",
     "organization": "ThinkNext 2026",
     "start": "2026-03",
     "end": "2026-03",
-    "description": "Multi-agent career copilot for San Francisco Bay University students: orchestration in PydanticAI with specialized agents for goal intake and resume critique, RAG over courses and events with embeddings + vector search, and a mock interview agent with voice/text (TTS/STT) and STAR-style feedback.",
+    "description": [
+      "Career copilot for SFBU students: intake agents capture goals and constraints; critique agents workshop resumes with structured feedback loops.",
+      "RAG stack embedded course catalogs + campus events—chunked, embedded, and retrieved via vector search so answers cite real offerings.",
+      "Mock interview lane combined OpenAI TTS/STT with STAR-style scoring prompts so users rehearse aloud or typed.",
+      "Streamlit shell for fast iteration during judging; modular agents implemented with PydanticAI orchestration patterns.",
+      "Pitch emphasized responsible personalization—clear logging when suggestions touched sensitive academic data."
+    ],
     "tags": ["Hackathon", "PydanticAI", "RAG", "OpenAI", "TTS", "STT", "Streamlit", "SFBU", "Career"],
     "logo": "/images/other/san_francisco_bay_university_logo.jpeg",
     "images": ["/images/other/ThinkNext2026/ThinkNext2026.jpg"],
@@ -55,18 +76,30 @@
     "organization": "Innovate Bay (BayHawk 1.0)",
     "start": "2025-10",
     "end": "2025-10",
-    "description": "BayHack 2025 (business-action track): capture receipts from a phone camera, extract structured fields into MongoDB, and layer an assistant so small teams can reconcile stock without spreadsheet chaos. Pitched the solution live with teammates. Stack: OpenAI API, MongoDB, Python, Node.js, FastAPI.",
+    "description": [
+      "BayHack 2025 business-action track: mobile receipt capture → OCR extraction → structured MongoDB records → conversational assistant for reconciling stock counts.",
+      "Designed prompts + retrieval guardrails so SMB owners could query inventory without exposing unrelated receipts.",
+      "Full stack blended Node.js services, Python utilities for OCR glue, FastAPI gateways, and OpenAI APIs for natural-language reconciliation.",
+      "Live pitch + demo with teammates showcasing inventory deltas versus spreadsheet chaos.",
+      "Lessons logged on schema discipline—inventory reconciliation fails quietly when receipt categories drift."
+    ],
     "tags": ["Hackathon", "BayHack", "OpenAI API", "MongoDB", "FastAPI", "Node.js", "Python", "OCR", "Inventory"],
     "logo": "",
     "images": [],
     "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_bayhack-hackathon-ai-activity-7390803100921487360-xhSj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
   },
   {
-    "title": "Top 3 — BleuLaMuse (career chatbot)",
+    "title": "Top 3 — BleuLaMuse · NVIDIA GTC Hackathon 2025 (SFBU IEEE)",
     "organization": "SFBU IEEE — Mind Sparks",
     "start": "2025-02",
     "end": "2025-02",
-    "description": "IEEE campus competition: conversational career guidance on top of structured student data, with FAISS-backed retrieval for course and pathway suggestions, Streamlit for the interface, and prompt tuning on domain-specific material. Designed to stay modular before a wider cloud rollout.",
+    "description": [
+      "IEEE campus competition build: conversational career advisor grounded in curated student datasets—not generic ChatGPT answers.",
+      "FAISS-backed retrieval mapped natural-language questions to course suggestions and pathway narratives within academic policy constraints.",
+      "Streamlit UI prioritized advisor workflows (filters, clarifying questions) instead of infinite chat scroll.",
+      "Prompt tuning cycles focused on reducing hallucinated course codes while encouraging actionable next steps.",
+      "Architecture stayed modular so embeddings + vector DB could migrate from local prototypes to cloud Postgres/pgvector later."
+    ],
     "tags": ["IEEE", "GPT", "FAISS", "Streamlit", "Python", "SFBU", "Career", "Chatbot"],
     "logo": "",
     "images": [],

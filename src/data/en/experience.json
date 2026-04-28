@@ -1,33 +1,50 @@
 [
   {
-    "title": "Founding Member & AI Engineer - AI DevOps & ML",
+    "title": "Founding Member, AI Engineer",
     "organization": "Quiche, Inc. (ADU Marketplace)",
     "start": "2025-11",
     "end": "",
-    "description": "Built an MCP (Model Context Protocol) server so product features can pull the right context on demand. Designed a multi-agent stack for a smart assistant—roles, orchestration, and retrieval—and stood up Google Cloud (Compute Engine, Cloud Run, Cloud SQL) for deployments that can scale in production.",
-    "tags": ["MCP", "Python", "Multi-agent AI", "Google Cloud", "Cloud Run", "Cloud SQL"],
+    "description": [
+      "Architected an MCP (Model Context Protocol) server so AI features request structured context from internal tools and data stores instead of hard-coding prompts.",
+      "Owned integration work between MCP surfaces and product APIs—schemas for tools, auth boundaries, and failure modes when retrieval misses.",
+      "Designed a multi-agent stack for a smart assistant: explicit agent roles, orchestration rules, and retrieval pipelines that feed grounded answers.",
+      "Provisioned GCP infrastructure—Compute Engine for workloads that need persistent VMs, Cloud Run for HTTP services, Cloud SQL for relational state—with an eye toward cost and cold-start behavior.",
+      "Iterated on chunking, indexing, and evaluation loops as new assistant capabilities shipped."
+    ],
+    "tags": ["MCP", "Python", "Multi-agent AI", "GCP", "Compute Engine", "Cloud Run", "Cloud SQL", "Pydantic AI", "FastAPI"],
     "logo": "/images/experience/quiche_logo.jpeg",
     "images": [],
     "linkedinPost": ""
   },
   {
-    "title": "Student Assistant, IT Department",
-    "organization": "San Francisco Bay University",
+    "title": "IT Student Staff",
+    "organization": "San Francisco Bay University — IT Department",
     "start": "2025-09",
     "end": "",
-    "description": "First-line support for hardware, software, and network issues—triage tickets and fix what we can on the spot so classes and staff stay online. Helped track IT assets across campus so deployments, swaps, and maintenance stay visible.",
+    "description": [
+      "Delivered Tier-1 diagnostic support for desktops, laptops, classroom AV, printers, Wi-Fi, and software accounts—logging tickets, reproducing issues, and resolving or escalating with clear notes.",
+      "Supported faculty and staff during class hours: quick swaps for faulty gear, password resets, VPN and SSO troubleshooting, and coordination with vendors when hardware needed replacement.",
+      "Maintained a digital inventory of IT assets—serial numbers, deployment locations, warranty status—so refreshes, audits, and maintenance cycles stay accountable.",
+      "Helped track lifecycle events (deploy, retire, repair) so procurement and classroom readiness stay aligned."
+    ],
     "tags": ["IT support", "Networking", "Hardware", "Asset management", "Help desk"],
     "logo": "/images/experience/san_francisco_bay_university_logo.jpeg",
     "images": [],
     "linkedinPost": ""
   },
   {
-    "title": "LLM Intern — Implementation",
+    "title": "LLM Research and Implementation Intern",
     "organization": "Sofeast Ltd.",
-    "start": "2022-05",
+    "start": "2025-05",
     "end": "2025-08",
-    "description": "Interned on internal RAG and LLM systems: retrieval, prompting, and wiring models into real workflows. Shipped tooling around evaluation and deployment so teams could iterate without losing track of quality.",
-    "tags": ["RAG", "LLM", "Python", "FAISS", "OpenAI API", "LLaMA", "Qwen", "Gemma", "DeepSeek", "GPT-4"],
+    "description": [
+      "Built a  FAISS RAG pipeline that ingests internal documents and answers BI-style questions with citations instead of manual lookup.",
+      "Benchmarked open-source LLMs (Llama 3, Mistral, Gemma, Qwen, Deepseek) against proprietary APIs on latency, token cost, and answer quality for recurring query templates.",
+      "Implemented evaluation passes—spot checks and scripted prompts—to compare models before promoting a configuration.",
+      "Refined prompt templates and retrieval settings (top-k, filters, stop sequences) to reduce hallucinations and unstable formatting in production replies.",
+      "Documented pipeline configuration and failure cases so full-time engineers could extend or debug the stack after the internship."
+    ],
+    "tags": ["RAG", "LangChain", "FAISS", "LLM", "Python", "Llama", "Mistral", "Prompt engineering"],
     "logo": "/images/experience/sofeast_logo.jpeg",
     "images": [],
     "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_ai-llm-internshipexperience-share-7359236850932142082-pJ44?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"

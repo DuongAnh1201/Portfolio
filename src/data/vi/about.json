@@ -1,18 +1,17 @@
 {
   "name": "Dương Ảnh (Tom) Nguyễn",
   "avatar": "/images/IMG_4842.JPG",
-  "tagline": "Sinh viên CNTT · robot · ML · xây dựng từ nguyên lý cơ bản",
+  "tagline": "Sinh viên CNTT · LLM · agent · Robotics · triển khai AI trọn pipeline",
   "bio": [
-    "Mình là Dương Ảnh (Tom) Nguyễn, sinh viên khoa khoa học máy tính tại San Francisco Bay University. Mình quan tâm tới robot, machine learning, và cách xây dựng cũng như triển khai AI trong thực tế.",
-    "Hiện mình là kỹ sư AI và thành viên sáng lập tại Quiche (ADU Marketplace), trợ lý cho phòng CNTT của trường, và chủ nhiệm Câu lạc bộ Robot (2026).",
-    "Trước đây mình thực tập các dự án RAG và LLM—triển khai hệ thống AI nội bộ trọn vẹn cho môi trường doanh nghiệp.",
-    "Mình đang viết một bài nghiên cứu về đạo đức khi dùng AI để phục chế hoặc thay đổi hình ảnh chiến tranh lịch sử: ta được gì, rủi ro gì, và ai quyết định.",
-    "Ngoài giờ mình đang xây TTorch, một framework deep learning phong cách PyTorch bằng C++ từ đầu, để hiểu training và autograd ở tầng thấp—không chỉ gọi API.",
-    "Dài hạn mình muốn làm việc ở giao điểm robot, ML và AI có trách nhiệm. Mình đặc biệt quan tâm đạo đức AI theo góc nhìn kỹ sư: đánh đổi rõ ràng, không chỉ khẩu hiệu.",
-    "Mình đã thi ICPC Pacific Northwest Regional 2025 Division 2",
-    "Mình học bằng cách làm, suy nghĩ bằng cách viết, và cố gắng chia sẻ những gì mình tìm ra dọc đường.",
-    "Stay foolish, stay hungry - Steve Jobs",
-    "Khó khăn tồn tại vì bạn có khả năng vượt qua nó"
+    "Mình là Dương Ảnh (Tom) Nguyễn, sinh viên ngành Khoa học Máy tính (B.S.) tại San Francisco Bay University (GPA 3,85). Mình tập trung vào LLM, truy hồi ngữ cảnh, hệ đa tác tử và triển khai thực tế—không chỉ demo.",
+    "Hằng ngày mình làm việc chủ yếu với Python, các pattern kiểu LangChain, chỉ mục vector (ví dụ FAISS), dịch vụ GCP, API kiểu FastAPI và observability để lỗi nhìn thấy được—không im lặng.",
+    "Mình là thành viên sáng lập và kỹ sư AI tại Quiche, Inc.: MCP để tính năng lấy đúng ngữ cảnh khi cần, định tuyến đa tác tử cho trợ lý (vai trò, điều phối, retrieval), và hạ tầng GCP trên Compute Engine, Cloud Run, Cloud SQL để workload mở rộng ngoài máy cá nhân.",
+    "Mình là trợ lý IT sinh viên tại SFBU: chẩn đoán tầng một cho phần cứng, phần mềm và mạng lớp học—tiếp nhận ticket, xử lý nhanh, chuyển cấp khi cần—và theo dõi kho tài sản IT để thay thế, sửa chữa và triển khai luôn có vết.",
+    "Tại Sofeast Ltd. (Nghiên cứu & triển khai LLM, tháng 2–4/2025) mình bàn giao pipeline RAG LangChain + FAISS cho Q&A tài liệu, benchmark LLM mã nguồn mở và độc quyền về độ trễ và chi phí, và siết prompt cùng cấu hình retrieval để giảm ảo giác trước khi đến người dùng.",
+    "Ngoài giờ mình phát triển Desir (trợ lý ưu tiên giọng nói trên OpenAI Realtime API, orchestrator và agent chuyên biệt, React/Vite + Python WebSocket + Pydantic AI) và TTorch (lõi tensor + autograd C++/pybind11, Python cài qua pip).",
+    "Mình có chứng chỉ NVIDIA Certified Professional — Agentic AI. Gần đây có Top 3 SFBU IEEE NVIDIA GTC Hackathon 2025 (BleuLaMuse), hạng nhất ThinkNext 2026 (Uniflow), cùng các dự án hackathon khác về bảo mật và ML ứng phó thảm họa.",
+    "Mình học bằng cách làm, viết để suy nghĩ rõ, và cố chia sẻ những gì mình học được.",
+    "Stay hungry, stay foolish — Steve Jobs"
   ],
   "linkedinPost": "",
   "links": [

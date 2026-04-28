@@ -1,40 +1,73 @@
 [
-  
-    {
-      "title": "TTorch",
-      "description": "A lightweight tensor and automatic differentiation library written in C++ with Python bindings. It explores the internal architecture of modern deep learning frameworks by implementing tensor operations, an autograd engine, and modular compute kernels, with the goal of building a minimal educational backend similar to PyTorch.",
-      "link": "https://github.com/DuongAnh1201/TTorch",
-      "image": "",
-      "tags": ["C++", "Python", "Autograd", "Deep Learning", "Systems", "PyTorch", "Vectorized Autograd"],
-      "featured": true,
-      "linkedinPost": ""
-    },
-
-    {
-        "title": "Desir — LLM-Powered Virtual Assistant",
-        "description": "An agentic virtual assistant that uses LLMs as a core reasoning engine combined with Siri-like permission-based action execution. Built on a delegation architecture with an orchestrator agent routing tasks to specialized sub-agents, the system emphasizes security, ethical execution, and real-world action capabilities beyond traditional chatbots.",
-        "link": "https://github.com/DuongAnh1201/desir",
-        "image": "",
-        "tags": ["LLM", "Agents", "AI Assistant", "Pydantic", "Voice Interface", "Python", "FastAPI", "Docker", "PostgreSQL", "GitHub", "Git", "GitHub CI/CD", "Delegation Architecture", "Orchestrator Agent", "Sub-agents", "Ethical Execution", "Real-world Action Capabilities", "OpenAI API", "LLM", "Agents", "AI Assistant", "Pydantic", "Voice Interface", "Python", "FastAPI", "Docker", "PostgreSQL", "GitHub", "Git", "GitHub CI/CD", "Delegation Architecture", "Orchestrator Agent", "Sub-agents", "Ethical Execution", "Real-world Action Capabilities"],
-        "featured": true,
-        "linkedinPost": ""
-    },
-    {
-        "title": "Real-Time Human Emotion Detection Pipeline",
-        "description": "A two-stage real-time emotion recognition system that detects faces from a live webcam feed using YOLOv11n and classifies one of seven emotions with a custom-trained logistic regression model. The pipeline uses ViT-B/16 for 768-dimensional feature extraction and a from-scratch PyTorch classifier trained with L-BFGS, with manual evaluation metrics and a fully modular training and deployment workflow.",
-        "link": "https://github.com/DuongAnh1201/Emotional-Detection-Model",
-        "image": "",
-        "tags": ["Computer Vision", "PyTorch", "YOLO", "ViT", "Logistic Regression", "Real-time Emotion Detection", "Webcam Feed", "Face Detection", "Emotion Classification", "Custom-trained Model", "L-BFGS", "Manual Evaluation Metrics", "Modular Training and Deployment Workflow", "Transfer Learning"],
-        "featured": true,
-        "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_machinelearning-computervision-pytorch-ugcPost-7447686403943165952-2yFQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
-    },
   {
-      "title": "Maze-Solving Algorithms Visualizer",
-      "description": "An interactive maze-solving visualization tool that demonstrates and compares pathfinding algorithms in real time. Users can choose from multiple maze layouts and watch BFS, Flood Fill, and a randomized search algorithm explore and solve them step by step, making it easy to compare performance, efficiency, and solution paths.",
-      "link": "https://github.com/DuongAnh1201/CS455_Project",
-      "image": "",
-      "tags": ["Algorithms", "Python", "React", "JavaScript", "Visualization"],
-      "featured": true,
-      "linkedinPost": ""
+    "title": "Desir — LLM-Powered Virtual Assistant",
+    "description": [
+      "Built a real-time, voice-driven assistant on OpenAI Realtime API—streaming speech input with low-latency paths toward tool calls and UI updates.",
+      "Designed an orchestrator that routes user intent to specialist sub-agents (email, calendar, web search, messaging, knowledge base) with explicit handoffs instead of one monolithic prompt.",
+      "Implemented permission-style gates so sensitive actions (send mail, run OS automation) only fire after user confirmation policies.",
+      "Shipped a React/Vite SPA talking to a Python WebSocket backend; orchestration implemented with Pydantic AI for structured outputs and safer tool schemas.",
+      "Integrated third-party APIs—Resend for mail, Serper for search—and macOS automation hooks where local actions are required.",
+      "Added Logfire traces across orchestrator steps to debug multi-turn failures without guessing which agent dropped context."
+    ],
+    "link": "https://github.com/DuongAnh1201/desir",
+    "image": "",
+    "tags": [
+      "OpenAI Realtime API",
+      "Pydantic AI",
+      "React",
+      "Vite",
+      "Python",
+      "WebSocket",
+      "Multi-agent",
+      "LLM"
+    ],
+    "featured": true,
+    "linkedinPost": ""
+  },
+  {
+    "title": "TTorch — Lightweight Deep Learning Framework (C++/Python)",
+    "description": [
+      "Implemented a tensor library and autograd engine in C++ with Python bindings—mirroring PyTorch-style tensors, views, and backward passes for educational clarity.",
+      "Built a dynamic computation graph with modular gradient primitives (Add, Multiply, ReLU, Dot) so new ops plug in without rewriting the whole engine.",
+      "Implemented reverse-mode autodiff with correct topological ordering for multi-use tensors.",
+      "Packaged the project as `pip install ttorch`: Python façade → pybind11 bindings → C++ kernels → autograd, making it easy to profile each layer.",
+      "Added correctness-focused tests comparing numerical gradients against analytic grads for core ops.",
+      "Stretch goal: keep the codebase readable enough to study training mechanics without hiding everything behind CUDA kernels."
+    ],
+    "link": "https://github.com/DuongAnh1201/TTorch",
+    "image": "",
+    "tags": ["C++", "Python", "pybind11", "Autograd", "Deep Learning", "PyPI"],
+    "featured": true,
+    "linkedinPost": ""
+  },
+  {
+    "title": "Real-Time Human Emotion Detection Pipeline",
+    "description": [
+      "Two-stage CV pipeline: YOLOv11n finds faces in a webcam stream; a shallow classifier predicts seven emotion labels per crop.",
+      "Used ViT-B/16 embeddings (768-D) as frozen features, feeding a custom logistic-regression head implemented in PyTorch and trained with L-BFGS.",
+      "Built data loaders and label hygiene checks so train/val splits stay stratified across emotion classes.",
+      "Implemented a real-time inference loop with frame skipping options for slower laptops and overlay rendering for qualitative debugging.",
+      "Recorded offline metrics (accuracy, confusion matrix) alongside qualitative checks on challenging lighting."
+    ],
+    "link": "https://github.com/DuongAnh1201/Emotional-Detection-Model",
+    "image": "",
+    "tags": ["Computer Vision", "PyTorch", "YOLO", "ViT", "Real-time"],
+    "featured": false,
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_machinelearning-computervision-pytorch-ugcPost-7447686403943165952-2yFQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
+  },
+  {
+    "title": "Maze-Solving Algorithms Visualizer",
+    "description": [
+      "Interactive React/JavaScript front-end that renders mazes and animates search frontiers as algorithms expand nodes.",
+      "Implemented BFS, flood fill, and a randomized search variant with identical interfaces so students can compare behavior apples-to-apples.",
+      "Supports configurable grid sizes and procedural wall layouts with deterministic seeds for reproducible demos.",
+      "Surfaces stats live—nodes expanded, path length, wall-clock time—to compare asymptotics versus intuition.",
+      "Python tooling for batch experiments where needed; UI emphasizes step-by-step pedagogy over black-box runs."
+    ],
+    "link": "https://github.com/DuongAnh1201/CS455_Project",
+    "image": "",
+    "tags": ["Algorithms", "Python", "React", "JavaScript", "Visualization"],
+    "featured": false,
+    "linkedinPost": ""
   }
 ]

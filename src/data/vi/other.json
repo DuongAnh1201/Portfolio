@@ -4,9 +4,13 @@
     "organization": "NVIDIA",
     "start": "2026-04",
     "end": "2028-03",
-    "description": "Đã được cấp chứng chỉ Professional in Agentic AI bởi NVIDIA",
+    "description": [
+      "Đạt chứng chỉ NVIDIA Certified Professional — Agentic AI: mô hình thiết kế đa tác tử, dùng tool, điều phối, đánh giá và triển khai có trách nhiệm theo chương trình NVIDIA.",
+      "Hoàn thành phần thực hành kiểm tra vòng đời agent, hành vi gắn retrieval và cân nhắc giám sát vận hành.",
+      "Chứng chỉ hiệu lực đến tháng 3/2028; bổ sung cho công việc triển khai MCP và đa tác tử thực tế."
+    ],
     "tags": ["NVIDIA", "Agentic AI", "Professional", "Certification", "NVIDIA Certified Professional: Agentic AI"],
-    "logo": "images/other/NVIDIACert/nvidia_logo.jpeg",
+    "logo": "/images/other/NVIDIACert/nvidia_logo.jpeg",
     "images": [],
     "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_nvidiagtc-agenticai-ieee-ugcPost-7440567765272416256-TrGl?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
   },
@@ -15,7 +19,13 @@
     "organization": "Innovate Bay (BayHawk 2.0)",
     "start": "2026-04",
     "end": "2026-04",
-    "description": "Build cuối tuần: kết hợp phát hiện lửa từ camera (YOLOv8), điểm nóng NASA FIRMS và ngữ cảnh thời tiết để cùng cố hoặc bác bỏ cảnh báo, lý giải bằng LLM, gán mức từ thấp tới nghiêm trọng, và gợi ý bước ứng phó. PydanticAI + GPT-4o, async orchestration, FastAPI nối cảm biến → phân tích → hành động.",
+    "description": [
+      "Build cuối tuần trong bối cảnh Verizon Innovation Lab: kết hợp phát hiện khói/lửa từ camera (YOLOv8) với điểm nóng NASA FIRMS và dữ liệu thời tiết để củng cố hoặc bác bỏ cảnh báo.",
+      "Thêm lớp LLM để tóm tắt chứng cứ, gán mức nghiêm trọng (thấp → critical) và đề xuất bước ứng phó cụ thể.",
+      "Backend FastAPI, orchestration bất đồng bộ, agent PydanticAI cho prompt chuyên biệt.",
+      "Frontend Vite + Tailwind; PostgreSQL cho nhật ký sự cố; Docker để deploy lặp lại được; CI/CD hướng tới asset trên Vercel.",
+      "Demo trọn luồng từ cảm biến tới dashboard cho người vận hành trong thời gian hackathon."
+    ],
     "tags": ["Hackathon", "Multi-agent AI", "YOLOv8", "NASA FIRMS", "FastAPI", "PydanticAI", "GPT-4o", "Innovate Bay", "BayHawk 2.0", "Verizon Innovation Lab", "FastAPI", "Python", "Vite", "Tailwind CSS", "PostgreSQL", "Docker", "GitHub", "Git", "GitHub CI/CD", "Vercel"],
     "logo": "",
     "images": [
@@ -30,7 +40,12 @@
     "organization": "HackHayward (Cal State East Bay)",
     "start": "2026-03",
     "end": "2026-03",
-    "description": "24 giờ cho kỷ nguyên vibe-coding: AI red-team dùng công cụ thật (sqlmap, Nuclei, FFUF), chỉ giữ phát hiện tái lập được, gợi ý sửa, báo cáo có chữ ký SHA-256. Thiết kế đa tác tử, sandbox Docker, dashboard trực tiếp—bảo mật rõ ràng, không mơ hồ.",
+    "description": [
+      "Sprint bảo mật 24 giờ: red-team đa tác tử chạy công cụ thật (sqlmap, Nuclei, FFUF), khử trùng lặp và chỉ giữ lỗ hổng tái lập được.",
+      "Nháp vá tự động có bước xác minh trước khi ghi vào báo cáo định dạng PDF có chữ ký SHA-256.",
+      "Sandbox Docker cách ly công cụ nguy hiểm khỏi máy chủ; dashboard trực tiếp hiển thị tiến trình cho ban giám khảo.",
+      "Nhấn mạnh chuỗi bằng chứng kỹ thuật—ít khẩu hiệu, nhiều log tái hiện được."
+    ],
     "tags": ["Hackathon", "Security", "Docker", "Nuclei", "Multi-agent", "HackHayward", "KryptosProof"],
     "logo": "/images/other/HackHayward2026/UI.jpeg",
     "images": [
@@ -40,11 +55,17 @@
     "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_hackathon-hackhayward-multiagents-ugcPost-7442192567087280128-sqNu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
   },
   {
-    "title": "Winner — Uniflow (lộ trình sự nghiệp AI cho SFBU)",
+    "title": "Hạng nhất — Uniflow (ThinkNext 2026 · IEEE SFBU)",
     "organization": "ThinkNext 2026",
     "start": "2026-03",
     "end": "2026-03",
-    "description": "Đồng hành sự nghiệp cho sinh viên SFBU: xây dựng một điều phối viên bằng PydanticAI với agent mục tiêu và góp ý CV, RAG môn học/sự kiện với embedding + vector search, agent phỏng vấn ảo thoại/giọng (TTS/STT) phản hồi theo kiểu STAR.",
+    "description": [
+      "Đồng hành nghề nghiệp cho sinh viên SFBU: agent tiếp nhận mục tiêu và ràng buộc; agent phản hồi CV có vòng phản hồi có cấu trúc.",
+      "RAG nhúng danh mục môn + sự kiện campus—chunk, nhúng vector và truy hồi để câu trả lời trích dẫn thật.",
+      "Luồng phỏng vấn giả kết hợp TTS/STT của OpenAI với prompt chấm điểm kiểu STAR cho luyện nói hoặc gõ.",
+      "Vỏ Streamlit để lặp nhanh khi chấm; agent module hóa với pattern điều phối PydanticAI.",
+      "Phần pitch nhấn mạnh cá nhân hóa có trách nhiệm—ghi log rõ khi gợi ý chạm dữ liệu học thuật nhạy cảm."
+    ],
     "tags": ["Hackathon", "PydanticAI", "RAG", "OpenAI", "TTS", "STT", "Streamlit", "SFBU", "Career", "ThinkNext 2026", "Winner"],
     "logo": "/images/other/san_francisco_bay_university_logo.jpeg",
     "images": ["/images/other/ThinkNext2026/ThinkNext2026.jpg"],
@@ -55,18 +76,30 @@
     "organization": "Innovate Bay (BayHawk 1.0)",
     "start": "2025-10",
     "end": "2025-10",
-    "description": "BayHack 2025 (hạng mục hành động doanh nghiệp): chụp biên lai bằng điện thoại, trích trường có cấu trúc vào MongoDB, thêm lớp trợ lý để nhóm nhỏ đối chiếu tồn kho khỏi bảng tính hỗn loạn. Thuyết trình trực tiếp. Stack: OpenAI API, MongoDB, Python, Node.js, FastAPI.",
+    "description": [
+      "Hạng mục BayHack 2025: chụp biên lai trên điện thoại → OCR → MongoDB có cấu trúc → trợ lý hội thoại đối chiếu số lượng tồn.",
+      "Thiết kế prompt + guardrail retrieval để chủ SMB truy vấn kho mà không lộ biên lai không liên quan.",
+      "Full stack kết hợp dịch vụ Node.js, tiện ích Python cho OCR, cổng FastAPI và OpenAI cho đối thoại đối chiếu.",
+      "Pitch và demo trực tiếp cùng nhóm—nhấn mạnh chênh lệch so với bảng tính hỗn loạn.",
+      "Rút kinh nghiệm về kỷ luật schema—đối chiếu tồn kho dễ sai khi danh mục biên lai trôi dạt."
+    ],
     "tags": ["Hackathon", "BayHack", "OpenAI API", "MongoDB", "FastAPI", "Node.js", "Python", "OCR", "Inventory"],
     "logo": "",
     "images": [],
     "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_bayhack-hackathon-ai-activity-7390803100921487360-xhSj?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
   },
   {
-    "title": "Top 3 — BleuLaMuse (chatbot tuyển dụng)",
+    "title": "Top 3 — BleuLaMuse · NVIDIA GTC Hackathon 2025 (IEEE SFBU)",
     "organization": "SFBU IEEE — Mind Sparks",
     "start": "2025-02",
     "end": "2025-02",
-    "description": "Thi cấp trường IEEE: tư vấn nghề hội thoại trên dữ liệu sinh viên, FAISS truy hồi môn/lộ trình, Streamlit, tinh chỉnh prompt. Module để mở rộng lên cloud sau.",
+    "description": [
+      "Thi cấp trường IEEE: chatbot tư vấn nghề bám bộ dữ liệu sinh viên được chọn lọc—không phải câu trả lời chatGPT chung chung.",
+      "FAISS truy hồi ánh xạ câu hỏi tự nhiên sang gợi ý môn và lộ trình trong khung chính sách học thuật.",
+      "Giao diện Streamlit ưu tiên luồng cố vấn (bộ lọc, câu làm rõ) thay vì cuộn chat vô hạn.",
+      "Vòng tinh chỉnh prompt giảm ảo mã môn học đồng thời khuyến khích bước hành động cụ thể.",
+      "Kiến trúc module hóa để embedding + vector DB có thể chuyển từ prototype cục bộ lên cloud Postgres/pgvector sau."
+    ],
     "tags": ["IEEE", "GPT", "FAISS", "Streamlit", "Python", "SFBU", "Career", "Chatbot"],
     "logo": "",
     "images": [],

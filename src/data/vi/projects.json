@@ -1,19 +1,42 @@
 [
   {
-    "title": "TTorch",
-    "description": "Thư viện tensor nhẹ và tự động vi phân bằng C++ với binding Python. Khám phá kiến trúc nội bộ của framework deep learning hiện đại bằng cách triển khai phép tensor, engine autograd và kernel tính toán module, hướng tới backend giáo dục tối thiểu tương tự PyTorch.",
-    "link": "https://github.com/DuongAnh1201/TTorch",
+    "title": "Desir — Trợ lý ảo dùng LLM",
+    "description": [
+      "Trợ lý giọng nói thời gian thực trên OpenAI Realtime API—luồng âm thanh đầu vào với đường đi tới tool call và cập nhật UI độ trễ thấp.",
+      "Orchestrator định tuyến ý định người dùng tới các agent chuyên biệt (email, lịch, tìm web, nhắn tin, knowledge base) với bàn giao rõ ràng thay vì một prompt khối.",
+      "Cơ chế quyền: hành động nhạy cảm (gửi mail, tự động hóa OS) chỉ chạy sau khi đúng chính sách xác nhận.",
+      "SPA React/Vite nối backend Python WebSocket; điều phối với Pydantic AI để đầu ra có cấu trúc và schema tool an toàn hơn.",
+      "Tích hợp API bên thứ ba—Resend, Serper—và hook tự động hóa macOS khi cần thao tác cục bộ.",
+      "Trace Logfire qua từng bước orchestrator để debug đa lượt mà không đoán agent nào rơi ngữ cảnh."
+    ],
+    "link": "https://github.com/DuongAnh1201/desir",
     "image": "",
-    "tags": ["C++", "Python", "Autograd", "Deep Learning", "Systems", "PyTorch", "Vectorized Autograd"],
+    "tags": [
+      "OpenAI Realtime API",
+      "Pydantic AI",
+      "React",
+      "Vite",
+      "Python",
+      "WebSocket",
+      "Multi-agent",
+      "LLM"
+    ],
     "featured": true,
     "linkedinPost": ""
   },
   {
-    "title": "Desir — Trợ lý ảo dùng LLM",
-    "description": "Trợ lý đa tác tử dùng LLM làm lớp suy luận cốt lõi kết hợp thực thi hành động theo quyền giống Siri. Xây trên kiến trúc ủy thác: orchestrator chuyển tác vụ cho các sub-agent, nhấn mạnh bảo mật, thực thi có đạo đức và hành động ngoài đời vượt chatbot thông thường.",
-    "link": "https://github.com/DuongAnh1201/desir",
+    "title": "TTorch — Framework deep learning nhẹ (C++/Python)",
+    "description": [
+      "Triển khai thư viện tensor và engine autograd bằng C++ với binding Python—theo phong cách PyTorch: tensor, view và backward để học cơ chế.",
+      "Đồ thị tính toán động với primitive gradient module (Add, Multiply, ReLU, Dot) để thêm op mới mà không viết lại cả engine.",
+      "Autodiff kiểu lan truyền ngược với thứ tự topo đúng cho tensor dùng lại nhiều lần.",
+      "Đóng gói `pip install ttorch`: lớp Python → pybind11 → kernel C++ → autograd, dễ đo từng tầng.",
+      "Test độ chính xác số: so gradient số với gradient giải tích cho các op cốt lõi.",
+      "Mục tiêu giáo dục: codebase đủ đọc để hiểu training mà không giấu sau kernel CUDA."
+    ],
+    "link": "https://github.com/DuongAnh1201/TTorch",
     "image": "",
-    "tags": ["LLM", "Agents", "AI Assistant", "Pydantic", "Voice Interface", "Python", "FastAPI", "Docker", "PostgreSQL", "GitHub", "Git", "GitHub CI/CD", "Delegation Architecture", "Orchestrator Agent", "Sub-agents", "Ethical Execution", "Real-world Action Capabilities", "OpenAI API", "LLM", "Agents", "AI Assistant", "Pydantic", "Voice Interface", "Python", "FastAPI", "Docker", "PostgreSQL", "GitHub", "Git", "GitHub CI/CD", "Delegation Architecture", "Orchestrator Agent", "Sub-agents", "Ethical Execution", "Real-world Action Capabilities"],
+    "tags": ["C++", "Python", "pybind11", "Autograd", "Deep Learning", "PyPI"],
     "featured": true,
     "linkedinPost": ""
   },
@@ -22,17 +45,23 @@
     "description": "Hệ hai giai đoạn nhận diện cảm xúc từ webcam: phát hiện khuôn mặt bằng YOLOv11n, phân loại một trong bảy cảm xúc bằng mô hình hồi quy logistic tự huấn luyện. Trích xuất đặc trưng ViT-B/16 (768 chiều) và bộ phân lớp PyTorch từ đầu với L-BFGS, đo lường thủ công và quy trình huấn luyện/triển khai dạng module.",
     "link": "https://github.com/DuongAnh1201/Emotional-Detection-Model",
     "image": "",
-    "tags": ["Computer Vision", "PyTorch", "YOLO", "ViT", "Logistic Regression", "Real-time Emotion Detection", "Webcam Feed", "Face Detection", "Emotion Classification", "Custom-trained Model", "L-BFGS", "Manual Evaluation Metrics", "Modular Training and Deployment Workflow", "Transfer Learning"],
-    "featured": true,
+    "tags": ["Computer Vision", "PyTorch", "YOLO", "ViT", "Real-time"],
+    "featured": false,
     "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_machinelearning-computervision-pytorch-ugcPost-7447686403943165952-2yFQ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
   },
   {
     "title": "Trực quan hóa thuật tìm đường trong mê cung",
-    "description": "Công cụ tương tác so sánh thuật tìm đường theo thời gian thực. Chọn bố cục mê cung và theo dõi BFS, flood fill, và tìm kiếm ngẫu nhiên từng bước, dễ so sánh hiệu năng và lộ trình nghiệm.",
+    "description": [
+      "Giao diện React/JavaScript tương tác vẽ mê cung và hoạt họa biên tìm kiếm khi thuật toán mở nút.",
+      "Triển khai BFS, flood fill và biến thể tìm kiếm ngẫu nhiên với cùng interface để so sánh hành vi.",
+      "Hỗ trợ kích lưới cấu hình được và tường sinh ngẫu nhiên có seed xác định để demo lặp lại được.",
+      "Hiển thị số liệu trực tiếp—số nút mở rộng, độ dài đường, thời gian—để đối chiếu độ phức tạp với trực giác.",
+      "Có tooling Python cho thí nghiệm batch; UI ưu tiên từng bước cho pedagogy."
+    ],
     "link": "https://github.com/DuongAnh1201/CS455_Project",
     "image": "",
     "tags": ["Algorithms", "Python", "React", "JavaScript", "Visualization"],
-    "featured": true,
+    "featured": false,
     "linkedinPost": ""
   }
 ]

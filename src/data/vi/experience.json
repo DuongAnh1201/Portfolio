@@ -1,33 +1,50 @@
 [
   {
-    "title": "Thành viên sáng lập & Kỹ sư AI — AI DevOps & ML",
+    "title": "Thành viên sáng lập, Kỹ sư AI",
     "organization": "Quiche, Inc. (ADU Marketplace)",
     "start": "2025-11",
     "end": "",
-    "description": "Xây MCP server (Model Context Protocol) để tính năng sản phẩm lấy đúng ngữ cảnh khi cần. Thiết kế stack đa tác tử cho trợ lý thông minh—vai trò, điều phối, truy hồi—và dựng Google Cloud (Compute Engine, Cloud Run, Cloud SQL) cho bản triển khai có thể mở rộng thực tế.",
-    "tags": ["MCP", "Python", "Multi-agent AI", "Google Cloud", "Cloud Run", "Cloud SQL"],
+    "description": [
+      "Thiết kế MCP server để tính năng AI gọi ngữ cảnh có cấu trúc từ công cụ và kho dữ liệu nội bộ thay vì nhét prompt cứng.",
+      "Phụ trách tích hợp giữa MCP và API sản phẩm—schema tool, ranh giới xác thực và xử lý khi retrieval trượt.",
+      "Thiết kế stack đa tác tử cho trợ lý: vai trò agent rõ ràng, quy tắc điều phối và pipeline retrieval để câu trả lời bám nguồn.",
+      "Triển khai GCP—Compute Engine cho workload cần máy ảo lâu dài, Cloud Run cho dịch vụ HTTP, Cloud SQL cho trạng thái quan hệ—cân nhắc chi phí và cold start.",
+      "Lặp đánh giá chunking, chỉ mục và vòng thử khi tính năng trợ lý ra mắt."
+    ],
+    "tags": ["MCP", "Python", "Multi-agent AI", "GCP", "Compute Engine", "Cloud Run", "Cloud SQL"],
     "logo": "/images/experience/quiche_logo.jpeg",
     "images": [],
     "linkedinPost": ""
   },
   {
-    "title": "Trợ lý sinh viên, Phòng CNTT",
-    "organization": "San Francisco Bay University",
+    "title": "Trợ lý IT (sinh viên)",
+    "organization": "San Francisco Bay University — Phòng CNTT",
     "start": "2025-09",
     "end": "",
-    "description": "Hỗ trợ tuyến đầu về phần cứng, phần mềm và mạng—tiếp nhận ticket và xử lý tại chỗ để lớp học và nhân viên luôn kết nối. Hỗ trợ theo dõi tài sản CNTT toàn trường để lắp đặt, thay thế và bảo trì minh bạch.",
+    "description": [
+      "Hỗ trợ chẩn đoán tầng một cho máy tính để bàn, laptop, thiết bị AV lớp học, máy in, Wi-Fi và tài khoản phần mềm—ghi ticket, tái hiện lỗi, xử lý hoặc chuyển cấp kèm ghi chú rõ.",
+      "Hỗ trợ giảng viên và nhân viên trong giờ học: đổi thiết bị nhanh khi lỗi, reset mật khẩu, VPN/SSO, phối hợp nhà cung cấp khi cần thay phần cứng.",
+      "Duy trì kho tài sản IT kỹ thống—serial, vị trí, bảo hành—để làm mới, kiểm kê và bảo trì minh bạch.",
+      "Theo dõi vòng đời thiết bị (triển khai, thu hồi, sửa) để mua sắm và lớp học luôn sẵn sàng."
+    ],
     "tags": ["IT support", "Networking", "Hardware", "Asset management", "Help desk"],
     "logo": "/images/experience/san_francisco_bay_university_logo.jpeg",
     "images": [],
     "linkedinPost": ""
   },
   {
-    "title": "Thực tập LLM — Triển khai",
+    "title": "Thực tập sinh — Nghiên cứu & triển khai LLM",
     "organization": "Sofeast Ltd.",
-    "start": "2022-05",
-    "end": "2025-08",
-    "description": "Thực tập với hệ thống RAG và LLM nội bộ: truy hồi, prompt, và tích hợp mô hình vào quy trình thật. Bàn giao công cụ đánh giá và triển khai để đội có thể lặp mà vẫn giữ chất lượng.",
-    "tags": ["RAG", "LLM", "Python", "FAISS", "OpenAI API", "LLaMA", "Qwen", "Gemma", "DeepSeek", "GPT-4"],
+    "start": "2025-02",
+    "end": "2025-04",
+    "description": [
+      "Xây pipeline RAG + FAISS để nạp tài liệu nội bộ và trả lời kiểu BI kèm trích dẫn thay vì tra cứu tay.",
+      "Đo LLM mã nguồn mở (Llama 3, Mistral, Gemma, Qwen, Deepseek) và API độc quyền về độ trễ, chi phí token và chất lượng câu trả lời trên các mẫu truy vấn lặp lại.",
+      "Thêm các vòng đánh giá—kiểm thử và prompt script—để so sánh mô hình trước khi chốt cấu hình.",
+      "Tinh chỉnh prompt và cấu hình retrieval (top-k, bộ lọc, stop sequences) để giảm ảo giác và format không ổn định trên production.",
+      "Tài liệu hóa cấu hình pipeline và trường hợp lỗi để kỹ sư full-time mở rộng hoặc debug sau kỳ thực tập."
+    ],
+    "tags": ["RAG", "LangChain", "FAISS", "LLM", "Python", "Llama", "Mistral", "Prompt engineering"],
     "logo": "/images/experience/sofeast_logo.jpeg",
     "images": [],
     "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_ai-llm-internshipexperience-share-7359236850932142082-pJ44?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"

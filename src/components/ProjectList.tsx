@@ -7,7 +7,7 @@ import type { Locale } from "@/lib/locale";
 
 interface Project {
   title: string;
-  description: string;
+  description: string | string[];
   link: string;
   image?: string;
   tags: string[];
@@ -48,7 +48,17 @@ function ProjectItem({
           <span className="text-xs text-muted">★</span>
         )}
       </div>
-      <p className="text-sm text-muted mt-0.5">{p.description}</p>
+      {typeof p.description === "string" ? (
+        <p className="text-sm text-muted mt-0.5">{p.description}</p>
+      ) : (
+        <ul className="mt-1.5 list-disc list-outside pl-5 space-y-1 text-sm text-muted leading-relaxed marker:text-muted">
+          {p.description.map((line, i) => (
+            <li key={i} className="pl-0.5">
+              {line}
+            </li>
+          ))}
+        </ul>
+      )}
       {p.tags.length > 0 && (
         <p className="text-xs text-muted/70 mt-1">
           {p.tags.join(" · ")}
