@@ -3,7 +3,7 @@
     "title": "Thành viên sáng lập, Kỹ sư AI",
     "organization": "Quiche, Inc. (ADU Marketplace)",
     "start": "2025-11",
-    "end": "",
+    "end": "2026-04",
     "description": [
       "Thiết kế MCP server để tính năng AI gọi ngữ cảnh có cấu trúc từ công cụ và kho dữ liệu nội bộ thay vì nhét prompt cứng.",
       "Phụ trách tích hợp giữa MCP và API sản phẩm—schema tool, ranh giới xác thực và xử lý khi retrieval trượt.",

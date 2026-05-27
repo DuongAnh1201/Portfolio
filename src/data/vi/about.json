@@ -3,7 +3,7 @@
   "avatar": "/images/IMG_4842.JPG",
   "tagline": "Sinh viên CNTT · LLM · agent · Robotics · triển khai AI trọn pipeline",
   "bio": [
-    "Mình là Dương Ảnh (Tom) Nguyễn, sinh viên ngành Khoa học Máy tính (B.S.) tại San Francisco Bay University (GPA 3,85). Mình tập trung vào LLM, truy hồi ngữ cảnh, hệ đa tác tử và triển khai thực tế—không chỉ demo.",
+    "Mình là Dương Ảnh (Tom) Nguyễn, sinh viên ngành Khoa học Máy tính (B.S.) tại San Francisco Bay University (GPA 3,88). Mình tập trung vào LLM, truy hồi ngữ cảnh, hệ đa tác tử và triển khai thực tế—không chỉ demo.",
     "Hằng ngày mình làm việc chủ yếu với Python, các pattern kiểu LangChain, chỉ mục vector (ví dụ FAISS), dịch vụ GCP, API kiểu FastAPI và observability để lỗi nhìn thấy được—không im lặng.",
     "Mình là thành viên sáng lập và kỹ sư AI tại Quiche, Inc.: MCP để tính năng lấy đúng ngữ cảnh khi cần, định tuyến đa tác tử cho trợ lý (vai trò, điều phối, retrieval), và hạ tầng GCP trên Compute Engine, Cloud Run, Cloud SQL để workload mở rộng ngoài máy cá nhân.",
     "Mình là trợ lý IT sinh viên tại SFBU: chẩn đoán tầng một cho phần cứng, phần mềm và mạng lớp học—tiếp nhận ticket, xử lý nhanh, chuyển cấp khi cần—và theo dõi kho tài sản IT để thay thế, sửa chữa và triển khai luôn có vết.",

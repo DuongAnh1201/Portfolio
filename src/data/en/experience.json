@@ -3,7 +3,7 @@
     "title": "Founding Member, AI Engineer",
     "organization": "Quiche, Inc. (ADU Marketplace)",
     "start": "2025-11",
-    "end": "",
+    "end": "2026-04",
     "description": [
       "Architected an MCP (Model Context Protocol) server so AI features request structured context from internal tools and data stores instead of hard-coding prompts.",
       "Owned integration work between MCP surfaces and product APIs—schemas for tools, auth boundaries, and failure modes when retrieval misses.",
