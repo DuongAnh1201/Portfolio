@@ -3,7 +3,7 @@
   "avatar": "/images/IMG_4842.JPG",
   "tagline": "CS student · LLMs · agents · Robotics · shipping AI systems end to end",
   "bio": [
-    "I'm Duong Anh (Tom) Nguyen, a B.S. Computer Science student at San Francisco Bay University (GPA 3.88). I focus on LLMs, retrieval, multi-agent systems, and production deployments—not just demos.",
+    "I'm Duong Anh (Tom) Nguyen, a B.S. Computer Science student at San Francisco Bay University (GPA 3.9). I focus on LLMs, retrieval, multi-agent systems, and production deployments—not just demos.",
     "Day to day I work in Python with LangChain-style patterns, vector indexes (e.g. FAISS), GCP managed services, FastAPI-style APIs, and observability so failures are visible—not silent.",
     "I'm a founding member and AI engineer at Quiche, Inc.: MCP servers so features pull the right context on demand, multi-agent routing for our assistant (roles, orchestration, retrieval), and GCP on Compute Engine, Cloud Run, and Cloud SQL so workloads can scale beyond my laptop.",
     "I'm IT student staff at SFBU: Tier-1 diagnostics for hardware, software, and classroom-network issues—ticket triage, quick fixes, escalations when needed—and a digital inventory of IT assets so swaps, repairs, and deployments stay traceable.",
