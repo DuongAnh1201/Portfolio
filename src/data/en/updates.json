@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-10-20",
+    "content": "Released Tomville 0.2.x on PyPI: a retro terminal office where my AI coding agents (Claude Code, Codex) walk around as pixel pets, with a GitHub Issues task board and a Telegram bot to run the team from my phone.",
+    "linkedinPost": ""
+  },
+  {
+    "date": "2026-05",
+    "content": "Started research on robot motion planning with Dr. Satarupa Mukherjee (SFBU School of Engineering): 30,000+ simulated trials on when goal-biased RRT fails; first-author paper in preparation. Wrapped up my founding-member role at Quiche.",
+    "linkedinPost": ""
+  },
+  {
     "date": "2026-04-19",
     "content": "Drafting two papers: AI restoration of war photographs (ethics + vignette study) and RRT with a vector maze formulation. Public repos in motion: TTorch (C++/Python autograd), Desir (agentic assistant), a real-time emotion CV stack, and a maze-solving visualizer. Tightening this minimal site to match reality.",
     "linkedinPost": ""
@@ -10,23 +20,23 @@
     "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_hackathon-innovation-ai-ugcPost-7451327678105960448-i3nS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
   },
   {
-    "date": "2026-02",
-    "content": "Won ThinkNext 2026 with Uniflow — a PydanticAI-orchestrated career copilot for SFBU: goal + résumé agents, RAG over courses/events, and a voice/text mock interview path with STAR-style feedback (Streamlit demo).",
-    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_thinknext2026-hackathon-winner-activity-7458211692199403520-XDx1?utm_source=share&utm_medium=member_desktop"
-  },
-  {
     "date": "2026-03-23",
     "content": "HackHayward weekend: shipped KryptosProof — multi-agent, tool-using red team (sqlmap / Nuclei / FFUF), Docker sandbox, live dashboard, and signed reports for the vibe-coding security angle.",
     "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_hackathon-hackhayward-multiagents-ugcPost-7442192567087280128-sqNu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
   },
   {
-    "date": "2025-11",
-    "content": "Competed at ICPC Pacific Northwest Regional 2025 (Division 2). Serving as Robotics Club president this year while keeping coursework and build projects moving.",
-    "linkedinPost": ""
+    "date": "2026-02",
+    "content": "Won ThinkNext 2026 with Uniflow — a PydanticAI-orchestrated career copilot for SFBU: goal + résumé agents, RAG over courses/events, and a voice/text mock interview path with STAR-style feedback (Streamlit demo).",
+    "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_thinknext2026-hackathon-winner-activity-7458211692199403520-XDx1?utm_source=share&utm_medium=member_desktop"
   },
   {
     "date": "2025-11-18",
     "content": "Joined Quiche (ADU marketplace) as a founding member — AI / DevOps focus: MCP server for contextual retrieval, multi-agent assistant design, and GCP (Compute Engine, Cloud Run, Cloud SQL) for production-shaped deploys.",
+    "linkedinPost": ""
+  },
+  {
+    "date": "2025-11",
+    "content": "Competed at ICPC Pacific Northwest Regional 2025 (Division 2). Serving as Robotics Club president this year while keeping coursework and build projects moving.",
     "linkedinPost": ""
   },
   {
@@ -41,7 +51,7 @@
   },
   {
     "date": "2025-08-19",
-    "content": "Finished the Sofeast LLM internship (May 2022–Aug 2025): internal RAG/LLM systems, evaluation and deployment tooling, and shipping models into real business workflows.",
+    "content": "Finished the Sofeast LLM internship (May–Aug 2025): internal RAG/LLM systems, evaluation and deployment tooling, and shipping models into real business workflows.",
     "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_ai-llm-internshipexperience-share-7359236850932142082-pJ44?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
   },
   {

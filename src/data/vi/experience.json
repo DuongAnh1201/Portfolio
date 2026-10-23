@@ -1,14 +1,29 @@
 [
   {
-    "title": "Thành viên sáng lập, Kỹ sư AI",
+    "title": "Nghiên cứu viên, Hoạch định chuyển động robot",
+    "organization": "School of Engineering, SFBU · Hướng dẫn: TS. Satarupa Mukherjee",
+    "start": "2026-05",
+    "end": "",
+    "description": [
+      "Chạy hơn 30.000 thử nghiệm mô phỏng để tìm các kiểu thất bại của thuật toán hoạch định chuyển động goal-biased RRT (Rapidly-exploring Random Tree) trong các mê cung có tham số, thay đổi từng yếu tố một để tách nguyên nhân.",
+      "Phát hiện chỉ một vật cản chắn đường thẳng từ điểm đầu đến đích đã làm tỉ lệ thành công giảm 68% (77,8% → 24,7%), và bước nhảy tối ưu phụ thuộc vào môi trường chứ không phải một hằng số chung.",
+      "Kiểm chứng bằng nhiều phép kiểm định thống kê độc lập và một lần lặp lại 1.000 thử nghiệm riêng; bài báo với mình là tác giả chính đang được viết."
+    ],
+    "tags": ["Motion planning", "RRT", "Robotics", "Simulation", "Statistical testing", "Python"],
+    "logo": "/images/experience/san_francisco_bay_university_logo.jpeg",
+    "images": [],
+    "linkedinPost": ""
+  },
+  {
+    "title": "Thành viên sáng lập, Kỹ sư DevOps AI",
     "organization": "Quiche, Inc. (ADU Marketplace)",
     "start": "2025-11",
-    "end": "2026-04",
+    "end": "2026-05",
     "description": [
-      "Thiết kế MCP server để tính năng AI gọi ngữ cảnh có cấu trúc từ công cụ và kho dữ liệu nội bộ thay vì nhét prompt cứng.",
-      "Phụ trách tích hợp giữa MCP và API sản phẩm—schema tool, ranh giới xác thực và xử lý khi retrieval trượt.",
-      "Thiết kế stack đa tác tử cho trợ lý: vai trò agent rõ ràng, quy tắc điều phối và pipeline retrieval để câu trả lời bám nguồn.",
-      "Triển khai GCP—Compute Engine cho workload cần máy ảo lâu dài, Cloud Run cho dịch vụ HTTP, Cloud SQL cho trạng thái quan hệ—cân nhắc chi phí và cold start.",
+      "Giảm 58% thời gian phản hồi của trợ lý (60 giây → 25 giây) bằng cách chia mỗi truy vấn qua pipeline đa tác tử (Pydantic AI), giao từng phần việc cho một agent chuyên biệt.",
+      "Thiết kế MCP server của công ty để tính năng AI gọi ngữ cảnh có cấu trúc từ công cụ và kho dữ liệu nội bộ, có phân quyền theo vai trò và xử lý rõ ràng khi truy hồi không có kết quả.",
+      "Phụ trách tích hợp giữa MCP và API sản phẩm—schema tool, ranh giới xác thực và xử lý lỗi.",
+      "Triển khai GCP—Compute Engine cho workload cần máy ảo lâu dài, Cloud Run cho dịch vụ HTTP, Cloud SQL cho dữ liệu quan hệ—tối ưu chi phí và cold start.",
       "Lặp đánh giá chunking, chỉ mục và vòng thử khi tính năng trợ lý ra mắt."
     ],
     "tags": ["MCP", "Python", "Multi-agent AI", "GCP", "Compute Engine", "Cloud Run", "Cloud SQL"],
@@ -35,13 +50,12 @@
   {
     "title": "Thực tập sinh — Nghiên cứu & triển khai LLM",
     "organization": "Sofeast Ltd.",
-    "start": "2025-02",
-    "end": "2025-04",
+    "start": "2025-05",
+    "end": "2025-08",
     "description": [
-      "Xây pipeline RAG + FAISS để nạp tài liệu nội bộ và trả lời kiểu BI kèm trích dẫn thay vì tra cứu tay.",
-      "Đo LLM mã nguồn mở (Llama 3, Mistral, Gemma, Qwen, Deepseek) và API độc quyền về độ trễ, chi phí token và chất lượng câu trả lời trên các mẫu truy vấn lặp lại.",
-      "Thêm các vòng đánh giá—kiểm thử và prompt script—để so sánh mô hình trước khi chốt cấu hình.",
-      "Tinh chỉnh prompt và cấu hình retrieval (top-k, bộ lọc, stop sequences) để giảm ảo giác và format không ổn định trên production.",
+      "Xây pipeline RAG LangChain + FAISS trả lời câu hỏi của nhân viên từ tài liệu nội bộ kèm trích dẫn, giảm 20% câu hỏi lặp lại giữa đồng nghiệp.",
+      "Benchmark 5 LLM mã nguồn mở (Llama 3, Mistral, Gemma, Qwen, Deepseek) với API độc quyền về độ trễ, chi phí token và chất lượng, dùng cùng một bộ đánh giá tự động trước khi đề xuất mô hình triển khai.",
+      "Tinh chỉnh prompt và cấu hình retrieval (top-k, bộ lọc, stop sequences) để giảm ảo giác, kiểm tra mọi thay đổi trên cùng một bộ câu hỏi cố định.",
       "Tài liệu hóa cấu hình pipeline và trường hợp lỗi để kỹ sư full-time mở rộng hoặc debug sau kỳ thực tập."
     ],
     "tags": ["RAG", "LangChain", "FAISS", "LLM", "Python", "Llama", "Mistral", "Prompt engineering"],

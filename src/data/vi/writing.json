@@ -8,11 +8,11 @@
     "linkedinPost": ""
   },
   {
-    "title": "RRT for maze solving with a vector-based formulation",
+    "title": "Failure modes of goal-biased RRT in maze environments",
     "date": "2026-04-19",
     "link": "",
     "image": "",
-    "summary": "Bản nháp / đang làm. Khám phá RRT cho mê cung khi trạng thái và điều khiển thể hiện dạng vector phù hợp không gian liên tục và va chạm đơn giản. Động lực, phác thuật toán, và cách dạng vector hóa ảnh hưởng lấy mẫu, mở rộng và chất lượng đường so với tư duy dạng lưới trước.",
+    "summary": "Bản nháp / tác giả chính, đang viết cùng TS. Satarupa Mukherjee. Nghiên cứu có kiểm soát về khi nào goal-biased RRT (Rapidly-exploring Random Trees) thất bại trong mê cung 2D: hơn 30.000 thử nghiệm mô phỏng, thay đổi từng yếu tố một. Chỉ một vật cản chắn đường thẳng từ điểm đầu đến đích làm tỉ lệ thành công giảm từ 77,8% xuống 24,7%, và bước nhảy tốt nhất phụ thuộc hình dạng mê cung chứ không phải một giá trị chung. Kết quả được kiểm chứng bằng nhiều phép kiểm định thống kê độc lập và một lần lặp lại 1.000 thử nghiệm riêng.",
     "linkedinPost": ""
   }
 ]

@@ -4,20 +4,8 @@
     "organization": "San Francisco Bay University · Fremont, CA",
     "start": "2024-08",
     "end": "2027-12 — Dự kiến",
-    "description": "Cử nhân Khoa học Máy tính (B.S., dự kiến tốt nghiệp tháng 12/2027). GPA: 3,85. Khối kiến thức gồm Cấu trúc dữ liệu, AI, Thuật toán, ML, Deep Learning, Hệ đa tác tử, Điện toán đám mây, Thị giác máy tính, NLP, MCP và FastAPI—song song áp dụng qua thực tập, hackathon và dự án cá nhân.",
-    "tags": [
-      "Data Structures",
-      "Algorithms",
-      "AI",
-      "ML",
-      "Deep Learning",
-      "Multi-Agent Systems",
-      "Cloud Computing",
-      "Computer Vision",
-      "NLP",
-      "MCP",
-      "FastAPI"
-    ],
+    "description": "Cử nhân Khoa học Máy tính (B.S., dự kiến tốt nghiệp tháng 12/2027). GPA: 3,89. Khối kiến thức gồm Cấu trúc dữ liệu, AI, Thuật toán, ML, Deep Learning, Hệ đa tác tử, Điện toán đám mây, Thị giác máy tính, NLP, MCP và FastAPI—song song áp dụng qua thực tập, hackathon và dự án cá nhân.",
+    "tags": ["Data Structures", "Algorithms", "AI", "ML", "Deep Learning", "Multi-Agent Systems", "Cloud Computing", "Computer Vision", "NLP", "MCP", "FastAPI"],
     "logo": "/images/education/san_francisco_bay_university_logo.jpeg",
     "images": [],
     "linkedinPost": ""

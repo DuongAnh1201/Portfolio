@@ -1,5 +1,21 @@
 [
   {
+    "title": "Tomville — Retro Game View of an AI Agent Team",
+    "description": [
+      "Terminal app (Python + Textual) that shows a team of AI coding agents (Claude Code, Codex) as pixel pets in a retro office; each pet's movement reflects that agent's live status read from herdr (working at its desk, blocked and jumping, idle in the lounge).",
+      "Reads the task board from GitHub Issues or a local TASKS.md and animates the handover: the lead assigns a card, workers take it, and it moves through Todo, Doing, Review and Done.",
+      "Supports two team shapes, lead + workers and a planner → coder → tester pipeline, each with its own office layout.",
+      "tmv CLI builds, starts and stops a team (new, up, down) and handles tasks, messages and health checks (task, send, doctor).",
+      "Optional Telegram bot: message the team from a phone, approve agent permission requests with buttons, and get pinged when an agent is blocked or a card is ready for review; no open port, token stored outside the project.",
+      "Published on PyPI (pip install tomville, v0.2.1) with 283 tests and CI on Ubuntu and macOS."
+    ],
+    "link": "https://github.com/DuongAnh1201/tomville",
+    "image": "",
+    "tags": ["Python", "Textual", "TUI", "Multi-agent", "Claude Code", "Codex", "GitHub Issues", "Telegram", "PyPI"],
+    "featured": true,
+    "linkedinPost": ""
+  },
+  {
     "title": "Desir — LLM-Powered Virtual Assistant",
     "description": [
       "Built a real-time, voice-driven assistant on OpenAI Realtime API—streaming speech input with low-latency paths toward tool calls and UI updates.",
@@ -11,28 +27,18 @@
     ],
     "link": "https://github.com/DuongAnh1201/desir",
     "image": "",
-    "tags": [
-      "OpenAI Realtime API",
-      "Pydantic AI",
-      "React",
-      "Vite",
-      "Python",
-      "WebSocket",
-      "Multi-agent",
-      "LLM"
-    ],
+    "tags": ["OpenAI Realtime API", "Pydantic AI", "React", "Vite", "Python", "WebSocket", "Multi-agent", "LLM"],
     "featured": true,
     "linkedinPost": ""
   },
   {
     "title": "TTorch — Lightweight Deep Learning Framework (C++/Python)",
     "description": [
-      "Implemented a tensor library and autograd engine in C++ with Python bindings—mirroring PyTorch-style tensors, views, and backward passes for educational clarity.",
-      "Built a dynamic computation graph with modular gradient primitives (Add, Multiply, ReLU, Dot) so new ops plug in without rewriting the whole engine.",
+      "Implemented a tensor library and autograd engine in C++ with Python bindings—PyTorch-style tensors, views, and backward passes, written for clarity.",
+      "Built a dynamic computation graph with modular gradient primitives (Add, Multiply, ReLU, Dot) so new ops plug in without rewriting the engine.",
       "Implemented reverse-mode autodiff with correct topological ordering for multi-use tensors.",
-      "Packaged the project as `pip install ttorch`: Python façade → pybind11 bindings → C++ kernels → autograd, making it easy to profile each layer.",
-      "Added correctness-focused tests comparing numerical gradients against analytic grads for core ops.",
-      "Stretch goal: keep the codebase readable enough to study training mechanics without hiding everything behind CUDA kernels."
+      "Packaged as pip install ttorch: Python API → pybind11 bindings → C++ core → autograd.",
+      "Automated releases with cibuildwheel and GitHub Actions: 15 wheels for Linux, Windows, and macOS (Apple Silicon and Intel) on Python 3.11–3.13, published to PyPI on tagged releases."
     ],
     "link": "https://github.com/DuongAnh1201/TTorch",
     "image": "",
@@ -43,11 +49,10 @@
   {
     "title": "Real-Time Human Emotion Detection Pipeline",
     "description": [
-      "Two-stage CV pipeline: YOLOv11n finds faces in a webcam stream; a shallow classifier predicts seven emotion labels per crop.",
-      "Used ViT-B/16 embeddings (768-D) as frozen features, feeding a custom logistic-regression head implemented in PyTorch and trained with L-BFGS.",
-      "Built data loaders and label hygiene checks so train/val splits stay stratified across emotion classes.",
-      "Implemented a real-time inference loop with frame skipping options for slower laptops and overlay rendering for qualitative debugging.",
-      "Recorded offline metrics (accuracy, confusion matrix) alongside qualitative checks on challenging lighting."
+      "Two-stage CV pipeline: YOLOv11n finds faces in a webcam stream; a classifier predicts one of seven emotions per face.",
+      "Used a frozen ViT-B/16 as a feature extractor (768-D embeddings), feeding a logistic-regression head written from scratch in PyTorch and trained with L-BFGS.",
+      "Wrote the training and evaluation loop by hand (accuracy, precision, recall, F1, confusion matrices) and validated across 5 stratified 70/15/15 splits.",
+      "Reached 73.5% test accuracy on the Kaggle Facial Expression Dataset, against a 14% chance baseline."
     ],
     "link": "https://github.com/DuongAnh1201/Emotional-Detection-Model",
     "image": "",
