@@ -48,17 +48,14 @@
     ],
     "tags": ["Hackathon", "Security", "Docker", "Nuclei", "Multi-agent", "HackHayward", "KryptosProof"],
     "logo": "/images/other/HackHayward2026/UI.jpeg",
-    "images": [
-      "/images/other/HackHayward2026/UI.jpeg",
-      "/images/other/HackHayward2026/TeamImage.jpeg"
-    ],
+    "images": ["/images/other/HackHayward2026/UI.jpeg", "/images/other/HackHayward2026/TeamImage.jpeg"],
     "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_hackathon-hackhayward-multiagents-ugcPost-7442192567087280128-sqNu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
   },
   {
     "title": "1st Place — Uniflow (ThinkNext 2026 · SFBU IEEE)",
     "organization": "ThinkNext 2026",
-    "start": "2026-03",
-    "end": "2026-03",
+    "start": "2026-02",
+    "end": "2026-02",
     "description": [
       "Career copilot for SFBU students: intake agents capture goals and constraints; critique agents workshop resumes with structured feedback loops.",
       "RAG stack embedded course catalogs + campus events—chunked, embedded, and retrieved via vector search so answers cite real offerings.",

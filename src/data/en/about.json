@@ -1,22 +1,27 @@
 {
   "name": "Duong Anh (Tom) Nguyen",
   "avatar": "/images/IMG_4842.JPG",
-  "tagline": "CS student · LLMs · agents · Robotics · shipping AI systems end to end",
+  "tagline": "CS student · Robot motion planning · LLM & multi-agent systems · ML from scratch",
   "bio": [
-    "I'm Duong Anh (Tom) Nguyen, a B.S. Computer Science student at San Francisco Bay University (GPA 3.9). I focus on LLMs, retrieval, multi-agent systems, and production deployments—not just demos.",
-    "Day to day I work in Python with LangChain-style patterns, vector indexes (e.g. FAISS), GCP managed services, FastAPI-style APIs, and observability so failures are visible—not silent.",
-    "I'm a founding member and AI engineer at Quiche, Inc.: MCP servers so features pull the right context on demand, multi-agent routing for our assistant (roles, orchestration, retrieval), and GCP on Compute Engine, Cloud Run, and Cloud SQL so workloads can scale beyond my laptop.",
-    "I'm IT student staff at SFBU: Tier-1 diagnostics for hardware, software, and classroom-network issues—ticket triage, quick fixes, escalations when needed—and a digital inventory of IT assets so swaps, repairs, and deployments stay traceable.",
-    "At Sofeast Ltd. (LLM Research & Implementation, Feb–Apr 2025) I shipped a LangChain + FAISS RAG pipeline for document Q&A, benchmarked open-source vs. proprietary LLMs on latency and cost, and tightened prompts and retrieval settings to cut hallucinations before outputs reached users.",
-    "Outside class I'm building Desir (voice-first assistant on OpenAI Realtime API, orchestrator plus specialist agents, React/Vite + Python WebSockets + Pydantic AI) and TTorch (C++/pybind11 tensor + autograd core with a pip-installable Python surface).",
-    "I'm NVIDIA Certified Professional — Agentic AI. Recent placings include Top 3 at the SFBU IEEE NVIDIA GTC Hackathon 2025 (BleuLaMuse) and 1st place at ThinkNext 2026 (Uniflow), plus other hackathon builds in security and disaster-response ML.",
-    "I learn by building, write to think clearly, and share what I figure out along the way.",
+    "I'm Duong Anh (Tom) Nguyen, a B.S. Computer Science student at San Francisco Bay University (GPA 3.89, graduating Dec 2027). I work on robot motion planning research and on LLM and multi-agent systems that run in production, not just demos.",
+    "Research: with Dr. Satarupa Mukherjee I study when goal-biased RRT motion planning fails. So far that is 30,000+ simulated maze trials, and a first-author paper is in preparation.",
+    "Engineering: founding member and DevOps AI engineer at Quiche, Inc. (MCP server, multi-agent assistant, GCP), LLM intern at Sofeast Ltd. (RAG, model benchmarking), and IT student staff at SFBU. On the side I build Tomville (a retro terminal view of an AI agent team, on PyPI), TTorch (a C++ autograd engine, on PyPI) and Desir (a voice-first assistant).",
+    "NVIDIA Certified Professional — Agentic AI. 1st place at ThinkNext 2026 (Uniflow) and Top 3 at the SFBU IEEE NVIDIA GTC Hackathon 2025 (BleuLaMuse).",
     "Stay hungry, stay foolish — Steve Jobs"
   ],
   "linkedinPost": "",
   "links": [
-    { "label": "GitHub", "url": "https://github.com/DuongAnh1201" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/anh-nguyen-203105339/" },
-    { "label": "Email", "url": "mailto:tomnguyen6766@gmail.com" }
+    {
+      "label": "GitHub",
+      "url": "https://github.com/DuongAnh1201"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/anh-nguyen-203105339/"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:tomnguyen6766@gmail.com"
+    }
   ]
 }

@@ -8,11 +8,11 @@
     "linkedinPost": ""
   },
   {
-    "title": "RRT for maze solving with a vector-based formulation",
+    "title": "Failure modes of goal-biased RRT in maze environments",
     "date": "2026-04-19",
     "link": "",
     "image": "",
-    "summary": "Draft / ongoing. Explores Rapidly-Exploring Random Trees (RRT) for maze navigation when state and controls are represented in a vector form suited to continuous spaces and simple collision checks. Motivation, algorithm sketch, and how the vectorized setup affects sampling, expansion, and path quality compared to a grid-first mindset.",
+    "summary": "Draft / first-author, in preparation with Dr. Satarupa Mukherjee. A controlled study of when goal-biased Rapidly-exploring Random Trees (RRT) fail in 2D mazes: 30,000+ simulated trials, changing one factor at a time. A single obstacle blocking the direct start-to-goal path drops success from 77.8% to 24.7%, and the best step size depends on the maze's geometry rather than being one global value. Results are checked with several independent statistical tests and a held-out 1,000-trial replication.",
     "linkedinPost": ""
   }
 ]

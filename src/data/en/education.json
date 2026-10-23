@@ -4,20 +4,8 @@
     "organization": "San Francisco Bay University · Fremont, CA",
     "start": "2024-08",
     "end": "2027-12",
-    "description": "B.S. in Computer Science (expected Dec 2027). GPA: 3.85. Coursework spans Data Structures, AI, Algorithms, ML, Deep Learning, Multi-Agent Systems, Cloud Computing, Computer Vision, NLP, MCP, and FastAPI—applied in parallel through internships, hackathons, and personal builds.",
-    "tags": [
-      "Data Structures",
-      "Algorithms",
-      "AI",
-      "ML",
-      "Deep Learning",
-      "Multi-Agent Systems",
-      "Cloud Computing",
-      "Computer Vision",
-      "NLP",
-      "MCP",
-      "FastAPI"
-    ],
+    "description": "B.S. in Computer Science (expected Dec 2027). GPA: 3.89. Coursework spans Data Structures, AI, Algorithms, ML, Deep Learning, Multi-Agent Systems, Cloud Computing, Computer Vision, NLP, MCP, and FastAPI—applied in parallel through research, internships, hackathons, and personal builds.",
+    "tags": ["Data Structures", "Algorithms", "AI", "ML", "Deep Learning", "Multi-Agent Systems", "Cloud Computing", "Computer Vision", "NLP", "MCP", "FastAPI"],
     "logo": "/images/education/san_francisco_bay_university_logo.jpeg",
     "images": [],
     "linkedinPost": ""

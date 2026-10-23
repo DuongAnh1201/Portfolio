@@ -48,17 +48,14 @@
     ],
     "tags": ["Hackathon", "Security", "Docker", "Nuclei", "Multi-agent", "HackHayward", "KryptosProof"],
     "logo": "/images/other/HackHayward2026/UI.jpeg",
-    "images": [
-      "/images/other/HackHayward2026/UI.jpeg",
-      "/images/other/HackHayward2026/TeamImage.jpeg"
-    ],
+    "images": ["/images/other/HackHayward2026/UI.jpeg", "/images/other/HackHayward2026/TeamImage.jpeg"],
     "linkedinPost": "https://www.linkedin.com/posts/anh-nguyen-203105339_hackathon-hackhayward-multiagents-ugcPost-7442192567087280128-sqNu?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFTpPuMBvBhFRh36dCSLHy2HhmAo8Lqgm_w"
   },
   {
     "title": "Hạng nhất — Uniflow (ThinkNext 2026 · IEEE SFBU)",
     "organization": "ThinkNext 2026",
-    "start": "2026-03",
-    "end": "2026-03",
+    "start": "2026-02",
+    "end": "2026-02",
     "description": [
       "Đồng hành nghề nghiệp cho sinh viên SFBU: agent tiếp nhận mục tiêu và ràng buộc; agent phản hồi CV có vòng phản hồi có cấu trúc.",
       "RAG nhúng danh mục môn + sự kiện campus—chunk, nhúng vector và truy hồi để câu trả lời trích dẫn thật.",

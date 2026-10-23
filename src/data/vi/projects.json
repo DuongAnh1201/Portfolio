@@ -1,5 +1,21 @@
 [
   {
+    "title": "Tomville — Đội AI agent dưới dạng game retro",
+    "description": [
+      "Ứng dụng terminal (Python + Textual) hiển thị đội AI agent lập trình (Claude Code, Codex) thành thú cưng pixel trong một văn phòng retro; cách mỗi con di chuyển phản ánh trạng thái thật của agent đọc từ herdr (làm việc tại bàn, bị chặn thì nhảy lên, rảnh thì ra phòng nghỉ).",
+      "Đọc bảng công việc từ GitHub Issues hoặc file TASKS.md và diễn hoạt việc giao task: lead giao thẻ, worker nhận, thẻ đi qua Todo, Doing, Review và Done.",
+      "Hỗ trợ hai kiểu đội: lead + workers và pipeline planner → coder → tester, mỗi kiểu có bố cục văn phòng riêng.",
+      "CLI tmv tạo, khởi động và dừng đội (new, up, down), quản lý task, tin nhắn và kiểm tra hệ thống (task, send, doctor).",
+      "Bot Telegram tùy chọn: nhắn cho đội từ điện thoại, duyệt quyền của agent bằng nút bấm, nhận thông báo khi agent bị chặn hoặc thẻ chờ review; không mở cổng, token lưu ngoài dự án.",
+      "Phát hành trên PyPI (pip install tomville, v0.2.1) với 283 test và CI trên Ubuntu và macOS."
+    ],
+    "link": "https://github.com/DuongAnh1201/tomville",
+    "image": "",
+    "tags": ["Python", "Textual", "TUI", "Multi-agent", "Claude Code", "Codex", "GitHub Issues", "Telegram", "PyPI"],
+    "featured": true,
+    "linkedinPost": ""
+  },
+  {
     "title": "Desir — Trợ lý ảo dùng LLM",
     "description": [
       "Trợ lý giọng nói thời gian thực trên OpenAI Realtime API—luồng âm thanh đầu vào với đường đi tới tool call và cập nhật UI độ trễ thấp.",
@@ -11,28 +27,18 @@
     ],
     "link": "https://github.com/DuongAnh1201/desir",
     "image": "",
-    "tags": [
-      "OpenAI Realtime API",
-      "Pydantic AI",
-      "React",
-      "Vite",
-      "Python",
-      "WebSocket",
-      "Multi-agent",
-      "LLM"
-    ],
+    "tags": ["OpenAI Realtime API", "Pydantic AI", "React", "Vite", "Python", "WebSocket", "Multi-agent", "LLM"],
     "featured": true,
     "linkedinPost": ""
   },
   {
     "title": "TTorch — Framework deep learning nhẹ (C++/Python)",
     "description": [
-      "Triển khai thư viện tensor và engine autograd bằng C++ với binding Python—theo phong cách PyTorch: tensor, view và backward để học cơ chế.",
-      "Đồ thị tính toán động với primitive gradient module (Add, Multiply, ReLU, Dot) để thêm op mới mà không viết lại cả engine.",
-      "Autodiff kiểu lan truyền ngược với thứ tự topo đúng cho tensor dùng lại nhiều lần.",
-      "Đóng gói `pip install ttorch`: lớp Python → pybind11 → kernel C++ → autograd, dễ đo từng tầng.",
-      "Test độ chính xác số: so gradient số với gradient giải tích cho các op cốt lõi.",
-      "Mục tiêu giáo dục: codebase đủ đọc để hiểu training mà không giấu sau kernel CUDA."
+      "Xây thư viện tensor và engine autograd bằng C++ có binding Python—tensor, view và lan truyền ngược kiểu PyTorch, viết để dễ đọc.",
+      "Đồ thị tính toán động với các phép tính gradient dạng module (Add, Multiply, ReLU, Dot) để thêm phép mới mà không viết lại engine.",
+      "Cài đặt autodiff ngược với thứ tự topo đúng cho tensor dùng nhiều lần.",
+      "Đóng gói pip install ttorch: API Python → binding pybind11 → lõi C++ → autograd.",
+      "Tự động phát hành bằng cibuildwheel và GitHub Actions: 15 bản wheel cho Linux, Windows và macOS (Apple Silicon và Intel) trên Python 3.11–3.13, đẩy lên PyPI khi gắn tag."
     ],
     "link": "https://github.com/DuongAnh1201/TTorch",
     "image": "",
@@ -42,7 +48,12 @@
   },
   {
     "title": "Pipeline nhận diện cảm xúc người theo thời gian thực",
-    "description": "Hệ hai giai đoạn nhận diện cảm xúc từ webcam: phát hiện khuôn mặt bằng YOLOv11n, phân loại một trong bảy cảm xúc bằng mô hình hồi quy logistic tự huấn luyện. Trích xuất đặc trưng ViT-B/16 (768 chiều) và bộ phân lớp PyTorch từ đầu với L-BFGS, đo lường thủ công và quy trình huấn luyện/triển khai dạng module.",
+    "description": [
+      "Pipeline thị giác hai tầng: YOLOv11n tìm khuôn mặt trong luồng webcam; bộ phân loại dự đoán một trong bảy cảm xúc cho mỗi khuôn mặt.",
+      "Dùng ViT-B/16 đóng băng để trích đặc trưng (vector 768 chiều), đưa vào lớp hồi quy logistic tự viết bằng PyTorch, huấn luyện bằng L-BFGS.",
+      "Tự viết vòng huấn luyện và đánh giá (accuracy, precision, recall, F1, ma trận nhầm lẫn), kiểm chứng trên 5 lần chia dữ liệu phân tầng 70/15/15.",
+      "Đạt 73,5% độ chính xác trên tập Facial Expression Dataset (Kaggle), so với 14% nếu đoán ngẫu nhiên."
+    ],
     "link": "https://github.com/DuongAnh1201/Emotional-Detection-Model",
     "image": "",
     "tags": ["Computer Vision", "PyTorch", "YOLO", "ViT", "Real-time"],
