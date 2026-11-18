@@ -1,0 +1,367 @@
+{
+  "nav": [
+    {
+      "id": "about",
+      "label": "Giới thiệu"
+    },
+    {
+      "id": "experience",
+      "label": "Kinh nghiệm"
+    },
+    {
+      "id": "projects",
+      "label": "Dự án"
+    },
+    {
+      "id": "awards",
+      "label": "Giải thưởng"
+    },
+    {
+      "id": "writing",
+      "label": "Bài viết"
+    },
+    {
+      "id": "now",
+      "label": "Hiện tại"
+    },
+    {
+      "id": "contact",
+      "label": "Liên hệ"
+    }
+  ],
+  "subtitle": "Sinh viên Khoa học Máy tính · Hoạch định chuyển động robot · LLM & hệ đa tác tử · ML từ con số không",
+  "line": "Tôi xây dựng hệ thống LLM, truy xuất và đa tác tử — và đưa chúng vào vận hành thực tế, không chỉ là demo.",
+  "contact": "Liên hệ",
+  "learn": "Tìm hiểu thêm",
+  "email": "Email",
+  "read": "Đọc ›",
+  "seeMore": "Xem thêm ›",
+  "shot": "Ảnh chụp màn hình",
+  "demo": "Bản ghi demo · 16:10 · tự lặp",
+  "tomSub": "Đội tác tử AI, nhìn qua giao diện game retro.",
+  "desSub": "Trợ lý LLM ưu tiên giọng nói. OpenAI Realtime, bộ điều phối đa tác tử.",
+  "ttSub": "Framework học sâu gọn nhẹ. Autograd bằng C++ và Python.",
+  "moreTitle": "Thêm dự án.",
+  "moreSub": "Những dự án nhỏ và thử nghiệm.",
+  "more": [
+    {
+      "isEmotion": true,
+      "isMaze": false,
+      "title": "Pipeline nhận diện cảm xúc người theo thời gian thực",
+      "desc": "YOLOv11n tìm khuôn mặt trong luồng webcam; đặc trưng ViT-B/16 đóng băng đưa vào lớp hồi quy logistic tự viết. Đạt 73,5% độ chính xác trên bảy cảm xúc, so với 14% nếu đoán ngẫu nhiên."
+    },
+    {
+      "isEmotion": false,
+      "isMaze": true,
+      "title": "Trực quan hóa thuật tìm đường trong mê cung",
+      "desc": "Trình trực quan React hoạt họa BFS, flood fill và tìm kiếm ngẫu nhiên trên mê cung có seed, kèm số liệu trực tiếp: số nút mở rộng, độ dài đường và thời gian."
+    },
+    {
+      "isEmotion": false,
+      "isMaze": false,
+      "image": "assets/cozy-coins.jpg",
+      "title": "Cozy Coins — Quản lý tài chính cá nhân",
+      "desc": "Ứng dụng tài chính chạy cục bộ bằng Next.js và SQLite: chi tiêu, đăng ký hằng tháng, chia thu nhập vào các “bình”, hạn mức sinh hoạt và báo cáo theo tuần/tháng/năm. Dữ liệu luôn nằm trên máy của bạn."
+    }
+  ],
+  "expTitle": "Kinh nghiệm.",
+  "expSub": "Nghiên cứu, khởi nghiệp và hệ thống thực tế.",
+  "exp": [
+    {
+      "logo": "SFBU",
+      "role": "Nghiên cứu viên, Hoạch định chuyển động robot",
+      "org": "SFBU School of Engineering",
+      "dates": "05/2026 – Nay",
+      "bullets": [
+        "Chạy hơn 30.000 thử nghiệm mô phỏng để tìm các kiểu thất bại của thuật toán hoạch định chuyển động goal-biased RRT (Rapidly-exploring Random Tree) trong các mê cung có tham số, thay đổi từng yếu tố một để tách nguyên nhân.",
+        "Phát hiện chỉ một vật cản chắn đường thẳng từ điểm đầu đến đích đã làm tỉ lệ thành công giảm 68% (77,8% → 24,7%), và bước nhảy tối ưu phụ thuộc vào môi trường chứ không phải một hằng số chung.",
+        "Kiểm chứng bằng nhiều phép kiểm định thống kê độc lập và một lần lặp lại 1.000 thử nghiệm riêng; bài báo với mình là tác giả chính đang được viết."
+      ],
+      "logoImage": "assets/logos/san_francisco_bay_university_logo.jpeg"
+    },
+    {
+      "logo": "Q",
+      "role": "Thành viên sáng lập, Kỹ sư DevOps AI",
+      "org": "Quiche, Inc.",
+      "dates": "11/2025 – 05/2026",
+      "bullets": [
+        "Giảm 58% thời gian phản hồi của trợ lý (60 giây → 25 giây) bằng cách chia mỗi truy vấn qua pipeline đa tác tử (Pydantic AI), giao từng phần việc cho một agent chuyên biệt.",
+        "Thiết kế MCP server của công ty để tính năng AI gọi ngữ cảnh có cấu trúc từ công cụ và kho dữ liệu nội bộ, có phân quyền theo vai trò và xử lý rõ ràng khi truy hồi không có kết quả.",
+        "Triển khai GCP—Compute Engine cho workload cần máy ảo lâu dài, Cloud Run cho dịch vụ HTTP, Cloud SQL cho dữ liệu quan hệ—tối ưu chi phí và cold start."
+      ],
+      "logoImage": "assets/logos/quiche_logo.jpeg"
+    },
+    {
+      "logo": "SFBU",
+      "role": "Nhân viên IT (sinh viên)",
+      "org": "SFBU IT Department",
+      "dates": "09/2025 – Nay",
+      "bullets": [
+        "Hỗ trợ chẩn đoán tầng một cho máy tính để bàn, laptop, thiết bị AV lớp học, máy in, Wi-Fi và tài khoản phần mềm—ghi ticket, tái hiện lỗi, xử lý hoặc chuyển cấp kèm ghi chú rõ.",
+        "Duy trì kho tài sản IT kỹ thống—serial, vị trí, bảo hành—để làm mới, kiểm kê và bảo trì minh bạch."
+      ],
+      "logoImage": "assets/logos/san_francisco_bay_university_logo.jpeg"
+    },
+    {
+      "logo": "SE",
+      "role": "Thực tập sinh Nghiên cứu & Triển khai LLM",
+      "org": "Sofeast Ltd.",
+      "dates": "05 – 08/2025",
+      "bullets": [
+        "Xây pipeline RAG LangChain + FAISS trả lời câu hỏi của nhân viên từ tài liệu nội bộ kèm trích dẫn, giảm 20% câu hỏi lặp lại giữa đồng nghiệp.",
+        "Benchmark 5 LLM mã nguồn mở (Llama 3, Mistral, Gemma, Qwen, Deepseek) với API độc quyền về độ trễ, chi phí token và chất lượng, dùng cùng một bộ đánh giá tự động trước khi đề xuất mô hình triển khai.",
+        "Tinh chỉnh prompt và cấu hình retrieval (top-k, bộ lọc, stop sequences) để giảm ảo giác, kiểm tra mọi thay đổi trên cùng một bộ câu hỏi cố định."
+      ],
+      "logoImage": "assets/logos/sofeast_logo.jpeg"
+    }
+  ],
+  "eduTitle": "Học vấn.",
+  "edu": [
+    {
+      "logo": "SFBU",
+      "title": "Cử nhân Khoa học Máy tính",
+      "school": "San Francisco Bay University",
+      "dates": "2024 – 12/2027"
+    },
+    {
+      "logo": "LHP",
+      "title": "Trung học phổ thông",
+      "school": "Trường THPT Chuyên Lê Hồng Phong",
+      "dates": "2021 – 2024"
+    }
+  ],
+  "awTitle": "Giải thưởng & chứng chỉ.",
+  "awSub": "Hackathon và chứng nhận chuyên môn.",
+  "awards": [
+    {
+      "kind": "Hackathon",
+      "big": "Giải Nhất",
+      "label": "ThinkNext 2026 · Uniflow"
+    },
+    {
+      "kind": "Hackathon",
+      "big": "Giải Nhì",
+      "label": "Innovate Bay BayHawk 1.0 · Bit for Bit"
+    },
+    {
+      "kind": "Hackathon",
+      "big": "Giải Ba",
+      "label": "Innovate Bay BayHawk 2.0 · Ứng phó cháy rừng"
+    },
+    {
+      "kind": "Hackathon",
+      "big": "Top 3",
+      "label": "NVIDIA GTC Hackathon 2025 · BleuLaMuse"
+    },
+    {
+      "kind": "Chứng chỉ",
+      "big": "NCP",
+      "label": "NVIDIA Certified Professional: Agentic AI"
+    },
+    {
+      "kind": "Hackathon",
+      "big": "2026",
+      "label": "HackHayward 2026 · KryptosProof"
+    }
+  ],
+  "wrTitle": "Bài viết.",
+  "wrSub": "Ghi chép trong quá trình xây dựng.",
+  "writing": [
+    {
+      "date": "Bản nháp · 04/2026",
+      "title": "Heading Intersection and Step-Size Effect in Goal-Biased RRT",
+      "summary": "Khi nào goal-biased RRT thất bại? Hơn 30.000 thử nghiệm mô phỏng cho thấy một vật cản chắn đường làm tỉ lệ thành công giảm từ 77,8% xuống 24,7%, và bước nhảy tối ưu phụ thuộc vào mê cung.",
+      "status": "Đang viết"
+    },
+    {
+      "date": "Bản nháp · 04/2026",
+      "title": "Restoring war photographs with AI: technical approaches and societal implications",
+      "summary": "So sánh phục chế tự động, lai và không dùng AI cho ảnh chiến tranh bị hư, đối chiếu với tính xác thực, niềm tin và trí nhớ tập thể, kèm kết quả sớm từ nghiên cứu vignette 50 người.",
+      "status": "Đang viết"
+    }
+  ],
+  "nowTitle": "Hiện tại.",
+  "nowSub": "Cập nhật gần đây.",
+  "now": [
+    {
+      "date": "10/2026",
+      "text": "Phát hành Tomville 0.2.x trên PyPI: văn phòng retro trong terminal nơi các AI agent lập trình (Claude Code, Codex) đi lại như thú cưng pixel, có bảng công việc từ GitHub Issues và bot Telegram để điều khiển đội từ điện thoại."
+    },
+    {
+      "date": "05/2026",
+      "text": "Bắt đầu nghiên cứu hoạch định chuyển động robot cùng TS. Satarupa Mukherjee (SFBU School of Engineering): hơn 30.000 thử nghiệm mô phỏng về khi nào goal-biased RRT thất bại; bài báo với mình là tác giả chính đang được viết. Kết thúc vai trò thành viên sáng lập tại Quiche."
+    },
+    {
+      "date": "04/2026",
+      "text": "Đang viết hai bài: phục chế ảnh chiến tranh bằng AI (đạo đức + nghiên cứu vignette) và RRT với công thức mê cung dạng vector. Repo công khai: TTorch (autograd C++/Python), Desir (trợ lý đa tác tử), stack cảm xúc thời gian thực, trực quan mê cung. Siết lại trang tối giản cho khớp thực tế."
+    },
+    {
+      "date": "04/2026",
+      "text": "Hạng ba Innovate Bay (BayHawk 2.0) với stack cháy rừng: YOLOv8 + NASA FIRMS + ngữ cảnh thời tiết, kết hợp pipeline LLM đa tác tử (PydanticAI, GPT-4o, FastAPI) cho mức độ nghiêm trọng và kế hoạch ứng phó."
+    },
+    {
+      "date": "03/2026",
+      "text": "Cuối tuần HackHayward: KryptosProof—đa tác tử dùng công cụ tấn công thật (sqlmap/Nuclei/FFUF), sandbox Docker, bảng điều khiển trực tiếp, báo cáo có chữ ký cho góc bảo mật vibe-coding."
+    },
+    {
+      "date": "02/2026",
+      "text": "Thắng ThinkNext 2026 với Uniflow—đồng phi hành sự nghiệp PydanticAI cho SFBU: agent mục tiêu + CV, RAG môn/sự kiện, và phỏng vấn giả lập thoại/giọng với phản hồi kiểu STAR (demo Streamlit)."
+    },
+    {
+      "date": "11/2025",
+      "text": "Gia nhập Quiche (sàn ADU) với tư cách sáng lập—tập trung AI/DevOps: MCP server truy hồi ngữ cảnh, thiết kế trợ lý đa tác tử, và GCP (Compute Engine, Cloud Run, Cloud SQL) cho triển khai sát sản xuất."
+    },
+    {
+      "date": "11/2025",
+      "text": "Thi ICPC Pacific Northwest 2025 (Division 2). Làm chủ nhiệm Câu lạc bộ Robot năm nay, vừa giữ môn và dự án build."
+    },
+    {
+      "date": "10/2025",
+      "text": "Hạng hai BayHack / Innovate Bay (BayHawk 1.0) với Bit for Bit: chụp biên lai điện thoại → MongoDB có cấu trúc + lớp trợ lý tồn kho cho nhóm nhỏ (OpenAI API, FastAPI, Node, Python)."
+    },
+    {
+      "date": "09/2025",
+      "text": "Bắt đầu trợ lý sinh viên phòng CNTT SFBU—hỗ trợ tuyến đầu cho ticket phần cứng/phần mềm/mạng và theo dõi tài sản toàn trường."
+    },
+    {
+      "date": "08/2025",
+      "text": "Kết thúc thực tập LLM ở Sofeast (5–8/2025): hệ RAG/LLM nội bộ, công cụ đánh giá & triển khai, đưa mô hình vào quy trình kinh doanh thật."
+    },
+    {
+      "date": "02/2025",
+      "text": "Top 3 SFBU IEEE Mind Sparks với BleuLaMuse—chatbot tuyển dụng GPT + FAISS + Streamlit, backend module để mở rộng lên cloud sau."
+    }
+  ],
+  "ctTitle": "Cùng xây dựng điều gì đó.",
+  "ctSub": "Bạn có dự án, vị trí hay ý tưởng? Hãy liên hệ.",
+  "emailMe": "Gửi email",
+  "ftNote": "Cập nhật lần cuối: tháng 11/2026.",
+  "ftCols": [
+    {
+      "head": "Dự án",
+      "items": [
+        {
+          "id": "projects",
+          "label": "TTorch"
+        },
+        {
+          "id": "projects",
+          "label": "Tomville"
+        },
+        {
+          "id": "projects",
+          "label": "Desir"
+        },
+        {
+          "id": "projects",
+          "label": "Emotion Detection"
+        },
+        {
+          "id": "projects",
+          "label": "Maze Visualizer"
+        },
+        {
+          "id": "projects",
+          "label": "Cozy Coins"
+        }
+      ]
+    },
+    {
+      "head": "Kinh nghiệm",
+      "items": [
+        {
+          "id": "experience",
+          "label": "SFBU School of Engineering"
+        },
+        {
+          "id": "experience",
+          "label": "Quiche, Inc."
+        },
+        {
+          "id": "experience",
+          "label": "SFBU IT Department"
+        },
+        {
+          "id": "experience",
+          "label": "Sofeast Ltd."
+        }
+      ]
+    },
+    {
+      "head": "Thành tích",
+      "items": [
+        {
+          "id": "awards",
+          "label": "ThinkNext 2026"
+        },
+        {
+          "id": "awards",
+          "label": "BayHawk 1.0 & 2.0"
+        },
+        {
+          "id": "awards",
+          "label": "NVIDIA GTC Hackathon"
+        },
+        {
+          "id": "awards",
+          "label": "NVIDIA Agentic AI"
+        }
+      ]
+    },
+    {
+      "head": "Khác",
+      "items": [
+        {
+          "id": "writing",
+          "label": "Bài viết"
+        },
+        {
+          "id": "now",
+          "label": "Hiện tại"
+        },
+        {
+          "id": "contact",
+          "label": "Liên hệ"
+        }
+      ]
+    }
+  ],
+  "copy": "Bản quyền © 2026 Duong Anh (Tom) Nguyen. Bảo lưu mọi quyền.",
+  "nowVisible": 5,
+  "links": {
+    "github": "https://github.com/DuongAnh1201",
+    "linkedin": "https://www.linkedin.com/in/anh-nguyen-203105339/",
+    "email": "mailto:tomnguyen6766@gmail.com",
+    "projects": {
+      "tomville": {
+        "learn": "https://pypi.org/project/tomville/",
+        "github": "https://github.com/DuongAnh1201/tomville"
+      },
+      "desir": {
+        "learn": "https://github.com/DuongAnh1201/desir#readme",
+        "github": "https://github.com/DuongAnh1201/desir"
+      },
+      "ttorch": {
+        "learn": "https://pypi.org/project/ttorch/",
+        "github": "https://github.com/DuongAnh1201/TTorch"
+      },
+      "emotion": {
+        "learn": "https://github.com/DuongAnh1201/Emotional-Detection-Model#readme",
+        "github": "https://github.com/DuongAnh1201/Emotional-Detection-Model"
+      },
+      "maze": {
+        "learn": "https://github.com/DuongAnh1201/CS455_Project#readme",
+        "github": "https://github.com/DuongAnh1201/CS455_Project"
+      },
+      "cozycoins": {
+        "learn": "https://github.com/DuongAnh1201/IndividualFinanceManager#readme",
+        "github": "https://github.com/DuongAnh1201/IndividualFinanceManager"
+      }
+    }
+  },
+  "featuredOrder": [
+    "ttorch",
+    "tomville",
+    "desir"
+  ]
+}

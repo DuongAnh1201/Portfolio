@@ -1,0 +1,367 @@
+{
+  "nav": [
+    {
+      "id": "about",
+      "label": "About"
+    },
+    {
+      "id": "experience",
+      "label": "Experience"
+    },
+    {
+      "id": "projects",
+      "label": "Projects"
+    },
+    {
+      "id": "awards",
+      "label": "Awards"
+    },
+    {
+      "id": "writing",
+      "label": "Writing"
+    },
+    {
+      "id": "now",
+      "label": "Now"
+    },
+    {
+      "id": "contact",
+      "label": "Contact"
+    }
+  ],
+  "subtitle": "CS student · Robot motion planning · LLM & multi-agent systems · ML from scratch",
+  "line": "I build LLM, retrieval and multi-agent systems — and ship them to production, not just demos.",
+  "contact": "Contact",
+  "learn": "Learn more",
+  "email": "Email",
+  "read": "Read ›",
+  "seeMore": "See more ›",
+  "shot": "Screenshot",
+  "demo": "Demo recording · 16:10 · loops",
+  "tomSub": "A retro game view of an AI agent team.",
+  "desSub": "Voice-first LLM assistant. OpenAI Realtime, multi-agent orchestrator.",
+  "ttSub": "Lightweight deep learning framework. Autograd in C++ and Python.",
+  "moreTitle": "More projects.",
+  "moreSub": "Smaller builds and experiments.",
+  "more": [
+    {
+      "isEmotion": true,
+      "isMaze": false,
+      "title": "Real-Time Human Emotion Detection Pipeline",
+      "desc": "YOLOv11n finds faces in a webcam stream; frozen ViT-B/16 features feed a logistic-regression head written from scratch. 73.5% accuracy across seven emotions, against a 14% chance baseline."
+    },
+    {
+      "isEmotion": false,
+      "isMaze": true,
+      "title": "Maze-Solving Algorithms Visualizer",
+      "desc": "React visualizer that animates BFS, flood fill and a randomized search on seeded mazes, with live stats for nodes expanded, path length and time."
+    },
+    {
+      "isEmotion": false,
+      "isMaze": false,
+      "image": "assets/cozy-coins.jpg",
+      "title": "Cozy Coins — Personal Finance Manager",
+      "desc": "Local-first finance app in Next.js and SQLite: expenses, monthly subscriptions, income split into bottles, a living limit and week/month/year reports. Your data never leaves your computer."
+    }
+  ],
+  "expTitle": "Experience.",
+  "expSub": "Research, a startup, and production work.",
+  "exp": [
+    {
+      "logo": "SFBU",
+      "role": "Researcher, Robot Motion Planning",
+      "org": "SFBU School of Engineering",
+      "dates": "May 2026 – Present",
+      "bullets": [
+        "Ran 30,000+ simulated trials characterizing failure modes of goal-biased RRT (Rapidly-exploring Random Tree) motion planning across parameterized maze environments, varying one parameter at a time to isolate causal effects.",
+        "Found that a single obstacle blocking the direct start-to-goal path cuts planner success by 68% (77.8% → 24.7%), and that the best step size depends on the environment rather than being a global constant.",
+        "Validated results with multiple independent statistical tests and a held-out 1,000-trial replication; first-author paper in preparation."
+      ],
+      "logoImage": "assets/logos/san_francisco_bay_university_logo.jpeg"
+    },
+    {
+      "logo": "Q",
+      "role": "Founding Member, DevOps AI Engineer",
+      "org": "Quiche, Inc.",
+      "dates": "Nov 2025 – May 2026",
+      "bullets": [
+        "Cut assistant response time 58% (60s → 25s) by splitting each query across a multi-agent pipeline (Pydantic AI) that routes every subtask to a specialized agent.",
+        "Architected the company's MCP (Model Context Protocol) server so AI features request structured context from internal tools and data stores, with role-based access control and explicit handling when retrieval returns nothing.",
+        "Provisioned GCP infrastructure—Compute Engine for workloads that need persistent VMs, Cloud Run for HTTP services, Cloud SQL for relational state—tuning hosting cost and cold-start latency."
+      ],
+      "logoImage": "assets/logos/quiche_logo.jpeg"
+    },
+    {
+      "logo": "SFBU",
+      "role": "IT Student Staff",
+      "org": "SFBU IT Department",
+      "dates": "Sep 2025 – Present",
+      "bullets": [
+        "Delivered Tier-1 diagnostic support for desktops, laptops, classroom AV, printers, Wi-Fi, and software accounts—logging tickets, reproducing issues, and resolving or escalating with clear notes.",
+        "Maintained a digital inventory of IT assets—serial numbers, deployment locations, warranty status—so refreshes, audits, and maintenance cycles stay accountable."
+      ],
+      "logoImage": "assets/logos/san_francisco_bay_university_logo.jpeg"
+    },
+    {
+      "logo": "SE",
+      "role": "LLM Research & Implementation Intern",
+      "org": "Sofeast Ltd.",
+      "dates": "May – Aug 2025",
+      "bullets": [
+        "Built a LangChain + FAISS RAG pipeline that answers staff questions over internal documents with citations, cutting repeat questions between coworkers by 20%.",
+        "Benchmarked 5 open-source LLMs (Llama 3, Mistral, Gemma, Qwen, Deepseek) against proprietary APIs on latency, token cost, and answer quality, using the same automated evaluation for each before recommending one for deployment.",
+        "Refined prompt templates and retrieval settings (top-k, filters, stop sequences) to reduce hallucinations, checking every change against a fixed regression set."
+      ],
+      "logoImage": "assets/logos/sofeast_logo.jpeg"
+    }
+  ],
+  "eduTitle": "Education.",
+  "edu": [
+    {
+      "logo": "SFBU",
+      "title": "B.S. Computer Science",
+      "school": "San Francisco Bay University",
+      "dates": "2024 – Dec 2027"
+    },
+    {
+      "logo": "LHP",
+      "title": "High School",
+      "school": "Le Hong Phong High School for the Gifted",
+      "dates": "2021 – 2024"
+    }
+  ],
+  "awTitle": "Awards & certifications.",
+  "awSub": "Hackathons and credentials.",
+  "awards": [
+    {
+      "kind": "Hackathon",
+      "big": "1st",
+      "label": "ThinkNext 2026 · Uniflow"
+    },
+    {
+      "kind": "Hackathon",
+      "big": "2nd",
+      "label": "Innovate Bay BayHawk 1.0 · Bit for Bit"
+    },
+    {
+      "kind": "Hackathon",
+      "big": "3rd",
+      "label": "Innovate Bay BayHawk 2.0 · Wildfire response"
+    },
+    {
+      "kind": "Hackathon",
+      "big": "Top 3",
+      "label": "NVIDIA GTC Hackathon 2025 · BleuLaMuse"
+    },
+    {
+      "kind": "Certification",
+      "big": "NCP",
+      "label": "NVIDIA Certified Professional: Agentic AI"
+    },
+    {
+      "kind": "Hackathon",
+      "big": "2026",
+      "label": "HackHayward 2026 · KryptosProof"
+    }
+  ],
+  "wrTitle": "Writing.",
+  "wrSub": "Notes from the build.",
+  "writing": [
+    {
+      "date": "Draft · Apr 2026",
+      "title": "Heading Intersection and Step-Size Effect in Goal-Biased RRT",
+      "summary": "When does goal-biased RRT fail? 30,000+ simulated maze trials show one blocking obstacle drops success from 77.8% to 24.7%, and the best step size depends on the maze.",
+      "status": "In preparation"
+    },
+    {
+      "date": "Draft · Apr 2026",
+      "title": "Restoring war photographs with AI: technical approaches and societal implications",
+      "summary": "Automated, hybrid and non-AI restoration of damaged war photographs, weighed against authenticity, trust and collective memory, with early results from a 50-person vignette study.",
+      "status": "In preparation"
+    }
+  ],
+  "nowTitle": "Now.",
+  "nowSub": "Recent updates.",
+  "now": [
+    {
+      "date": "Oct 2026",
+      "text": "Released Tomville 0.2.x on PyPI: a retro terminal office where my AI coding agents (Claude Code, Codex) walk around as pixel pets, with a GitHub Issues task board and a Telegram bot to run the team from my phone."
+    },
+    {
+      "date": "May 2026",
+      "text": "Started research on robot motion planning with Dr. Satarupa Mukherjee (SFBU School of Engineering): 30,000+ simulated trials on when goal-biased RRT fails; first-author paper in preparation. Wrapped up my founding-member role at Quiche."
+    },
+    {
+      "date": "Apr 2026",
+      "text": "Drafting two papers: AI restoration of war photographs (ethics + vignette study) and RRT with a vector maze formulation. Public repos in motion: TTorch (C++/Python autograd), Desir (agentic assistant), a real-time emotion CV stack, and a maze-solving visualizer. Tightening this minimal site to match reality."
+    },
+    {
+      "date": "Apr 2026",
+      "text": "Third place at Innovate Bay (BayHawk 2.0) for a wildfire stack: YOLOv8 + NASA FIRMS + weather context, fused with a multi-agent LLM pipeline (PydanticAI, GPT-4o, FastAPI) for severity and response planning."
+    },
+    {
+      "date": "Mar 2026",
+      "text": "HackHayward weekend: shipped KryptosProof — multi-agent, tool-using red team (sqlmap / Nuclei / FFUF), Docker sandbox, live dashboard, and signed reports for the vibe-coding security angle."
+    },
+    {
+      "date": "Feb 2026",
+      "text": "Won ThinkNext 2026 with Uniflow — a PydanticAI-orchestrated career copilot for SFBU: goal + résumé agents, RAG over courses/events, and a voice/text mock interview path with STAR-style feedback (Streamlit demo)."
+    },
+    {
+      "date": "Nov 2025",
+      "text": "Joined Quiche (ADU marketplace) as a founding member — AI / DevOps focus: MCP server for contextual retrieval, multi-agent assistant design, and GCP (Compute Engine, Cloud Run, Cloud SQL) for production-shaped deploys."
+    },
+    {
+      "date": "Nov 2025",
+      "text": "Competed at ICPC Pacific Northwest Regional 2025 (Division 2). Serving as Robotics Club president this year while keeping coursework and build projects moving."
+    },
+    {
+      "date": "Oct 2025",
+      "text": "Second place at BayHack / Innovate Bay (BayHawk 1.0) with Bit for Bit: phone receipt capture → structured MongoDB + assistant layer for small-team inventory (OpenAI API, FastAPI, Node, Python)."
+    },
+    {
+      "date": "Sep 2025",
+      "text": "Started as a student assistant in the SFBU IT department — Tier-1 triage for hardware/software/network tickets plus asset tracking across campus."
+    },
+    {
+      "date": "Aug 2025",
+      "text": "Finished the Sofeast LLM internship (May–Aug 2025): internal RAG/LLM systems, evaluation and deployment tooling, and shipping models into real business workflows."
+    },
+    {
+      "date": "Feb 2025",
+      "text": "Top 3 at SFBU IEEE Mind Sparks with BleuLaMuse — GPT + FAISS + Streamlit career chatbot with modular backend for later cloud expansion."
+    }
+  ],
+  "ctTitle": "Let’s build something.",
+  "ctSub": "Have a project, a role or an idea? Get in touch.",
+  "emailMe": "Email me",
+  "ftNote": "Last updated November 2026.",
+  "ftCols": [
+    {
+      "head": "Projects",
+      "items": [
+        {
+          "id": "projects",
+          "label": "TTorch"
+        },
+        {
+          "id": "projects",
+          "label": "Tomville"
+        },
+        {
+          "id": "projects",
+          "label": "Desir"
+        },
+        {
+          "id": "projects",
+          "label": "Emotion Detection"
+        },
+        {
+          "id": "projects",
+          "label": "Maze Visualizer"
+        },
+        {
+          "id": "projects",
+          "label": "Cozy Coins"
+        }
+      ]
+    },
+    {
+      "head": "Experience",
+      "items": [
+        {
+          "id": "experience",
+          "label": "SFBU School of Engineering"
+        },
+        {
+          "id": "experience",
+          "label": "Quiche, Inc."
+        },
+        {
+          "id": "experience",
+          "label": "SFBU IT Department"
+        },
+        {
+          "id": "experience",
+          "label": "Sofeast Ltd."
+        }
+      ]
+    },
+    {
+      "head": "Recognition",
+      "items": [
+        {
+          "id": "awards",
+          "label": "ThinkNext 2026"
+        },
+        {
+          "id": "awards",
+          "label": "BayHawk 1.0 & 2.0"
+        },
+        {
+          "id": "awards",
+          "label": "NVIDIA GTC Hackathon"
+        },
+        {
+          "id": "awards",
+          "label": "NVIDIA Agentic AI"
+        }
+      ]
+    },
+    {
+      "head": "More",
+      "items": [
+        {
+          "id": "writing",
+          "label": "Writing"
+        },
+        {
+          "id": "now",
+          "label": "Now"
+        },
+        {
+          "id": "contact",
+          "label": "Contact"
+        }
+      ]
+    }
+  ],
+  "copy": "Copyright © 2026 Duong Anh (Tom) Nguyen. All rights reserved.",
+  "nowVisible": 5,
+  "links": {
+    "github": "https://github.com/DuongAnh1201",
+    "linkedin": "https://www.linkedin.com/in/anh-nguyen-203105339/",
+    "email": "mailto:tomnguyen6766@gmail.com",
+    "projects": {
+      "tomville": {
+        "learn": "https://pypi.org/project/tomville/",
+        "github": "https://github.com/DuongAnh1201/tomville"
+      },
+      "desir": {
+        "learn": "https://github.com/DuongAnh1201/desir#readme",
+        "github": "https://github.com/DuongAnh1201/desir"
+      },
+      "ttorch": {
+        "learn": "https://pypi.org/project/ttorch/",
+        "github": "https://github.com/DuongAnh1201/TTorch"
+      },
+      "emotion": {
+        "learn": "https://github.com/DuongAnh1201/Emotional-Detection-Model#readme",
+        "github": "https://github.com/DuongAnh1201/Emotional-Detection-Model"
+      },
+      "maze": {
+        "learn": "https://github.com/DuongAnh1201/CS455_Project#readme",
+        "github": "https://github.com/DuongAnh1201/CS455_Project"
+      },
+      "cozycoins": {
+        "learn": "https://github.com/DuongAnh1201/IndividualFinanceManager#readme",
+        "github": "https://github.com/DuongAnh1201/IndividualFinanceManager"
+      }
+    }
+  },
+  "featuredOrder": [
+    "ttorch",
+    "tomville",
+    "desir"
+  ]
+}

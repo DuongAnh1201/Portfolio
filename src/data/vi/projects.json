@@ -7,7 +7,7 @@
       "Hỗ trợ hai kiểu đội: lead + workers và pipeline planner → coder → tester, mỗi kiểu có bố cục văn phòng riêng.",
       "CLI tmv tạo, khởi động và dừng đội (new, up, down), quản lý task, tin nhắn và kiểm tra hệ thống (task, send, doctor).",
       "Bot Telegram tùy chọn: nhắn cho đội từ điện thoại, duyệt quyền của agent bằng nút bấm, nhận thông báo khi agent bị chặn hoặc thẻ chờ review; không mở cổng, token lưu ngoài dự án.",
-      "Phát hành trên PyPI (pip install tomville, v0.2.1) với 283 test và CI trên Ubuntu và macOS."
+      "Phát hành trên PyPI (pip install tomville, v0.3.0) với 283 test và CI trên Ubuntu và macOS."
     ],
     "link": "https://github.com/DuongAnh1201/tomville",
     "image": "",
