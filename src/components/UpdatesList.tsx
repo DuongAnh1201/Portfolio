@@ -18,11 +18,13 @@ function UpdateItem({
   linkText: string;
 }) {
   return (
-    <div className="text-sm">
-      <time className="text-xs text-muted">{u.date}</time>
-      <p className="text-foreground mt-0.5">{u.content}</p>
+    <article className="entry">
+      <p className="when">
+        <time dateTime={u.date}>{u.date}</time>
+      </p>
+      <p className="desc">{u.content}</p>
       <LinkedInPostLink href={u.linkedinPost} linkText={linkText} />
-    </div>
+    </article>
   );
 }
 
@@ -43,7 +45,6 @@ export default function UpdatesList({
 
   return (
     <ExpandableList
-      className="space-y-3"
       showLess={expand.showLess}
       seeMoreTemplate={expand.seeMore}
       items={sorted.map((u, i) => (

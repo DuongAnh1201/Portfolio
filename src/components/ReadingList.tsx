@@ -31,35 +31,21 @@ function ReadingItem({
   messages: Messages;
 }) {
   return (
-    <div className="text-sm">
-      <div className="flex items-baseline gap-2">
+    <article className="entry">
+      <p className="when">{statusLabel(b.status, messages)}</p>
+      <h3>
         {b.link ? (
-          <a
-            href={b.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-accent hover:underline font-medium"
-          >
+          <a href={b.link} target="_blank" rel="noopener noreferrer">
             {b.title}
           </a>
         ) : (
-          <span className="font-medium">{b.title}</span>
+          b.title
         )}
-        <span className="text-xs text-muted">
-          — {b.author}
-        </span>
-        <span className="text-xs text-muted/60">
-          [{statusLabel(b.status, messages)}]
-        </span>
-      </div>
-      {b.notes && (
-        <p className="text-muted text-xs mt-0.5">{b.notes}</p>
-      )}
-      <LinkedInPostLink
-        href={b.linkedinPost}
-        linkText={messages.linkedinPost}
-      />
-    </div>
+      </h3>
+      <p className="org">{b.author}</p>
+      {b.notes && <p className="desc">{b.notes}</p>}
+      <LinkedInPostLink href={b.linkedinPost} linkText={messages.linkedinPost} />
+    </article>
   );
 }
 
@@ -80,7 +66,6 @@ export default function ReadingList({
 
   return (
     <ExpandableList
-      className="space-y-3"
       showLess={expand.showLess}
       seeMoreTemplate={expand.seeMore}
       items={sorted.map((b) => (

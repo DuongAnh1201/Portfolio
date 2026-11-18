@@ -2,6 +2,8 @@
   "name": "Duong Anh (Tom) Nguyen",
   "avatar": "/images/IMG_4842.JPG",
   "tagline": "CS student · Robot motion planning · LLM & multi-agent systems · ML from scratch",
+  "statement": "I build LLM, retrieval and multi-agent systems —",
+  "statementEmphasis": "and ship them to production, not just demos.",
   "bio": [
     "I'm Duong Anh (Tom) Nguyen, a B.S. Computer Science student at San Francisco Bay University (GPA 3.89, graduating Dec 2027). I work on robot motion planning research and on LLM and multi-agent systems that run in production, not just demos.",
     "Research: with Dr. Satarupa Mukherjee I study when goal-biased RRT motion planning fails. So far that is 30,000+ simulated maze trials, and a first-author paper is in preparation.",
