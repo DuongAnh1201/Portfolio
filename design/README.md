@@ -5,13 +5,11 @@ One-page personal portfolio in a premium product-launch style: restrained, cente
 ## What's in here
 
 ```
-site/            Working static site. Open site/index.html in a browser — no build step.
-  index.html       English
-  index-vi.html    Vietnamese (the EN/VI switch links between the two)
-content/
+../public/       Live site (moved from site/): index.html (English), vi.html (Vietnamese)
+../content/
   content.en.json  All page copy + data (projects, experience, awards, writing, now, footer)
   content.vi.json  Same structure, Vietnamese
-design/          Source from the Claude Design canvas (reference only)
+design/          (this folder) Source from the Claude Design canvas (reference only)
   Main.dc.html     Desktop/fluid page as a Design Component (template + data in the <script>)
   Mobile.dc.html   390px frame that imports Main
   canvas.json      Canvas layout
