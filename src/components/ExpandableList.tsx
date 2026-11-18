@@ -14,7 +14,7 @@ interface ExpandableListProps {
 
 export default function ExpandableList({
   items,
-  className = "space-y-4",
+  className = "entries",
   showLess,
   seeMoreTemplate,
 }: ExpandableListProps) {
@@ -32,13 +32,16 @@ export default function ExpandableList({
         ))}
       </ul>
       {needsToggle && (
-        <button
-          type="button"
-          onClick={() => setExpanded((prev) => !prev)}
-          className="mt-3 text-sm text-accent hover:underline cursor-pointer"
-        >
-          {expanded ? showLess : seeMoreLabel}
-        </button>
+        <div className="more">
+          <button
+            type="button"
+            onClick={() => setExpanded((prev) => !prev)}
+            className="box-btn"
+            aria-expanded={expanded}
+          >
+            {expanded ? showLess : seeMoreLabel}
+          </button>
+        </div>
       )}
     </>
   );

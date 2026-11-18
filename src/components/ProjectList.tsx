@@ -1,6 +1,8 @@
 import Image from "next/image";
 import ExpandableList from "@/components/ExpandableList";
-import LinkedInPostLink from "@/components/LinkedInPostLink";
+import Description from "@/components/Description";
+import Tags from "@/components/Tags";
+import type { Messages } from "@/lib/messages";
 import { getMessages } from "@/lib/messages";
 import { getProjects } from "@/lib/content";
 import type { Locale } from "@/lib/locale";
@@ -17,62 +19,56 @@ interface Project {
 
 function ProjectItem({
   p,
-  linkText,
+  messages,
 }: {
   p: Project;
-  linkText: string;
+  messages: Messages;
 }) {
+  const href = p.link?.trim();
+  const post = p.linkedinPost?.trim();
   return (
-    <>
+    <article className="entry">
       {p.image && (
-        <a href={p.link} target="_blank" rel="noopener noreferrer">
-          <Image
-            src={p.image}
-            alt={p.title}
-            width={680}
-            height={340}
-            className="rounded mb-2 w-full h-auto object-cover"
-          />
-        </a>
+        <figure className="figure">
+          <Image src={p.image} alt={p.title} width={1120} height={560} />
+        </figure>
       )}
-      <div className="flex items-baseline gap-2">
-        <a
-          href={p.link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-accent hover:underline font-medium"
-        >
-          {p.title}
-        </a>
-        {p.featured && (
-          <span className="text-xs text-muted">★</span>
+      <p className="when">
+        {p.featured ? `★ ${messages.featured} · ` : ""}
+        {messages.project}
+      </p>
+      <h3>
+        {href ? (
+          <a href={href} target="_blank" rel="noopener noreferrer">
+            {p.title}
+          </a>
+        ) : (
+          p.title
         )}
-      </div>
-      {typeof p.description === "string" ? (
-        <p className="text-sm text-muted mt-0.5">{p.description}</p>
-      ) : (
-        <ul className="mt-1.5 list-disc list-outside pl-5 space-y-1 text-sm text-muted leading-relaxed marker:text-muted">
-          {p.description.map((line, i) => (
-            <li key={i} className="pl-0.5">
-              {line}
-            </li>
-          ))}
-        </ul>
+      </h3>
+      <Description value={p.description} />
+      <Tags tags={p.tags} />
+      {(href || post) && (
+        <div className="links">
+          {href && (
+            <a href={href} target="_blank" rel="noopener noreferrer">
+              {href.includes("github.com") ? "Code" : messages.view}
+            </a>
+          )}
+          {post && (
+            <a href={post} target="_blank" rel="noopener noreferrer">
+              {messages.linkedinPost}
+            </a>
+          )}
+        </div>
       )}
-      {p.tags.length > 0 && (
-        <p className="text-xs text-muted/70 mt-1">
-          {p.tags.join(" · ")}
-        </p>
-      )}
-      <LinkedInPostLink href={p.linkedinPost} linkText={linkText} />
-    </>
+    </article>
   );
 }
 
 export default function ProjectList({ locale }: { locale: Locale }) {
   const projects = getProjects(locale) as Project[];
   const messages = getMessages(locale);
-  const linkText = messages.linkedinPost;
   const expand = messages.expandable;
 
   const sorted = [...projects].sort(
@@ -81,11 +77,10 @@ export default function ProjectList({ locale }: { locale: Locale }) {
 
   return (
     <ExpandableList
-      className="space-y-5"
       showLess={expand.showLess}
       seeMoreTemplate={expand.seeMore}
       items={sorted.map((p) => (
-        <ProjectItem key={p.title} p={p} linkText={linkText} />
+        <ProjectItem key={p.title} p={p} messages={messages} />
       ))}
     />
   );

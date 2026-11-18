@@ -21,31 +21,21 @@ function WritingItem({
   w: Article;
   linkText: string;
 }) {
+  const href = w.link?.trim();
   return (
-    <>
+    <article className="entry">
       {w.image && (
-        <a href={w.link}>
-          <Image
-            src={w.image}
-            alt={w.title}
-            width={680}
-            height={340}
-            className="rounded mb-2 w-full h-auto object-cover"
-          />
-        </a>
+        <figure className="figure">
+          <Image src={w.image} alt={w.title} width={1120} height={560} />
+        </figure>
       )}
-      <div className="flex items-baseline justify-between gap-4">
-        <a
-          href={w.link}
-          className="text-accent hover:underline font-medium"
-        >
-          {w.title}
-        </a>
-        <time className="text-xs text-muted shrink-0">{w.date}</time>
-      </div>
-      <p className="text-sm text-muted mt-0.5">{w.summary}</p>
+      <p className="when">
+        <time dateTime={w.date}>{w.date}</time>
+      </p>
+      <h3>{href ? <a href={href}>{w.title}</a> : w.title}</h3>
+      {w.summary && <p className="desc">{w.summary}</p>}
       <LinkedInPostLink href={w.linkedinPost} linkText={linkText} />
-    </>
+    </article>
   );
 }
 
@@ -61,7 +51,6 @@ export default function WritingList({ locale }: { locale: Locale }) {
 
   return (
     <ExpandableList
-      className="space-y-5"
       showLess={expand.showLess}
       seeMoreTemplate={expand.seeMore}
       items={sorted.map((w) => (

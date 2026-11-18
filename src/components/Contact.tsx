@@ -10,34 +10,27 @@ export default function Contact({
   messages: Messages;
 }) {
   return (
-    <div>
-      <p className="text-sm text-muted mb-3">{contact.intro}</p>
-      <p className="text-sm">
-        <a href={`mailto:${contact.email}`} className="text-accent hover:underline">
+    <div className="text-center">
+      <p className="prose">{contact.intro}</p>
+      <div className="btn-row">
+        <a className="btn" href={`mailto:${contact.email}`}>
           {contact.email}
         </a>
-      </p>
-      <div className="flex gap-4 mt-3 text-sm">
         {contact.links.map((l) => {
           const openInNewTab = l.url.startsWith("http");
           return (
             <a
               key={l.label}
+              className="btn btn-line"
               href={l.url}
-              {...(openInNewTab
-                ? { target: "_blank" as const, rel: "noopener noreferrer" }
-                : {})}
-              className="text-accent hover:underline"
+              {...(openInNewTab ? { target: "_blank" as const, rel: "noopener noreferrer" } : {})}
             >
               {l.label}
             </a>
           );
         })}
       </div>
-      <LinkedInPostLink
-        href={contact.linkedinPost}
-        linkText={messages.linkedinPost}
-      />
+      <LinkedInPostLink href={contact.linkedinPost} linkText={messages.linkedinPost} />
     </div>
   );
 }

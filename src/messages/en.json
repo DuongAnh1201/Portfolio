@@ -11,9 +11,29 @@
     "contact": "Contact"
   },
   "footer": "Built with simplicity in mind.",
-  "langSwitcher": { "en": "English", "vi": "Tiếng Việt", "label": "Language" },
+  "langSwitcher": {
+    "en": "English",
+    "vi": "Tiếng Việt",
+    "label": "Language"
+  },
   "linkedinPost": "LinkedIn post",
-  "expandable": { "showLess": "show less", "seeMore": "see more... ({n} more)" },
-  "readingStatus": { "reading": "Reading", "completed": "Done", "to-read": "To Read" },
-  "timeline": { "present": "Present" }
+  "expandable": {
+    "showLess": "show less",
+    "seeMore": "see more... ({n} more)"
+  },
+  "readingStatus": {
+    "reading": "Reading",
+    "completed": "Done",
+    "to-read": "To Read"
+  },
+  "timeline": {
+    "present": "Present"
+  },
+  "featured": "Featured",
+  "project": "Project",
+  "view": "View",
+  "theme": {
+    "dark": "Dark",
+    "light": "Light"
+  }
 }

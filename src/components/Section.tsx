@@ -1,14 +1,22 @@
 interface SectionProps {
   id: string;
   title: string;
+  /** Alternate background band, as in the Sciencefolio layout */
+  tint?: boolean;
   children: React.ReactNode;
 }
 
-export default function Section({ id, title, children }: SectionProps) {
+export default function Section({ id, title, tint = false, children }: SectionProps) {
+  const headingId = `${id}-h`;
   return (
-    <section id={id} className="scroll-mt-8">
-      <h2 className="text-lg font-semibold mb-4 text-foreground">{title}</h2>
-      {children}
+    <section id={id} className={`section${tint ? " tint" : ""}`} aria-labelledby={headingId}>
+      <div className="wrap">
+        <div className="section-head">
+          <h2 id={headingId}>{title}</h2>
+          <hr className="short-rule" />
+        </div>
+        {children}
+      </div>
     </section>
   );
 }

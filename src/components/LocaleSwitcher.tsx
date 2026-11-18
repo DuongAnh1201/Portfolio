@@ -13,27 +13,18 @@ export default function LocaleSwitcher({ locale }: { locale: Locale }) {
   const pathWithoutLocale = rest.length > 0 ? `/${rest.join("/")}` : "";
 
   return (
-    <div className="flex items-center gap-2 text-xs text-muted">
-      <span className="sr-only">{t.label}</span>
-      {locales.map((l) => {
-        const href = `/${l}${pathWithoutLocale || ""}`;
-        const active = l === locale;
-        return (
-          <a
-            key={l}
-            href={href}
-            className={
-              active
-                ? "text-foreground font-medium"
-                : "hover:text-foreground transition-colors duration-150"
-            }
-            hrefLang={l}
-            lang={l}
-          >
-            {l === "en" ? t.en : t.vi}
-          </a>
-        );
-      })}
-    </div>
+    <span className="locale" role="group" aria-label={t.label}>
+      {locales.map((l) => (
+        <a
+          key={l}
+          href={`/${l}${pathWithoutLocale}`}
+          aria-current={l === locale ? "true" : undefined}
+          hrefLang={l}
+          lang={l}
+        >
+          {l === "en" ? "EN" : "VI"}
+        </a>
+      ))}
+    </span>
   );
 }

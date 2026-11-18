@@ -2,7 +2,8 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import Navbar from "@/components/Navbar";
 import Section from "@/components/Section";
-import SocialIcon from "@/components/SocialIcon";
+import ThemeToggle from "@/components/ThemeToggle";
+import LocaleSwitcher from "@/components/LocaleSwitcher";
 import Timeline from "@/components/Timeline";
 import ProjectList from "@/components/ProjectList";
 import WritingList from "@/components/WritingList";
@@ -45,58 +46,58 @@ export default async function Home({ params }: PageProps) {
   const nav = messages.nav;
 
   return (
-    <div className="min-h-screen">
-      <main className="max-w-2xl mx-auto px-6 py-16 space-y-14">
-        <header>
-          <div className="flex items-center gap-4">
-            {about.avatar && (
+    <>
+      <Navbar locale={locale} messages={messages} />
+
+      <main>
+        <header className="hero">
+          {about.avatar && (
+            <figure className="portrait">
               <Image
                 src={about.avatar}
-                alt={about.name}
-                width={56}
-                height={56}
-                className="rounded-full object-cover"
+                alt={`Portrait of ${about.name}`}
+                width={304}
+                height={304}
+                priority
               />
-            )}
-            <div>
-              <h1 className="text-2xl font-bold tracking-tight">{about.name}</h1>
-              <p className="text-muted mt-1 text-sm">{about.tagline}</p>
-            </div>
-          </div>
-          <div className="mt-4">
-            <Navbar locale={locale} messages={messages} />
-          </div>
-        </header>
-
-        <Section id="about" title={nav.about}>
-          <div className="space-y-3 text-sm leading-relaxed text-foreground/85">
-            {about.bio.map((paragraph, i) => (
-              <p key={i}>{paragraph}</p>
-            ))}
-          </div>
-          <div className="flex gap-3 mt-4">
+            </figure>
+          )}
+          <h1>{about.name}</h1>
+          <p className="kicker">{about.tagline}</p>
+          <hr className="short-rule" />
+          <p className="statement">
+            {about.statement} <strong>{about.statementEmphasis}</strong>
+          </p>
+          <ul className="profile-links">
             {about.links.map((le) => {
               const href = aboutSocialHref(le.url, le.label);
               const openInNewTab = href.startsWith("http");
               return (
-                <a
-                  key={le.label}
-                  href={href}
-                  {...(openInNewTab
-                    ? { target: "_blank" as const, rel: "noopener noreferrer" }
-                    : {})}
-                  className="text-muted hover:text-foreground transition-colors duration-150"
-                  aria-label={le.label}
-                >
-                  <SocialIcon label={le.label} />
-                </a>
+                <li key={le.label}>
+                  <a
+                    href={href}
+                    {...(openInNewTab
+                      ? { target: "_blank" as const, rel: "noopener noreferrer" }
+                      : {})}
+                  >
+                    {le.label}
+                  </a>
+                </li>
               );
             })}
+          </ul>
+        </header>
+
+        <Section id="about" title={nav.about}>
+          <div className="prose">
+            {about.bio.map((paragraph, i) => (
+              <p key={i}>{paragraph}</p>
+            ))}
           </div>
           <LinkedInPostLink href={about.linkedinPost} linkText={messages.linkedinPost} />
         </Section>
 
-        <Section id="experience" title={nav.experience}>
+        <Section id="experience" title={nav.experience} tint>
           <Timeline entries={experience} locale={locale} messages={messages} />
         </Section>
 
@@ -104,7 +105,7 @@ export default async function Home({ params }: PageProps) {
           <Timeline entries={education} locale={locale} messages={messages} />
         </Section>
 
-        <Section id="projects" title={nav.projects}>
+        <Section id="projects" title={nav.projects} tint>
           <ProjectList locale={locale} />
         </Section>
 
@@ -112,7 +113,7 @@ export default async function Home({ params }: PageProps) {
           <WritingList locale={locale} />
         </Section>
 
-        <Section id="reading" title={nav.reading}>
+        <Section id="reading" title={nav.reading} tint>
           <ReadingList locale={locale} messages={messages} />
         </Section>
 
@@ -120,18 +121,21 @@ export default async function Home({ params }: PageProps) {
           <Timeline entries={other} locale={locale} messages={messages} />
         </Section>
 
-        <Section id="updates" title={nav.updates}>
+        <Section id="updates" title={nav.updates} tint>
           <UpdatesList locale={locale} messages={messages} />
         </Section>
 
         <Section id="contact" title={nav.contact}>
           <Contact contact={contact} messages={messages} />
         </Section>
-
-        <footer className="border-t border-border pt-6 text-xs text-muted">
-          <p>{messages.footer}</p>
-        </footer>
       </main>
-    </div>
+
+      <footer className="foot">
+        <a href="#">© {new Date().getFullYear()} {about.name}</a>
+        <ThemeToggle darkLabel={messages.theme.dark} lightLabel={messages.theme.light} />
+        <LocaleSwitcher locale={locale} />
+        <span>{messages.footer}</span>
+      </footer>
+    </>
   );
 }

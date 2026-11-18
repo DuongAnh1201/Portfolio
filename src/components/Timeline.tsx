@@ -1,6 +1,8 @@
 import Image from "next/image";
 import ExpandableList from "@/components/ExpandableList";
 import LinkedInPostLink from "@/components/LinkedInPostLink";
+import Description from "@/components/Description";
+import Tags from "@/components/Tags";
 import type { Messages } from "@/lib/messages";
 import type { Locale } from "@/lib/locale";
 
@@ -62,74 +64,42 @@ function TimelineItem({
   locale: Locale;
   messages: Messages;
 }) {
-  const isCurrent = !entry.end;
   const presentLabel = messages.timeline.present;
   const dateRange = formatDateRange(entry.start, entry.end, locale, presentLabel);
   const gallery = (entry.images ?? []).filter(Boolean);
 
   return (
-    <div className="relative pl-6">
-      <div
-        className={`absolute left-0 top-[7px] h-2 w-2 rounded-full ${
-          isCurrent ? "bg-accent" : "bg-muted/40"
-        }`}
-      />
-      <div className="absolute left-[3px] top-[15px] bottom-0 w-px bg-border" />
-
-      <p className="text-xs text-muted">{dateRange}</p>
-      <p className="font-medium text-sm mt-0.5">{entry.title}</p>
-
-      <div className="flex items-center gap-2.5 mt-0.5 min-h-[1.25rem]">
+    <article className="entry">
+      <p className="when">{dateRange}</p>
+      <h3>{entry.title}</h3>
+      <p className="org">
         {entry.logo ? (
           <Image
             src={entry.logo}
             alt={`${entry.organization} logo`}
             width={28}
             height={28}
-            className="rounded object-contain shrink-0 border border-border bg-background"
           />
         ) : null}
-        <p className="text-sm text-muted">{entry.organization}</p>
-      </div>
-
-      {typeof entry.description === "string" ? (
-        entry.description ? (
-          <p className="text-xs text-muted/80 mt-1 leading-relaxed">{entry.description}</p>
-        ) : null
-      ) : (
-        entry.description.length > 0 && (
-          <ul className="mt-1.5 list-disc list-outside pl-5 space-y-1 text-xs text-muted/80 leading-relaxed marker:text-muted">
-            {entry.description.map((line, i) => (
-              <li key={i} className="pl-0.5">
-                {line}
-              </li>
-            ))}
-          </ul>
-        )
-      )}
-      {entry.tags.length > 0 && (
-        <p className="text-xs text-muted/60 mt-1">{entry.tags.join(" · ")}</p>
-      )}
-
+        <span>{entry.organization}</span>
+      </p>
+      <Description value={entry.description} />
+      <Tags tags={entry.tags} />
       {gallery.length > 0 && (
-        <div className="flex flex-wrap gap-2 mt-3">
+        <div className="gallery">
           {gallery.map((src, i) => (
             <Image
               key={`${src}-${i}`}
               src={src}
               alt={`${entry.organization} — photo ${i + 1}`}
-              width={176}
-              height={110}
-              className="rounded border border-border object-cover w-44 h-[6.875rem]"
+              width={352}
+              height={220}
             />
           ))}
         </div>
       )}
-      <LinkedInPostLink
-        href={entry.linkedinPost}
-        linkText={messages.linkedinPost}
-      />
-    </div>
+      <LinkedInPostLink href={entry.linkedinPost} linkText={messages.linkedinPost} />
+    </article>
   );
 }
 
@@ -150,7 +120,6 @@ export default function Timeline({ entries, locale, messages }: TimelineProps) {
 
   return (
     <ExpandableList
-      className="space-y-6"
       showLess={expand.showLess}
       seeMoreTemplate={expand.seeMore}
       items={sorted.map((entry) => (

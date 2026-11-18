@@ -2,6 +2,8 @@
   "name": "Duong Anh (Tom) Nguyen",
   "avatar": "/images/IMG_4842.JPG",
   "tagline": "CS student · LLMs · agents · Robotics · shipping AI systems end to end",
+  "statement": "I build LLM, retrieval and multi-agent systems —",
+  "statementEmphasis": "and ship them to production, not just demos.",
   "bio": [
     "I'm Duong Anh (Tom) Nguyen, a B.S. Computer Science student at San Francisco Bay University (GPA 3.9). I focus on LLMs, retrieval, multi-agent systems, and production deployments—not just demos.",
     "Day to day I work in Python with LangChain-style patterns, vector indexes (e.g. FAISS), GCP managed services, FastAPI-style APIs, and observability so failures are visible—not silent.",
@@ -15,8 +17,17 @@
   ],
   "linkedinPost": "",
   "links": [
-    { "label": "GitHub", "url": "https://github.com/DuongAnh1201" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/anh-nguyen-203105339/" },
-    { "label": "Email", "url": "mailto:tomnguyen6766@gmail.com" }
+    {
+      "label": "GitHub",
+      "url": "https://github.com/DuongAnh1201"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/anh-nguyen-203105339/"
+    },
+    {
+      "label": "Email",
+      "url": "mailto:tomnguyen6766@gmail.com"
+    }
   ]
 }
