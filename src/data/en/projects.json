@@ -7,7 +7,7 @@
       "Supports two team shapes, lead + workers and a planner → coder → tester pipeline, each with its own office layout.",
       "tmv CLI builds, starts and stops a team (new, up, down) and handles tasks, messages and health checks (task, send, doctor).",
       "Optional Telegram bot: message the team from a phone, approve agent permission requests with buttons, and get pinged when an agent is blocked or a card is ready for review; no open port, token stored outside the project.",
-      "Published on PyPI (pip install tomville, v0.2.1) with 283 tests and CI on Ubuntu and macOS."
+      "Published on PyPI (pip install tomville, v0.3.0) with 283 tests and CI on Ubuntu and macOS."
     ],
     "link": "https://github.com/DuongAnh1201/tomville",
     "image": "",
