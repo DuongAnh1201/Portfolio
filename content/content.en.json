@@ -148,11 +148,28 @@
   "awSub": "Hackathons and credentials.",
   "awards": [
     {
+      "kind": "Certification",
+      "big": "NCP",
+      "label": "NVIDIA Certified Professional: Agentic AI",
+      "links": {
+        "badge": "https://www.credly.com/badges/ebaae70a-4534-4670-afbf-9181a8e3d8bd"
+      }
+    },
+    {
+      "kind": "Competition",
+      "big": "15th",
+      "label": "ICPC 2026 North America Pacific Northwest Regional · Division 2 (4th at California site)",
+      "links": {
+        "post": "https://www.linkedin.com/posts/anh-nguyen-203105339_ugcPost-7528927001076727809-QQel/"
+      }
+    },
+    {
       "kind": "Hackathon",
       "big": "3rd",
       "label": "SFBU NVIDIA Spark Hackathon · BARRY",
       "links": {
-        "demo": "https://www.youtube.com/watch?v=cFPJqhMGLHY"
+        "demo": "https://www.youtube.com/watch?v=cFPJqhMGLHY",
+        "post": "https://www.linkedin.com/posts/anh-nguyen-203105339_robotics-vr-metaquest-share-7530125888131059712-1vbO/"
       }
     },
     {
@@ -185,14 +202,6 @@
       "label": "NVIDIA GTC Hackathon 2025 · BleuLaMuse"
     },
     {
-      "kind": "Certification",
-      "big": "NCP",
-      "label": "NVIDIA Certified Professional: Agentic AI",
-      "links": {
-        "badge": "https://www.credly.com/badges/ebaae70a-4534-4670-afbf-9181a8e3d8bd"
-      }
-    },
-    {
       "kind": "Hackathon",
       "big": "2026",
       "label": "HackHayward 2026 · KryptosProof"
@@ -217,6 +226,10 @@
   "nowTitle": "Now.",
   "nowSub": "Recent updates.",
   "now": [
+    {
+      "date": "Nov 2026",
+      "text": "Competed at the 2026 ICPC North America Pacific Northwest Regional with SFBU’s Team 404NotFound: 6 problems solved, 4th place at the California site and 15th overall in Division 2."
+    },
     {
       "date": "Nov 2026",
       "text": "Won 3rd place at the SFBU NVIDIA Spark Hackathon with BARRY: drive and inspect with a DOGZILLA robot dog from a Meta Quest 3S, using controllers, voice or Claude-planned goals, with live YOLO detections and a Flipper Zero badge to start missions."
@@ -342,6 +355,10 @@
       "items": [
         {
           "id": "awards",
+          "label": "ICPC 2026"
+        },
+        {
+          "id": "awards",
           "label": "NVIDIA Spark Hackathon"
         },
         {
@@ -423,7 +440,8 @@
       },
       "barry": {
         "demo": "https://www.youtube.com/watch?v=cFPJqhMGLHY",
-        "github": "https://github.com/MynameisKoi/barry"
+        "github": "https://github.com/MynameisKoi/barry",
+        "post": "https://www.linkedin.com/posts/anh-nguyen-203105339_robotics-vr-metaquest-share-7530125888131059712-1vbO/"
       }
     }
   },

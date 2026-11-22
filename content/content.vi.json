@@ -148,11 +148,28 @@
   "awSub": "Hackathon và chứng nhận chuyên môn.",
   "awards": [
     {
+      "kind": "Chứng chỉ",
+      "big": "NCP",
+      "label": "NVIDIA Certified Professional: Agentic AI",
+      "links": {
+        "badge": "https://www.credly.com/badges/ebaae70a-4534-4670-afbf-9181a8e3d8bd"
+      }
+    },
+    {
+      "kind": "Cuộc thi",
+      "big": "15th",
+      "label": "ICPC 2026 khu vực North America Pacific Northwest · Division 2 (hạng 4 điểm thi California)",
+      "links": {
+        "post": "https://www.linkedin.com/posts/anh-nguyen-203105339_ugcPost-7528927001076727809-QQel/"
+      }
+    },
+    {
       "kind": "Hackathon",
       "big": "3rd",
       "label": "SFBU NVIDIA Spark Hackathon · BARRY",
       "links": {
-        "demo": "https://www.youtube.com/watch?v=cFPJqhMGLHY"
+        "demo": "https://www.youtube.com/watch?v=cFPJqhMGLHY",
+        "post": "https://www.linkedin.com/posts/anh-nguyen-203105339_robotics-vr-metaquest-share-7530125888131059712-1vbO/"
       }
     },
     {
@@ -185,14 +202,6 @@
       "label": "NVIDIA GTC Hackathon 2025 · BleuLaMuse"
     },
     {
-      "kind": "Chứng chỉ",
-      "big": "NCP",
-      "label": "NVIDIA Certified Professional: Agentic AI",
-      "links": {
-        "badge": "https://www.credly.com/badges/ebaae70a-4534-4670-afbf-9181a8e3d8bd"
-      }
-    },
-    {
       "kind": "Hackathon",
       "big": "2026",
       "label": "HackHayward 2026 · KryptosProof"
@@ -217,6 +226,10 @@
   "nowTitle": "Hiện tại.",
   "nowSub": "Cập nhật gần đây.",
   "now": [
+    {
+      "date": "11/2026",
+      "text": "Thi ICPC 2026 vòng khu vực North America Pacific Northwest cùng đội 404NotFound của SFBU: giải được 6 bài, hạng 4 tại điểm thi California và hạng 15 chung cuộc Division 2."
+    },
     {
       "date": "11/2026",
       "text": "Đạt giải Ba tại SFBU NVIDIA Spark Hackathon với BARRY: điều khiển robot chó DOGZILLA từ kính Meta Quest 3S bằng tay cầm, giọng nói hoặc mục tiêu do Claude lập kế hoạch, có nhận diện YOLO trực tiếp và quẹt thẻ Flipper Zero để bắt đầu nhiệm vụ."
@@ -342,6 +355,10 @@
       "items": [
         {
           "id": "awards",
+          "label": "ICPC 2026"
+        },
+        {
+          "id": "awards",
           "label": "NVIDIA Spark Hackathon"
         },
         {
@@ -423,7 +440,8 @@
       },
       "barry": {
         "demo": "https://www.youtube.com/watch?v=cFPJqhMGLHY",
-        "github": "https://github.com/MynameisKoi/barry"
+        "github": "https://github.com/MynameisKoi/barry",
+        "post": "https://www.linkedin.com/posts/anh-nguyen-203105339_robotics-vr-metaquest-share-7530125888131059712-1vbO/"
       }
     }
   },
