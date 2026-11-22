@@ -150,7 +150,10 @@
     {
       "kind": "Hackathon",
       "big": "3rd",
-      "label": "SFBU NVIDIA Spark Hackathon · BARRY"
+      "label": "SFBU NVIDIA Spark Hackathon · BARRY",
+      "links": {
+        "demo": "https://www.youtube.com/watch?v=cFPJqhMGLHY"
+      }
     },
     {
       "kind": "Hackathon",
@@ -416,7 +419,7 @@
         "devpost": "https://devpost.com/software/lobe"
       },
       "barry": {
-        "learn": "https://github.com/MynameisKoi/barry#readme",
+        "demo": "https://www.youtube.com/watch?v=cFPJqhMGLHY",
         "github": "https://github.com/MynameisKoi/barry"
       }
     }
