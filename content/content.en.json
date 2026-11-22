@@ -45,6 +45,13 @@
   "moreSub": "Smaller builds and experiments.",
   "more": [
     {
+      "key": "lobe",
+      "title": "Lobe — Study Brain MRIs Together in 3D",
+      "badge": "3rd place, Best Use of Convex · Cal Hacks 13.0",
+      "desc": "Turns brain MRI scans into 3D models a study group explores live: shared pointers, chat, voice and a Claude assistant that drives the viewer. Built on Convex, React Three Fiber and MONAI segmentation, with quiz games on the same scans.",
+      "image": "/assets/lobe.jpg"
+    },
+    {
       "isEmotion": true,
       "isMaze": false,
       "title": "Real-Time Human Emotion Detection Pipeline",
@@ -135,6 +142,15 @@
   "awards": [
     {
       "kind": "Hackathon",
+      "big": "3rd",
+      "label": "Cal Hacks 13.0 · Lobe (Best Use of Convex)",
+      "links": {
+        "demo": "https://www.youtube.com/watch?v=Az7_46Kvptc",
+        "post": "https://www.linkedin.com/posts/anh-nguyen-203105339_calhacks13-hackathon-convex-ugcPost-7520351307967201281-EDqq/"
+      }
+    },
+    {
+      "kind": "Hackathon",
       "big": "1st",
       "label": "ThinkNext 2026 · Uniflow"
     },
@@ -183,6 +199,10 @@
   "nowTitle": "Now.",
   "nowSub": "Recent updates.",
   "now": [
+    {
+      "date": "Oct 2026",
+      "text": "Won 3rd place for Best Use of Convex at Cal Hacks 13.0 with Lobe: a shared 3D workspace where a study group explores brain MRI scans together, with live pointers, voice, a Claude assistant and quiz games on the same scans."
+    },
     {
       "date": "Oct 2026",
       "text": "Released Tomville 0.2.x on PyPI: a retro terminal office where my AI coding agents (Claude Code, Codex) walk around as pixel pets, with a GitHub Issues task board and a Telegram bot to run the team from my phone."
@@ -263,6 +283,10 @@
         {
           "id": "projects",
           "label": "Cozy Coins"
+        },
+        {
+          "id": "projects",
+          "label": "Lobe"
         }
       ]
     },
@@ -290,6 +314,10 @@
     {
       "head": "Recognition",
       "items": [
+        {
+          "id": "awards",
+          "label": "Cal Hacks 13.0"
+        },
         {
           "id": "awards",
           "label": "ThinkNext 2026"
@@ -356,6 +384,12 @@
       "cozycoins": {
         "learn": "https://github.com/DuongAnh1201/IndividualFinanceManager#readme",
         "github": "https://github.com/DuongAnh1201/IndividualFinanceManager"
+      },
+      "lobe": {
+        "demo": "https://www.youtube.com/watch?v=Az7_46Kvptc",
+        "github": "https://github.com/DuongAnh1201/Lobe",
+        "post": "https://www.linkedin.com/posts/anh-nguyen-203105339_calhacks13-hackathon-convex-ugcPost-7520351307967201281-EDqq/",
+        "devpost": "https://devpost.com/software/lobe"
       }
     }
   },

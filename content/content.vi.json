@@ -45,6 +45,13 @@
   "moreSub": "Những dự án nhỏ và thử nghiệm.",
   "more": [
     {
+      "key": "lobe",
+      "title": "Lobe — Cùng học ảnh MRI não trong 3D",
+      "badge": "Giải Ba, Best Use of Convex · Cal Hacks 13.0",
+      "desc": "Biến ảnh MRI não thành mô hình 3D để cả nhóm cùng khám phá trực tiếp: con trỏ chung, chat, gọi thoại và trợ lý Claude điều khiển trình xem. Xây dựng trên Convex, React Three Fiber và phân đoạn MONAI, kèm trò chơi luyện tập trên chính các ảnh đó.",
+      "image": "/assets/lobe.jpg"
+    },
+    {
       "isEmotion": true,
       "isMaze": false,
       "title": "Pipeline nhận diện cảm xúc người theo thời gian thực",
@@ -135,6 +142,15 @@
   "awards": [
     {
       "kind": "Hackathon",
+      "big": "3rd",
+      "label": "Cal Hacks 13.0 · Lobe (Best Use of Convex)",
+      "links": {
+        "demo": "https://www.youtube.com/watch?v=Az7_46Kvptc",
+        "post": "https://www.linkedin.com/posts/anh-nguyen-203105339_calhacks13-hackathon-convex-ugcPost-7520351307967201281-EDqq/"
+      }
+    },
+    {
+      "kind": "Hackathon",
       "big": "Giải Nhất",
       "label": "ThinkNext 2026 · Uniflow"
     },
@@ -183,6 +199,10 @@
   "nowTitle": "Hiện tại.",
   "nowSub": "Cập nhật gần đây.",
   "now": [
+    {
+      "date": "10/2026",
+      "text": "Đạt giải Ba hạng mục Best Use of Convex tại Cal Hacks 13.0 với Lobe: không gian 3D chung để cả nhóm cùng khám phá ảnh MRI não, với con trỏ trực tiếp, gọi thoại, trợ lý Claude và trò chơi luyện tập trên chính các ảnh đó."
+    },
     {
       "date": "10/2026",
       "text": "Phát hành Tomville 0.2.x trên PyPI: văn phòng retro trong terminal nơi các AI agent lập trình (Claude Code, Codex) đi lại như thú cưng pixel, có bảng công việc từ GitHub Issues và bot Telegram để điều khiển đội từ điện thoại."
@@ -263,6 +283,10 @@
         {
           "id": "projects",
           "label": "Cozy Coins"
+        },
+        {
+          "id": "projects",
+          "label": "Lobe"
         }
       ]
     },
@@ -290,6 +314,10 @@
     {
       "head": "Thành tích",
       "items": [
+        {
+          "id": "awards",
+          "label": "Cal Hacks 13.0"
+        },
         {
           "id": "awards",
           "label": "ThinkNext 2026"
@@ -356,6 +384,12 @@
       "cozycoins": {
         "learn": "https://github.com/DuongAnh1201/IndividualFinanceManager#readme",
         "github": "https://github.com/DuongAnh1201/IndividualFinanceManager"
+      },
+      "lobe": {
+        "demo": "https://www.youtube.com/watch?v=Az7_46Kvptc",
+        "github": "https://github.com/DuongAnh1201/Lobe",
+        "post": "https://www.linkedin.com/posts/anh-nguyen-203105339_calhacks13-hackathon-convex-ugcPost-7520351307967201281-EDqq/",
+        "devpost": "https://devpost.com/software/lobe"
       }
     }
   },
