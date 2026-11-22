@@ -187,7 +187,10 @@
     {
       "kind": "Certification",
       "big": "NCP",
-      "label": "NVIDIA Certified Professional: Agentic AI"
+      "label": "NVIDIA Certified Professional: Agentic AI",
+      "links": {
+        "badge": "https://www.credly.com/badges/ebaae70a-4534-4670-afbf-9181a8e3d8bd"
+      }
     },
     {
       "kind": "Hackathon",
