@@ -87,9 +87,9 @@
       "org": "SFBU School of Engineering",
       "dates": "May 2026 – Present",
       "bullets": [
-        "Ran 30,000+ simulated trials characterizing failure modes of goal-biased RRT (Rapidly-exploring Random Tree) motion planning across parameterized maze environments, varying one parameter at a time to isolate causal effects.",
-        "Found that a single obstacle blocking the direct start-to-goal path cuts planner success by 68% (77.8% → 24.7%), and that the best step size depends on the environment rather than being a global constant.",
-        "Validated results with multiple independent statistical tests and a held-out 1,000-trial replication; first-author paper in preparation."
+        "Ran nearly 600,000 simulations of a widely used robot path-finding method (goal-biased RRT) in maze environments, varying one factor at a time (step size, goal bias, goal tolerance, sampling method) to isolate what drives success.",
+        "Discovered that an apparent “best” step size was a hidden artifact of sampling only whole-number coordinates: it passed 5 standard robustness checks (iteration budget, tolerance decoupling, 1,000-run replication, control maze, significance tests across 10 settings), yet vanished when the sampler was changed, with no other code change.",
+        "Showed with a wide step-size sweep (0.2–2.0) and an analysis of the planner’s design that no such optimum exists for this class of planner; ran a targeted experiment to identify the mechanism behind the artifact. Paper in preparation."
       ],
       "logoImage": "assets/logos/san_francisco_bay_university_logo.jpeg"
     },
@@ -196,9 +196,9 @@
   "wrSub": "Notes from the build.",
   "writing": [
     {
-      "date": "Draft · Apr 2026",
-      "title": "Heading Intersection and Step-Size Effect in Goal-Biased RRT",
-      "summary": "When does goal-biased RRT fail? 30,000+ simulated maze trials show one blocking obstacle drops success from 77.8% to 24.7%, and the best step size depends on the maze.",
+      "date": "Draft · Nov 2026",
+      "title": "A spurious step size optimum in RRT: Sampling Discretization that survives standard robustness checks",
+      "summary": "Nearly 600,000 goal-biased RRT simulations in mazes turned up a “best” step size that passed five standard robustness checks, then vanished once the sampler stopped using whole-number coordinates. A wide step-size sweep shows no such optimum exists for this class of planner.",
       "status": "In preparation"
     },
     {
@@ -225,7 +225,7 @@
     },
     {
       "date": "May 2026",
-      "text": "Started research on robot motion planning with Dr. Satarupa Mukherjee (SFBU School of Engineering): 30,000+ simulated trials on when goal-biased RRT fails; first-author paper in preparation. Wrapped up my founding-member role at Quiche."
+      "text": "Started research on robot motion planning with Dr. Satarupa Mukherjee (SFBU School of Engineering): nearly 600,000 simulations of goal-biased RRT in mazes; first-author paper in preparation. Wrapped up my founding-member role at Quiche."
     },
     {
       "date": "Apr 2026",

@@ -87,9 +87,9 @@
       "org": "SFBU School of Engineering",
       "dates": "05/2026 – Nay",
       "bullets": [
-        "Chạy hơn 30.000 thử nghiệm mô phỏng để tìm các kiểu thất bại của thuật toán hoạch định chuyển động goal-biased RRT (Rapidly-exploring Random Tree) trong các mê cung có tham số, thay đổi từng yếu tố một để tách nguyên nhân.",
-        "Phát hiện chỉ một vật cản chắn đường thẳng từ điểm đầu đến đích đã làm tỉ lệ thành công giảm 68% (77,8% → 24,7%), và bước nhảy tối ưu phụ thuộc vào môi trường chứ không phải một hằng số chung.",
-        "Kiểm chứng bằng nhiều phép kiểm định thống kê độc lập và một lần lặp lại 1.000 thử nghiệm riêng; bài báo với mình là tác giả chính đang được viết."
+        "Chạy gần 600.000 mô phỏng của một phương pháp tìm đường robot phổ biến (goal-biased RRT) trong các mê cung, thay đổi từng yếu tố một (bước nhảy, goal bias, sai số đích, phương pháp lấy mẫu) để xác định điều gì quyết định thành công.",
+        "Phát hiện bước nhảy “tốt nhất” tưởng như có thật thực ra là sản phẩm ẩn của việc chỉ lấy mẫu tọa độ số nguyên: nó vượt qua 5 phép kiểm tra độ bền vững tiêu chuẩn (ngân sách vòng lặp, tách sai số đích, lặp lại 1.000 lần, mê cung đối chứng, kiểm định ý nghĩa trên 10 cấu hình), nhưng biến mất khi đổi bộ lấy mẫu mà không sửa gì khác trong code.",
+        "Chứng minh bằng khảo sát bước nhảy trên dải rộng (0,2–2,0) và phân tích thiết kế của thuật toán rằng loại planner này không có điểm tối ưu như vậy; chạy thí nghiệm có mục tiêu để xác định cơ chế gây ra sai lệch. Bài báo đang được viết."
       ],
       "logoImage": "assets/logos/san_francisco_bay_university_logo.jpeg"
     },
@@ -196,9 +196,9 @@
   "wrSub": "Ghi chép trong quá trình xây dựng.",
   "writing": [
     {
-      "date": "Bản nháp · 04/2026",
-      "title": "Heading Intersection and Step-Size Effect in Goal-Biased RRT",
-      "summary": "Khi nào goal-biased RRT thất bại? Hơn 30.000 thử nghiệm mô phỏng cho thấy một vật cản chắn đường làm tỉ lệ thành công giảm từ 77,8% xuống 24,7%, và bước nhảy tối ưu phụ thuộc vào mê cung.",
+      "date": "Bản nháp · 11/2026",
+      "title": "A spurious step size optimum in RRT: Sampling Discretization that survives standard robustness checks",
+      "summary": "Gần 600.000 mô phỏng goal-biased RRT trong mê cung cho thấy một bước nhảy “tốt nhất” vượt qua năm phép kiểm tra độ bền vững tiêu chuẩn, rồi biến mất khi bộ lấy mẫu thôi chỉ dùng tọa độ số nguyên. Khảo sát bước nhảy trên dải rộng cho thấy loại planner này không có điểm tối ưu như vậy.",
       "status": "Đang viết"
     },
     {
@@ -225,7 +225,7 @@
     },
     {
       "date": "05/2026",
-      "text": "Bắt đầu nghiên cứu hoạch định chuyển động robot cùng TS. Satarupa Mukherjee (SFBU School of Engineering): hơn 30.000 thử nghiệm mô phỏng về khi nào goal-biased RRT thất bại; bài báo với mình là tác giả chính đang được viết. Kết thúc vai trò thành viên sáng lập tại Quiche."
+      "text": "Bắt đầu nghiên cứu hoạch định chuyển động robot cùng TS. Satarupa Mukherjee (SFBU School of Engineering): gần 600.000 mô phỏng goal-biased RRT trong mê cung; bài báo với mình là tác giả chính đang được viết. Kết thúc vai trò thành viên sáng lập tại Quiche."
     },
     {
       "date": "04/2026",

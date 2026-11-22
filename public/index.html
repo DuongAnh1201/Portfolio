@@ -396,11 +396,11 @@ a:hover{text-decoration:underline}
 </div>
 <ul style="margin: 0; padding: 0 0 0 20px; display: flex; flex-direction: column; gap: 6px; font-size: 15px; line-height: 1.47; color: #1d1d1f">
 
-<li>Ran 30,000+ simulated trials characterizing failure modes of goal-biased RRT (Rapidly-exploring Random Tree) motion planning across parameterized maze environments, varying one parameter at a time to isolate causal effects.</li>
+<li>Ran nearly 600,000 simulations of a widely used robot path-finding method (goal-biased RRT) in maze environments, varying one factor at a time (step size, goal bias, goal tolerance, sampling method) to isolate what drives success.</li>
 
-<li>Found that a single obstacle blocking the direct start-to-goal path cuts planner success by 68% (77.8% → 24.7%), and that the best step size depends on the environment rather than being a global constant.</li>
+<li>Discovered that an apparent “best” step size was a hidden artifact of sampling only whole-number coordinates: it passed 5 standard robustness checks (iteration budget, tolerance decoupling, 1,000-run replication, control maze, significance tests across 10 settings), yet vanished when the sampler was changed, with no other code change.</li>
 
-<li>Validated results with multiple independent statistical tests and a held-out 1,000-trial replication; first-author paper in preparation.</li>
+<li>Showed with a wide step-size sweep (0.2–2.0) and an analysis of the planner’s design that no such optimum exists for this class of planner; ran a targeted experiment to identify the mechanism behind the artifact. Paper in preparation.</li>
 
 </ul>
 </article>
@@ -563,9 +563,9 @@ a:hover{text-decoration:underline}
 <div style="margin-top: 48px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr)); gap: 24px">
 
 <article class="reveal" style="background: #fff; border-radius: 18px; box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04); padding: clamp(24px, 2.6cqi, 32px); display: flex; flex-direction: column; gap: 10px">
-<p style="margin: 0; font-size: 14px; color: #6e6e73">Draft · Apr 2026</p>
-<h3 style="margin: 0; font-size: 24px; font-weight: 600; line-height: 1.17; letter-spacing: -0.01em">Heading Intersection and Step-Size Effect in Goal-Biased RRT</h3>
-<p style="margin: 0; font-size: 17px; color: #6e6e73">When does goal-biased RRT fail? 30,000+ simulated maze trials show one blocking obstacle drops success from 77.8% to 24.7%, and the best step size depends on the maze.</p>
+<p style="margin: 0; font-size: 14px; color: #6e6e73">Draft · Nov 2026</p>
+<h3 style="margin: 0; font-size: 24px; font-weight: 600; line-height: 1.17; letter-spacing: -0.01em">A spurious step size optimum in RRT: Sampling Discretization that survives standard robustness checks</h3>
+<p style="margin: 0; font-size: 17px; color: #6e6e73">Nearly 600,000 goal-biased RRT simulations in mazes turned up a “best” step size that passed five standard robustness checks, then vanished once the sampler stopped using whole-number coordinates. A wide step-size sweep shows no such optimum exists for this class of planner.</p>
 <p style="margin: 8px 0 0; padding: 12px 0; font-size: 17px; color: #6e6e73">In preparation</p>
 </article>
 
@@ -605,7 +605,7 @@ a:hover{text-decoration:underline}
 
 <li class="reveal" style="border-top: 1px solid #d2d2d7; padding: 20px 0; display: flex; flex-wrap: wrap; gap: 4px 24px; align-items: baseline">
 <span style="flex: 0 0 120px; font-size: 14px; font-weight: 600; color: #6e6e73; font-variant-numeric: tabular-nums">May 2026</span>
-<span style="flex: 1 1 320px; font-size: 17px; color: #1d1d1f">Started research on robot motion planning with Dr. Satarupa Mukherjee (SFBU School of Engineering): 30,000+ simulated trials on when goal-biased RRT fails; first-author paper in preparation. Wrapped up my founding-member role at Quiche.</span>
+<span style="flex: 1 1 320px; font-size: 17px; color: #1d1d1f">Started research on robot motion planning with Dr. Satarupa Mukherjee (SFBU School of Engineering): nearly 600,000 simulations of goal-biased RRT in mazes; first-author paper in preparation. Wrapped up my founding-member role at Quiche.</span>
 </li>
 
 <li class="reveal" style="border-top: 1px solid #d2d2d7; padding: 20px 0; display: flex; flex-wrap: wrap; gap: 4px 24px; align-items: baseline">

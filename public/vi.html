@@ -396,11 +396,11 @@ a:hover{text-decoration:underline}
 </div>
 <ul style="margin: 0; padding: 0 0 0 20px; display: flex; flex-direction: column; gap: 6px; font-size: 15px; line-height: 1.47; color: #1d1d1f">
 
-<li>Chạy hơn 30.000 thử nghiệm mô phỏng để tìm các kiểu thất bại của thuật toán hoạch định chuyển động goal-biased RRT (Rapidly-exploring Random Tree) trong các mê cung có tham số, thay đổi từng yếu tố một để tách nguyên nhân.</li>
+<li>Chạy gần 600.000 mô phỏng của một phương pháp tìm đường robot phổ biến (goal-biased RRT) trong các mê cung, thay đổi từng yếu tố một (bước nhảy, goal bias, sai số đích, phương pháp lấy mẫu) để xác định điều gì quyết định thành công.</li>
 
-<li>Phát hiện chỉ một vật cản chắn đường thẳng từ điểm đầu đến đích đã làm tỉ lệ thành công giảm 68% (77,8% → 24,7%), và bước nhảy tối ưu phụ thuộc vào môi trường chứ không phải một hằng số chung.</li>
+<li>Phát hiện bước nhảy “tốt nhất” tưởng như có thật thực ra là sản phẩm ẩn của việc chỉ lấy mẫu tọa độ số nguyên: nó vượt qua 5 phép kiểm tra độ bền vững tiêu chuẩn (ngân sách vòng lặp, tách sai số đích, lặp lại 1.000 lần, mê cung đối chứng, kiểm định ý nghĩa trên 10 cấu hình), nhưng biến mất khi đổi bộ lấy mẫu mà không sửa gì khác trong code.</li>
 
-<li>Kiểm chứng bằng nhiều phép kiểm định thống kê độc lập và một lần lặp lại 1.000 thử nghiệm riêng; bài báo với mình là tác giả chính đang được viết.</li>
+<li>Chứng minh bằng khảo sát bước nhảy trên dải rộng (0,2–2,0) và phân tích thiết kế của thuật toán rằng loại planner này không có điểm tối ưu như vậy; chạy thí nghiệm có mục tiêu để xác định cơ chế gây ra sai lệch. Bài báo đang được viết.</li>
 
 </ul>
 </article>
@@ -563,9 +563,9 @@ a:hover{text-decoration:underline}
 <div style="margin-top: 48px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 400px), 1fr)); gap: 24px">
 
 <article class="reveal" style="background: #fff; border-radius: 18px; box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04); padding: clamp(24px, 2.6cqi, 32px); display: flex; flex-direction: column; gap: 10px">
-<p style="margin: 0; font-size: 14px; color: #6e6e73">Bản nháp · 04/2026</p>
-<h3 style="margin: 0; font-size: 24px; font-weight: 600; line-height: 1.17; letter-spacing: -0.01em">Heading Intersection and Step-Size Effect in Goal-Biased RRT</h3>
-<p style="margin: 0; font-size: 17px; color: #6e6e73">Khi nào goal-biased RRT thất bại? Hơn 30.000 thử nghiệm mô phỏng cho thấy một vật cản chắn đường làm tỉ lệ thành công giảm từ 77,8% xuống 24,7%, và bước nhảy tối ưu phụ thuộc vào mê cung.</p>
+<p style="margin: 0; font-size: 14px; color: #6e6e73">Bản nháp · 11/2026</p>
+<h3 style="margin: 0; font-size: 24px; font-weight: 600; line-height: 1.17; letter-spacing: -0.01em">A spurious step size optimum in RRT: Sampling Discretization that survives standard robustness checks</h3>
+<p style="margin: 0; font-size: 17px; color: #6e6e73">Gần 600.000 mô phỏng goal-biased RRT trong mê cung cho thấy một bước nhảy “tốt nhất” vượt qua năm phép kiểm tra độ bền vững tiêu chuẩn, rồi biến mất khi bộ lấy mẫu thôi chỉ dùng tọa độ số nguyên. Khảo sát bước nhảy trên dải rộng cho thấy loại planner này không có điểm tối ưu như vậy.</p>
 <p style="margin: 8px 0 0; padding: 12px 0; font-size: 17px; color: #6e6e73">Đang viết</p>
 </article>
 
@@ -605,7 +605,7 @@ a:hover{text-decoration:underline}
 
 <li class="reveal" style="border-top: 1px solid #d2d2d7; padding: 20px 0; display: flex; flex-wrap: wrap; gap: 4px 24px; align-items: baseline">
 <span style="flex: 0 0 120px; font-size: 14px; font-weight: 600; color: #6e6e73; font-variant-numeric: tabular-nums">05/2026</span>
-<span style="flex: 1 1 320px; font-size: 17px; color: #1d1d1f">Bắt đầu nghiên cứu hoạch định chuyển động robot cùng TS. Satarupa Mukherjee (SFBU School of Engineering): hơn 30.000 thử nghiệm mô phỏng về khi nào goal-biased RRT thất bại; bài báo với mình là tác giả chính đang được viết. Kết thúc vai trò thành viên sáng lập tại Quiche.</span>
+<span style="flex: 1 1 320px; font-size: 17px; color: #1d1d1f">Bắt đầu nghiên cứu hoạch định chuyển động robot cùng TS. Satarupa Mukherjee (SFBU School of Engineering): gần 600.000 mô phỏng goal-biased RRT trong mê cung; bài báo với mình là tác giả chính đang được viết. Kết thúc vai trò thành viên sáng lập tại Quiche.</span>
 </li>
 
 <li class="reveal" style="border-top: 1px solid #d2d2d7; padding: 20px 0; display: flex; flex-wrap: wrap; gap: 4px 24px; align-items: baseline">
