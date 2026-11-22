@@ -45,6 +45,13 @@
   "moreSub": "Những dự án nhỏ và thử nghiệm.",
   "more": [
     {
+      "key": "barry",
+      "title": "BARRY — Robot chó kiểm tra qua VR",
+      "badge": "Giải Ba · SFBU NVIDIA Spark Hackathon",
+      "desc": "Điều khiển robot chó DOGZILLA từ kính Meta Quest 3S: camera trực tiếp có nhận diện YOLO11n, điều khiển bằng tay cầm, giọng nói hoặc mục tiêu do Claude lập kế hoạch, tất cả qua một cổng lệnh ưu tiên lệnh dừng, watchdog trên Pi và nhật ký kiểm tra. Quẹt thẻ Flipper Zero để bắt đầu mỗi nhiệm vụ.",
+      "image": "/assets/barry.jpg"
+    },
+    {
       "key": "lobe",
       "title": "Lobe — Cùng học ảnh MRI não trong 3D",
       "badge": "Giải Ba, Best Use of Convex · Cal Hacks 13.0",
@@ -143,6 +150,11 @@
     {
       "kind": "Hackathon",
       "big": "3rd",
+      "label": "SFBU NVIDIA Spark Hackathon · BARRY"
+    },
+    {
+      "kind": "Hackathon",
+      "big": "3rd",
       "label": "Cal Hacks 13.0 · Lobe (Best Use of Convex)",
       "links": {
         "demo": "https://www.youtube.com/watch?v=Az7_46Kvptc",
@@ -199,6 +211,10 @@
   "nowTitle": "Hiện tại.",
   "nowSub": "Cập nhật gần đây.",
   "now": [
+    {
+      "date": "11/2026",
+      "text": "Đạt giải Ba tại SFBU NVIDIA Spark Hackathon với BARRY: điều khiển robot chó DOGZILLA từ kính Meta Quest 3S bằng tay cầm, giọng nói hoặc mục tiêu do Claude lập kế hoạch, có nhận diện YOLO trực tiếp và quẹt thẻ Flipper Zero để bắt đầu nhiệm vụ."
+    },
     {
       "date": "10/2026",
       "text": "Đạt giải Ba hạng mục Best Use of Convex tại Cal Hacks 13.0 với Lobe: không gian 3D chung để cả nhóm cùng khám phá ảnh MRI não, với con trỏ trực tiếp, gọi thoại, trợ lý Claude và trò chơi luyện tập trên chính các ảnh đó."
@@ -287,6 +303,10 @@
         {
           "id": "projects",
           "label": "Lobe"
+        },
+        {
+          "id": "projects",
+          "label": "BARRY"
         }
       ]
     },
@@ -314,6 +334,10 @@
     {
       "head": "Thành tích",
       "items": [
+        {
+          "id": "awards",
+          "label": "NVIDIA Spark Hackathon"
+        },
         {
           "id": "awards",
           "label": "Cal Hacks 13.0"
@@ -390,6 +414,10 @@
         "github": "https://github.com/DuongAnh1201/Lobe",
         "post": "https://www.linkedin.com/posts/anh-nguyen-203105339_calhacks13-hackathon-convex-ugcPost-7520351307967201281-EDqq/",
         "devpost": "https://devpost.com/software/lobe"
+      },
+      "barry": {
+        "learn": "https://github.com/MynameisKoi/barry#readme",
+        "github": "https://github.com/MynameisKoi/barry"
       }
     }
   },
